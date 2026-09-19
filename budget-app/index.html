@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>매일가계부</title>
+
+<link rel="manifest" href="./manifest.json">
+<meta name="theme-color" content="#161F1A">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="매일가계부">
+<link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+<link rel="icon" href="./icons/icon-192.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Noto+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    color-scheme: dark;
+    --bg: #161F1A;
+    --surface: #1E2A22;
+    --surface-2: #24312A;
+    --border: rgba(255,255,255,0.08);
+    --text: #ECE8DE;
+    --text-dim: #8FA092;
+    --accent: #D4A24C;
+    --income: #6FA98A;
+    --expense: #D2664C;
+    --radius: 16px;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Noto Sans KR', -apple-system, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .wrap { max-width: 480px; margin: 0 auto; padding: 20px 18px calc(90px + env(safe-area-inset-bottom, 0px)); }
+
+  /* ---- 상단 탭(가계부/개인용돈) ---- */
+  .account-tabs {
+    display: flex;
+    background: var(--surface-2);
+    border-radius: 10px;
+    padding: 3px;
+    margin-bottom: 12px;
+  }
+  .account-tabs button {
+    flex: 1; border: none; background: none; color: var(--text-dim);
+    padding: 10px 0; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer;
+  }
+  .account-tabs button.active { background: var(--accent); color: #1c1608; }
+
+  .view-tabs {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 4px;
+  }
+  .view-tabs button {
+    border: none; background: none; color: var(--text-dim);
+    padding: 6px 4px; font-size: 13px; font-weight: 500; cursor: pointer;
+    border-bottom: 2px solid transparent;
+  }
+  .view-tabs button.active { color: var(--text); border-bottom-color: var(--accent); }
+
+  /* ---- 월/연 이동 ---- */
+  .month-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    padding: 6px 0 18px;
+  }
+  .month-nav button.nav-arrow {
+    background: none; border: none; color: var(--text-dim);
+    font-size: 20px; padding: 6px 10px; cursor: pointer; border-radius: 8px;
+  }
+  .month-nav button.nav-arrow:active { background: var(--surface); }
+  .month-nav .label {
+    font-family: 'Fraunces', serif;
+    font-size: 19px; font-weight: 600;
+  }
+
+  /* ---- 잔액 히어로 ---- */
+  .hero { text-align: center; padding: 10px 0 22px; }
+  .hero .eyebrow { color: var(--text-dim); font-size: 13.5px; margin-bottom: 6px; }
+  .hero .balance {
+    font-family: 'Fraunces', serif; font-weight: 700;
+    font-size: clamp(38px, 12vw, 50px); letter-spacing: -0.01em; line-height: 1.1;
+  }
+  .hero .balance.negative { color: var(--expense); }
+
+  .stat-row { display: flex; gap: 10px; margin-top: 18px; }
+  .stat-pill { flex: 1; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 12px 14px; }
+  .stat-pill .label { font-size: 12.5px; color: var(--text-dim); margin-bottom: 4px; }
+  .stat-pill .value { font-family: 'IBM Plex Mono', monospace; font-size: 16.5px; font-weight: 600; }
+  .stat-pill.income .value { color: var(--income); }
+  .stat-pill.expense .value { color: var(--expense); }
+
+  /* ---- 입력 폼 ---- */
+  .add-panel { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px; margin-top: 22px; display: none; }
+  .add-panel.open { display: block; }
+  .add-panel .target-note { font-size: 12.5px; color: var(--text-dim); margin-bottom: 10px; }
+  .add-panel .target-note b { color: var(--accent); }
+
+  .type-toggle { display: flex; background: var(--surface-2); border-radius: 10px; padding: 3px; margin-bottom: 12px; }
+  .type-toggle button { flex: 1; border: none; background: none; color: var(--text-dim); padding: 9px 0; border-radius: 8px; font-size: 14px; font-weight: 500; cursor: pointer; }
+  .type-toggle button.active.expense-active { background: var(--expense); color: #1a0f0a; }
+  .type-toggle button.active.income-active { background: var(--income); color: #0c1a14; }
+
+  .field-row { display: flex; gap: 8px; margin-bottom: 8px; }
+  .field-row > * { flex: 1; }
+  .add-panel input, .add-panel select {
+    width: 100%; background: var(--surface-2); border: 1px solid var(--border); color: var(--text);
+    border-radius: 9px; padding: 10px 11px; font-size: 14.5px; font-family: inherit;
+  }
+  .add-panel input::placeholder { color: var(--text-dim); }
+  .amount-input { font-family: 'IBM Plex Mono', monospace !important; font-size: 18px !important; text-align: right; }
+
+  .save-btn {
+    width: 100%; background: var(--accent); color: #1c1608; border: none; border-radius: 9px;
+    padding: 12px 0; font-size: 15px; font-weight: 700; margin-top: 4px; cursor: pointer;
+  }
+  .save-btn:active { opacity: 0.85; }
+
+  /* ---- 카테고리 비중 ---- */
+  .breakdown { margin-top: 26px; }
+  .breakdown h2 { font-family: 'Fraunces', serif; font-size: 16px; font-weight: 600; margin: 0 0 12px; }
+  .bar-row { margin-bottom: 10px; }
+  .bar-row .top { display: flex; justify-content: space-between; font-size: 13px; margin-bottom: 4px; }
+  .bar-row .top .cat { color: var(--text); }
+  .bar-row .top .amt { color: var(--text-dim); font-family: 'IBM Plex Mono', monospace; }
+  .bar-track { height: 6px; background: var(--surface-2); border-radius: 100px; overflow: hidden; }
+  .bar-fill { height: 100%; background: var(--accent); border-radius: 100px; }
+
+  /* ---- 연간 막대그래프 ---- */
+  .year-chart { margin-top: 8px; }
+  .year-chart h2 { font-family: 'Fraunces', serif; font-size: 16px; font-weight: 600; margin: 0 0 14px; }
+  .chart-area {
+    display: flex; align-items: flex-end; gap: 6px; height: 150px;
+    border-bottom: 1px solid var(--border); padding-bottom: 4px;
+  }
+  .chart-col { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%; }
+  .chart-bars { display: flex; align-items: flex-end; gap: 2px; height: 100%; width: 100%; justify-content: center; }
+  .chart-bar { width: 6px; border-radius: 3px 3px 0 0; min-height: 2px; }
+  .chart-bar.income { background: var(--income); }
+  .chart-bar.expense { background: var(--expense); }
+  .chart-labels { display: flex; gap: 6px; margin-top: 6px; }
+  .chart-labels span { flex: 1; text-align: center; font-size: 10.5px; color: var(--text-dim); }
+  .chart-legend { display: flex; gap: 16px; justify-content: center; margin-top: 10px; font-size: 12px; color: var(--text-dim); }
+  .chart-legend span { display: flex; align-items: center; gap: 5px; }
+  .chart-legend i { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+  .chart-legend i.income { background: var(--income); }
+  .chart-legend i.expense { background: var(--expense); }
+
+  /* ---- 거래 내역 ---- */
+  .ledger { margin-top: 28px; }
+  .ledger h2 { font-family: 'Fraunces', serif; font-size: 16px; font-weight: 600; margin: 0 0 4px; }
+  .day-group { margin-top: 16px; }
+  .day-group .day-label { font-size: 12.5px; color: var(--text-dim); padding-bottom: 6px; border-bottom: 1px solid var(--border); margin-bottom: 2px; }
+  .tx-row { display: flex; align-items: center; gap: 10px; padding: 11px 0; border-bottom: 1px solid var(--border); }
+  .tx-row .cat-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .tx-row.expense .cat-dot { background: var(--expense); }
+  .tx-row.income .cat-dot { background: var(--income); }
+  .tx-row .info { flex: 1; min-width: 0; }
+  .tx-row .cat { font-size: 14.5px; }
+  .tx-row .memo { font-size: 12.5px; color: var(--text-dim); margin-top: 1px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .tx-row .amt { font-family: 'IBM Plex Mono', monospace; font-size: 14.5px; font-weight: 600; white-space: nowrap; }
+  .tx-row.expense .amt { color: var(--expense); }
+  .tx-row.income .amt { color: var(--income); }
+  .tx-row .del { background: none; border: none; color: var(--text-dim); font-size: 13px; padding: 4px 2px; cursor: pointer; flex-shrink: 0; }
+  .tx-row .del:active { color: var(--expense); }
+
+  .empty { text-align: center; color: var(--text-dim); font-size: 13.5px; padding: 36px 16px; border: 1px dashed var(--border); border-radius: var(--radius); margin-top: 16px; }
+
+  .fab {
+    position: fixed; left: 50%; transform: translateX(-50%);
+    bottom: calc(22px + env(safe-area-inset-bottom, 0px));
+    background: var(--accent); color: #1c1608; border: none; border-radius: 100px;
+    padding: 14px 26px; font-size: 15px; font-weight: 700;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.35); cursor: pointer; z-index: 20;
+  }
+  .fab:active { transform: translateX(-50%) scale(0.97); }
+
+  .install-tip {
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 12px 14px; font-size: 12.5px; color: var(--text-dim); margin-bottom: 18px; display: none;
+  }
+  .install-tip.show { display: block; }
+  .install-tip button {
+    display: block; width: 100%; margin-top: 8px; background: var(--accent); color: #1c1608; border: none;
+    border-radius: 8px; padding: 9px 0; font-weight: 700; font-size: 13.5px; cursor: pointer;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="install-tip" id="install-tip"></div>
+
+  <div class="account-tabs">
+    <button type="button" id="tab-household" class="active">가계부</button>
+    <button type="button" id="tab-personal">개인용돈</button>
+  </div>
+
+  <div class="view-tabs">
+    <button type="button" id="view-month" class="active">월별</button>
+    <button type="button" id="view-year">연간</button>
+  </div>
+
+  <div class="month-nav">
+    <button class="nav-arrow" id="prev-btn" aria-label="이전">‹</button>
+    <span class="label" id="nav-label"></span>
+    <button class="nav-arrow" id="next-btn" aria-label="다음">›</button>
+  </div>
+
+  <!-- 월별 보기 -->
+  <div id="month-view">
+    <div class="hero">
+      <div class="eyebrow" id="hero-eyebrow">이번 달 잔액</div>
+      <div class="balance" id="balance-value">0원</div>
+      <div class="stat-row">
+        <div class="stat-pill income"><div class="label">수입</div><div class="value" id="income-value">0원</div></div>
+        <div class="stat-pill expense"><div class="label">지출</div><div class="value" id="expense-value">0원</div></div>
+      </div>
+    </div>
+
+    <div class="add-panel" id="add-panel">
+      <div class="target-note">지금 <b id="target-account-label">가계부</b>에 기록돼요</div>
+      <div class="type-toggle">
+        <button type="button" id="type-expense" class="active expense-active">지출</button>
+        <button type="button" id="type-income">수입</button>
+      </div>
+      <div class="field-row">
+        <input type="date" id="f-date">
+        <select id="f-category"></select>
+      </div>
+      <div class="field-row">
+        <input type="number" id="f-amount" class="amount-input" placeholder="금액" inputmode="numeric" min="0">
+      </div>
+      <div class="field-row">
+        <input type="text" id="f-memo" placeholder="메모 (선택)">
+      </div>
+      <button type="button" class="save-btn" id="save-btn">기록하기</button>
+    </div>
+
+    <div class="breakdown" id="breakdown-section" style="display:none;">
+      <h2>이번 달 지출 비중</h2>
+      <div id="breakdown-list"></div>
+    </div>
+
+    <div class="ledger">
+      <h2>내역</h2>
+      <div id="ledger-list"></div>
+    </div>
+  </div>
+
+  <!-- 연간 보기 -->
+  <div id="year-view" style="display:none;">
+    <div class="hero">
+      <div class="eyebrow">연간 잔액</div>
+      <div class="balance" id="year-balance-value">0원</div>
+      <div class="stat-row">
+        <div class="stat-pill income"><div class="label">연간 수입</div><div class="value" id="year-income-value">0원</div></div>
+        <div class="stat-pill expense"><div class="label">연간 지출</div><div class="value" id="year-expense-value">0원</div></div>
+      </div>
+    </div>
+
+    <div class="year-chart">
+      <h2>월별 수입·지출</h2>
+      <div class="chart-area" id="chart-area"></div>
+      <div class="chart-labels" id="chart-labels"></div>
+      <div class="chart-legend">
+        <span><i class="income"></i>수입</span>
+        <span><i class="expense"></i>지출</span>
+      </div>
+    </div>
+
+    <div class="breakdown" id="year-breakdown-section" style="display:none; margin-top:30px;">
+      <h2>연간 지출 비중</h2>
+      <div id="year-breakdown-list"></div>
+    </div>
+  </div>
+
+</div>
+
+<button class="fab" id="fab">+ 기록 추가</button>
+
+<script>
+  const STORAGE_KEY = 'budget-transactions-v2';
+
+  const EXPENSE_CATEGORIES = ['식비', '교통', '주거/관리비', '쇼핑', '문화/여가', '의료', '교육', '통신', '기타'];
+  const INCOME_CATEGORIES = ['급여', '용돈', '부수입', '기타'];
+  const PERSONAL_EXPENSE_CATEGORIES = ['간식/카페', '쇼핑', '취미', '자기계발', '경조사', '기타'];
+  const PERSONAL_INCOME_CATEGORIES = ['용돈', '부수입', '기타'];
+
+  const ACCOUNT_LABEL = { household: '가계부', personal: '개인용돈' };
+
+  const todayISO = () => new Date().toISOString().slice(0, 10);
+
+  function loadTx() {
+    try {
+      const raw = JSON.parse(localStorage.getItem(STORAGE_KEY) || 'null');
+      if (raw) return raw;
+    } catch (e) { /* ignore */ }
+    // v1(계정 구분 없던 시절) 데이터가 있으면 가계부로 이관
+    try {
+      const legacy = JSON.parse(localStorage.getItem('budget-transactions-v1') || '[]');
+      return legacy.map(t => ({ ...t, account: 'household' }));
+    } catch (e) {
+      return [];
+    }
+  }
+  function saveTx(list) {
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(list)); } catch (e) { /* ignore */ }
+  }
+
+  let transactions = loadTx();
+  let currentAccount = 'household';   // 'household' | 'personal'
+  let currentView = 'month';          // 'month' | 'year'
+  let currentMonth = new Date(); currentMonth.setDate(1);
+  let currentYear = new Date().getFullYear();
+  let currentType = 'expense';
+
+  const byAccount = () => transactions.filter(t => t.account === currentAccount);
+  const formatWon = (n) => Math.round(n).toLocaleString('ko-KR') + '원';
+
+  // ---- 계정 탭 ----
+  const tabHousehold = document.getElementById('tab-household');
+  const tabPersonal = document.getElementById('tab-personal');
+  function setAccount(acc) {
+    currentAccount = acc;
+    tabHousehold.classList.toggle('active', acc === 'household');
+    tabPersonal.classList.toggle('active', acc === 'personal');
+    document.getElementById('target-account-label').textContent = ACCOUNT_LABEL[acc];
+    document.getElementById('hero-eyebrow').textContent = (currentView === 'month')
+      ? (acc === 'household' ? '이번 달 잔액' : '이번 달 개인용돈 잔액')
+      : (acc === 'household' ? '연간 잔액' : '연간 개인용돈 잔액');
+    renderCategoryOptions();
+    renderAll();
+  }
+  tabHousehold.addEventListener('click', () => setAccount('household'));
+  tabPersonal.addEventListener('click', () => setAccount('personal'));
+
+  // ---- 월별/연간 탭 ----
+  const viewMonthBtn = document.getElementById('view-month');
+  const viewYearBtn = document.getElementById('view-year');
+  function setView(view) {
+    currentView = view;
+    viewMonthBtn.classList.toggle('active', view === 'month');
+    viewYearBtn.classList.toggle('active', view === 'year');
+    document.getElementById('month-view').style.display = view === 'month' ? '' : 'none';
+    document.getElementById('year-view').style.display = view === 'year' ? '' : 'none';
+    document.getElementById('fab').style.display = view === 'month' ? '' : 'none';
+    setAccount(currentAccount); // eyebrow 문구 갱신 포함
+  }
+  viewMonthBtn.addEventListener('click', () => setView('month'));
+  viewYearBtn.addEventListener('click', () => setView('year'));
+
+  // ---- 월/연 이동 ----
+  const navLabel = document.getElementById('nav-label');
+  function renderNavLabel() {
+    navLabel.textContent = (currentView === 'month')
+      ? `${currentMonth.getFullYear()}년 ${currentMonth.getMonth() + 1}월`
+      : `${currentYear}년`;
+  }
+  document.getElementById('prev-btn').addEventListener('click', () => {
+    if (currentView === 'month') currentMonth.setMonth(currentMonth.getMonth() - 1);
+    else currentYear -= 1;
+    renderAll();
+  });
+  document.getElementById('next-btn').addEventListener('click', () => {
+    if (currentView === 'month') currentMonth.setMonth(currentMonth.getMonth() + 1);
+    else currentYear += 1;
+    renderAll();
+  });
+
+  function isInCurrentMonth(dateStr) {
+    const d = new Date(dateStr + 'T00:00:00');
+    return d.getFullYear() === currentMonth.getFullYear() && d.getMonth() === currentMonth.getMonth();
+  }
+  function isInYear(dateStr, year) {
+    return new Date(dateStr + 'T00:00:00').getFullYear() === year;
+  }
+
+  // ---- 월별: 요약 ----
+  function renderSummary(monthTx) {
+    const income = monthTx.filter(t => t.type === 'income').reduce((s, t) => s + t.amount, 0);
+    const expense = monthTx.filter(t => t.type === 'expense').reduce((s, t) => s + t.amount, 0);
+    const balance = income - expense;
+    document.getElementById('income-value').textContent = formatWon(income);
+    document.getElementById('expense-value').textContent = formatWon(expense);
+    const el = document.getElementById('balance-value');
+    el.textContent = (balance < 0 ? '-' : '') + formatWon(Math.abs(balance));
+    el.classList.toggle('negative', balance < 0);
+  }
+
+  function renderBreakdownInto(expenses, listElId, sectionElId) {
+    const section = document.getElementById(sectionElId);
+    if (!expenses.length) { section.style.display = 'none'; return; }
+    const totals = {};
+    expenses.forEach(t => { totals[t.category] = (totals[t.category] || 0) + t.amount; });
+    const max = Math.max(...Object.values(totals));
+    const sorted = Object.entries(totals).sort((a, b) => b[1] - a[1]).slice(0, 6);
+    document.getElementById(listElId).innerHTML = sorted.map(([cat, amt]) => `
+      <div class="bar-row">
+        <div class="top"><span class="cat">${cat}</span><span class="amt">${formatWon(amt)}</span></div>
+        <div class="bar-track"><div class="bar-fill" style="width:${(amt / max * 100).toFixed(0)}%"></div></div>
+      </div>
+    `).join('');
+    section.style.display = 'block';
+  }
+
+  function renderLedger(monthTx) {
+    const listEl = document.getElementById('ledger-list');
+    if (!monthTx.length) {
+      listEl.innerHTML = `<div class="empty">이번 달 기록이 아직 없어요.<br>아래 버튼으로 첫 기록을 남겨보세요.</div>`;
+      return;
+    }
+    const sorted = [...monthTx].sort((a, b) => b.date.localeCompare(a.date) || b.createdAt - a.createdAt);
+    const groups = {};
+    sorted.forEach(t => { (groups[t.date] = groups[t.date] || []).push(t); });
+
+    listEl.innerHTML = Object.entries(groups).map(([date, items]) => {
+      const d = new Date(date + 'T00:00:00');
+      const label = `${d.getMonth() + 1}월 ${d.getDate()}일`;
+      const rows = items.map(t => `
+        <div class="tx-row ${t.type}" data-id="${t.id}">
+          <span class="cat-dot"></span>
+          <div class="info">
+            <div class="cat">${t.category}</div>
+            ${t.memo ? `<div class="memo">${t.memo}</div>` : ''}
+          </div>
+          <span class="amt">${t.type === 'income' ? '+' : '-'}${formatWon(t.amount)}</span>
+          <button class="del" data-del="${t.id}">✕</button>
+        </div>
+      `).join('');
+      return `<div class="day-group"><div class="day-label">${label}</div>${rows}</div>`;
+    }).join('');
+  }
+
+  // ---- 연간 보기 ----
+  function renderYearView(yearTx) {
+    const income = yearTx.filter(t => t.type === 'income').reduce((s, t) => s + t.amount, 0);
+    const expense = yearTx.filter(t => t.type === 'expense').reduce((s, t) => s + t.amount, 0);
+    const balance = income - expense;
+    document.getElementById('year-income-value').textContent = formatWon(income);
+    document.getElementById('year-expense-value').textContent = formatWon(expense);
+    const balEl = document.getElementById('year-balance-value');
+    balEl.textContent = (balance < 0 ? '-' : '') + formatWon(Math.abs(balance));
+    balEl.classList.toggle('negative', balance < 0);
+
+    const monthly = Array.from({ length: 12 }, () => ({ income: 0, expense: 0 }));
+    yearTx.forEach(t => {
+      const m = new Date(t.date + 'T00:00:00').getMonth();
+      monthly[m][t.type] += t.amount;
+    });
+    const max = Math.max(1, ...monthly.flatMap(m => [m.income, m.expense]));
+
+    document.getElementById('chart-area').innerHTML = monthly.map(m => `
+      <div class="chart-col">
+        <div class="chart-bars">
+          <div class="chart-bar income" style="height:${(m.income / max * 100).toFixed(0)}%"></div>
+          <div class="chart-bar expense" style="height:${(m.expense / max * 100).toFixed(0)}%"></div>
+        </div>
+      </div>
+    `).join('');
+    document.getElementById('chart-labels').innerHTML =
+      monthly.map((_, i) => `<span>${i + 1}</span>`).join('');
+
+    renderBreakdownInto(yearTx.filter(t => t.type === 'expense'), 'year-breakdown-list', 'year-breakdown-section');
+  }
+
+  function renderAll() {
+    renderNavLabel();
+    const accTx = byAccount();
+
+    if (currentView === 'month') {
+      const monthTx = accTx.filter(t => isInCurrentMonth(t.date));
+      renderSummary(monthTx);
+      renderBreakdownInto(monthTx.filter(t => t.type === 'expense'), 'breakdown-list', 'breakdown-section');
+      renderLedger(monthTx);
+    } else {
+      const yearTx = accTx.filter(t => isInYear(t.date, currentYear));
+      renderYearView(yearTx);
+    }
+  }
+
+  // ---- 삭제 ----
+  document.getElementById('ledger-list').addEventListener('click', (e) => {
+    const btn = e.target.closest('[data-del]');
+    if (!btn) return;
+    transactions = transactions.filter(t => String(t.id) !== btn.dataset.del);
+    saveTx(transactions);
+    renderAll();
+  });
+
+  // ---- 입력 폼 ----
+  const addPanel = document.getElementById('add-panel');
+  const fab = document.getElementById('fab');
+  const categorySelect = document.getElementById('f-category');
+  const typeExpenseBtn = document.getElementById('type-expense');
+  const typeIncomeBtn = document.getElementById('type-income');
+
+  function renderCategoryOptions() {
+    let cats;
+    if (currentAccount === 'household') {
+      cats = currentType === 'expense' ? EXPENSE_CATEGORIES : INCOME_CATEGORIES;
+    } else {
+      cats = currentType === 'expense' ? PERSONAL_EXPENSE_CATEGORIES : PERSONAL_INCOME_CATEGORIES;
+    }
+    categorySelect.innerHTML = cats.map(c => `<option value="${c}">${c}</option>`).join('');
+  }
+
+  function setType(type) {
+    currentType = type;
+    typeExpenseBtn.classList.toggle('active', type === 'expense');
+    typeExpenseBtn.classList.toggle('expense-active', type === 'expense');
+    typeIncomeBtn.classList.toggle('active', type === 'income');
+    typeIncomeBtn.classList.toggle('income-active', type === 'income');
+    renderCategoryOptions();
+  }
+  typeExpenseBtn.addEventListener('click', () => setType('expense'));
+  typeIncomeBtn.addEventListener('click', () => setType('income'));
+
+  fab.addEventListener('click', () => {
+    const opening = !addPanel.classList.contains('open');
+    addPanel.classList.toggle('open');
+    fab.textContent = opening ? '닫기' : '+ 기록 추가';
+    if (opening) {
+      document.getElementById('f-date').value = todayISO();
+      addPanel.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  });
+
+  document.getElementById('save-btn').addEventListener('click', () => {
+    const date = document.getElementById('f-date').value || todayISO();
+    const category = categorySelect.value;
+    const amountRaw = document.getElementById('f-amount').value;
+    const memo = document.getElementById('f-memo').value.trim();
+    const amount = Number(amountRaw);
+
+    if (!amount || amount <= 0) { document.getElementById('f-amount').focus(); return; }
+
+    transactions.push({
+      id: Date.now() + Math.random().toString(36).slice(2, 6),
+      account: currentAccount, date, type: currentType, category, amount, memo,
+      createdAt: Date.now(),
+    });
+    saveTx(transactions);
+
+    document.getElementById('f-amount').value = '';
+    document.getElementById('f-memo').value = '';
+
+    currentMonth = new Date(date + 'T00:00:00'); currentMonth.setDate(1);
+
+    addPanel.classList.remove('open');
+    fab.textContent = '+ 기록 추가';
+    renderAll();
+  });
+
+  // ---- 설치 안내 ----
+  const installTip = document.getElementById('install-tip');
+  let deferredPrompt = null;
+  window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    deferredPrompt = e;
+    installTip.innerHTML = `홈 화면에 추가하면 앱처럼 바로 열 수 있어요.<button id="install-btn">홈 화면에 추가</button>`;
+    installTip.classList.add('show');
+    document.getElementById('install-btn').addEventListener('click', async () => {
+      installTip.classList.remove('show');
+      deferredPrompt.prompt();
+      await deferredPrompt.userChoice;
+      deferredPrompt = null;
+    });
+  });
+  const isIOS = /iphone|ipad|ipod/.test(navigator.userAgent.toLowerCase());
+  const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone;
+  if (isIOS && !isStandalone) {
+    installTip.innerHTML = `공유 버튼 → "홈 화면에 추가"를 누르면 앱처럼 쓸 수 있어요.`;
+    installTip.classList.add('show');
+  }
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./sw.js').catch(() => {});
+    });
+  }
+
+  // ---- 초기화 ----
+  setType('expense');
+  document.getElementById('f-date').value = todayISO();
+  setAccount('household');
+  setView('month');
+</script>
+</body>
+</html>
