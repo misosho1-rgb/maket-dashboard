@@ -77,6 +77,7 @@ def extract_report_fields(item: dict, stock_name: str):
     firm = first_key("bnm", "secuFirmName", "writerFirmName", "brokerName", "firmName")
     raw_date = first_key("wdt", "date", "regDt", "writeDate", "registerDate")
     name = first_key("nm") or stock_name
+    report_id = first_key("id")
 
     if not title:
         return None
@@ -86,12 +87,16 @@ def extract_report_fields(item: dict, stock_name: str):
     if len(date) == 8 and date.isdigit():
         date = f"{date[:4]}.{date[4:6]}.{date[6:]}"
 
+    # 이 API 응답엔 원문 링크가 없어서, 예전 리포트 상세 페이지 주소 패턴으로 추정해서 넣음.
+    # 실제로 연결되는지 확인된 건 아님 -> 깨져 있으면 이 줄만 고치면 됨.
+    link = f"https://finance.naver.com/research/company_read.naver?nid={report_id}&page=1" if report_id else ""
+
     return {
         "stock": str(name),
         "title": str(title),
         "firm": str(firm) if firm else "",
         "date": date,
-        "link": "",  # 이 API에는 리포트 원문 링크가 없음
+        "link": link,
         "_sort_key": str(raw_date) if raw_date else "",
     }
 
