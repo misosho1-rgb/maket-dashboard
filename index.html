@@ -318,7 +318,7 @@
     </div>
 
     <div class="notice">
-      <strong>지금은 예시(샘플) 데이터입니다.</strong> 이 페이지 혼자서는 매일 자동으로 실제 뉴스·리포트·시세를 가져올 수 없어요 — 브라우저 보안 정책상 외부 API 호출이 막혀 있습니다. 실제 데이터로 매일 자동 갱신하려면 별도 백엔드(스케줄러)가 최신 데이터를 이 페이지가 읽는 곳에 매일 써주는 구조가 필요합니다. 아래에서 어떻게 붙일지 정리해드릴게요.
+      이 페이지는 GitHub Actions가 30분마다 뉴스·증권사 리포트·ETF 시세를 수집해서 저장한 JSON을 읽어와서 보여줘요. 네이버 금융 페이지를 직접 읽어오는 부분(리포트·ETF)은 비공식 방식이라, 네이버가 페이지 구조를 바꾸면 잠시 갱신이 안 될 수 있어요.
     </div>
   </header>
 
@@ -327,7 +327,6 @@
       <section>
         <div class="section-head">
           <h2>🇺🇸 미국 정치·경제 Top 10</h2>
-          <span class="sub">예시 데이터</span>
         </div>
         <ul class="news-list" id="news-list"></ul>
       </section>
@@ -335,11 +334,10 @@
       <section>
         <div class="section-head">
           <h2>📊 한국 증권사 리포트</h2>
-          <span class="sub">예시 데이터</span>
         </div>
         <table class="report-table">
           <thead>
-            <tr><th>종목</th><th>증권사</th><th>투자의견</th><th>목표주가</th><th>발표일</th></tr>
+            <tr><th>종목</th><th>리포트</th><th>증권사</th><th>작성일</th></tr>
           </thead>
           <tbody id="report-body"></tbody>
         </table>
@@ -350,15 +348,13 @@
       <section>
         <div class="section-head">
           <h2>📈 ETF 거래량 TOP 10</h2>
-          <span class="sub">예시 데이터</span>
         </div>
         <div class="etf-grid" id="etf-grid"></div>
       </section>
 
       <section>
         <div class="section-head">
-          <h2>🆕 신규 상장 · 주목할 ETF</h2>
-          <span class="sub">예시 데이터</span>
+          <h2>📈 오늘의 등락률 TOP 4</h2>
         </div>
         <div class="etf-grid" id="etf-new-grid"></div>
       </section>
@@ -390,7 +386,7 @@
 </div>
 
 <footer>
-  마지막 갱신 · 예시 데이터 · 직접 데이터를 연결하면 실제 값으로 바뀝니다
+  뉴스·리포트·ETF 시세는 30분마다 자동 갱신됩니다
 </footer>
 
 <script>
@@ -430,67 +426,64 @@
     .catch(() => renderNews(FALLBACK_NEWS));
 
 
-  const reports = [
-    { name: "삼성전자", firm: "미래에셋증권", opinion: "매수", target: "98,000", date: "09.18" },
-    { name: "SK하이닉스", firm: "한국투자증권", opinion: "매수", target: "312,000", date: "09.18" },
-    { name: "네이버", firm: "NH투자증권", opinion: "매수", target: "265,000", date: "09.17" },
-    { name: "카카오", firm: "키움증권", opinion: "중립", target: "48,000", date: "09.17" },
-    { name: "LG에너지솔루션", firm: "삼성증권", opinion: "매수", target: "430,000", date: "09.16" },
-    { name: "현대차", firm: "메리츠증권", opinion: "매수", target: "265,000", date: "09.16" },
-  ];
-  document.getElementById('report-body').innerHTML = reports.map(r => `
-    <tr>
-      <td>${r.name}</td>
-      <td>${r.firm}</td>
-      <td><span class="opinion ${r.opinion === '중립' ? 'hold' : ''}">${r.opinion}</span></td>
-      <td class="target">${r.target}원</td>
-      <td>${r.date}</td>
-    </tr>
-  `).join('');
+  // ---- 증권사 리포트: reports_top10.json fetch ----
+  function renderReports(items) {
+    document.getElementById('report-body').innerHTML = items.map(r => `
+      <tr>
+        <td>${r.stock || ''}</td>
+        <td><a href="${r.link || '#'}" target="_blank" rel="noopener noreferrer">${r.title || ''}</a></td>
+        <td>${r.firm || ''}</td>
+        <td>${r.date || ''}</td>
+      </tr>
+    `).join('');
+  }
 
-  // 거래량 내림차순으로 정렬된 상태라고 가정 (실연동 시 백엔드에서 정렬해서 내려줌)
-  const etfs = [
-    { name: "KODEX 200", ticker: "069500", change: 0.84, price: "37,650", volume: "8,214,300" },
-    { name: "TIGER 반도체TOP10", ticker: "091160", change: 1.92, price: "42,110", volume: "6,532,150" },
-    { name: "TIGER 미국나스닥100", ticker: "133690", change: -0.46, price: "112,300", volume: "5,908,720" },
-    { name: "KODEX 레버리지", ticker: "122630", change: 1.65, price: "16,240", volume: "5,441,900" },
-    { name: "TIGER 미국S&P500", ticker: "360750", change: -0.31, price: "18,420", volume: "4,872,300" },
-    { name: "KODEX 2차전지산업", ticker: "305720", change: -1.28, price: "9,540", volume: "3,904,600" },
-    { name: "KODEX 골드선물(H)", ticker: "132030", change: 0.45, price: "16,880", volume: "3,215,400" },
-    { name: "TIGER 차이나전기차", ticker: "371460", change: 2.31, price: "7,890", volume: "2,987,100" },
-    { name: "KODEX 인버스", ticker: "114800", change: -0.84, price: "4,120", volume: "2,650,800" },
-    { name: "TIGER 미국테크TOP10", ticker: "381170", change: -0.58, price: "24,760", volume: "2,318,500" },
-  ];
-  document.getElementById('etf-grid').innerHTML = etfs.map((e, i) => {
-    const isUp = e.change >= 0;
-    return `
-    <div class="etf-card">
-      <div class="name">${String(i+1).padStart(2,'0')} · ${e.name}</div>
-      <div class="ticker">${e.ticker}</div>
-      <div class="change ${isUp ? 'up' : 'down'}">${isUp ? '▲' : '▼'} ${Math.abs(e.change).toFixed(2)}%</div>
-      <div class="price">${e.price}원</div>
-      <div class="volume">거래량 ${e.volume}주</div>
-    </div>`;
-  }).join('');
+  fetch('./reports_top10.json', { cache: 'no-store' })
+    .then(res => { if (!res.ok) throw new Error('not ok'); return res.json(); })
+    .then(data => {
+      const items = data.items || [];
+      if (items.length) renderReports(items);
+      else document.getElementById('report-body').innerHTML =
+        `<tr><td colspan="4">아직 리포트 데이터를 불러오지 못했어요.</td></tr>`;
+    })
+    .catch(() => {
+      document.getElementById('report-body').innerHTML =
+        `<tr><td colspan="4">리포트 데이터를 불러오지 못했어요.</td></tr>`;
+    });
 
-  const newEtfs = [
-    { name: "TIGER 우주방산", ticker: "487240", change: 3.42, price: "13,920", listed: "2026.08.11 상장" },
-    { name: "KODEX AI전력핵심설비", ticker: "489340", change: 5.18, price: "11,450", listed: "2026.07.29 상장" },
-    { name: "TIGER 글로벌AI인프라", ticker: "491020", change: 2.07, price: "10,680", listed: "2026.09.02 상장" },
-    { name: "KODEX 조선TOP3플러스", ticker: "488530", change: -0.92, price: "15,230", listed: "2026.08.20 상장" },
-  ];
-  document.getElementById('etf-new-grid').innerHTML = newEtfs.map(e => {
-    const isUp = e.change >= 0;
-    return `
-    <div class="etf-card">
-      <span class="badge-new">NEW</span>
-      <div class="name">${e.name}</div>
-      <div class="ticker">${e.ticker}</div>
-      <div class="change ${isUp ? 'up' : 'down'}">${isUp ? '▲' : '▼'} ${Math.abs(e.change).toFixed(2)}%</div>
-      <div class="price">${e.price}원</div>
-      <div class="volume">${e.listed}</div>
-    </div>`;
-  }).join('');
+  // ---- ETF 시세: etf_volume_top10.json / etf_gainers_top4.json fetch ----
+  function renderEtfGrid(elId, items, { badge } = {}) {
+    document.getElementById(elId).innerHTML = items.map((e, i) => {
+      const isUp = e.change_rate >= 0;
+      const rank = badge ? '' : `${String(i + 1).padStart(2, '0')} · `;
+      return `
+      <div class="etf-card">
+        ${badge ? `<span class="badge-new">${badge}</span>` : ''}
+        <div class="name">${rank}${e.name}</div>
+        <div class="ticker">${e.code || ''}</div>
+        <div class="change ${isUp ? 'up' : 'down'}">${isUp ? '▲' : '▼'} ${Math.abs(e.change_rate).toFixed(2)}%</div>
+        <div class="price">${Number(e.price).toLocaleString()}원</div>
+        <div class="volume">${badge ? '3개월 수익률 ' + e.three_month_return.toFixed(1) + '%' : '거래량 ' + Number(e.volume).toLocaleString() + '주'}</div>
+      </div>`;
+    }).join('');
+  }
+
+  fetch('./etf_volume_top10.json', { cache: 'no-store' })
+    .then(res => { if (!res.ok) throw new Error('not ok'); return res.json(); })
+    .then(data => renderEtfGrid('etf-grid', data.items || []))
+    .catch(() => {
+      document.getElementById('etf-grid').innerHTML =
+        `<div class="journal-note">ETF 데이터를 불러오지 못했어요.</div>`;
+    });
+
+  fetch('./etf_gainers_top4.json', { cache: 'no-store' })
+    .then(res => { if (!res.ok) throw new Error('not ok'); return res.json(); })
+    .then(data => renderEtfGrid('etf-new-grid', data.items || [], { badge: 'TOP' }))
+    .catch(() => {
+      document.getElementById('etf-new-grid').innerHTML =
+        `<div class="journal-note">ETF 데이터를 불러오지 못했어요.</div>`;
+    });
+
 
   // ---- 매매일지 (db + user capability) ----
   (async function initJournal() {
