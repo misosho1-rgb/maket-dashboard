@@ -1,83 +1,79 @@
 """
-ETF 시세 수집 스크립트 (네이버 금융 ETF 전체 시세 페이지 스크래핑)
+ETF 시세 수집 스크립트 (네이버 금융 ETF 목록 JSON API 사용)
 
-- https://finance.naver.com/sise/etf.naver 의 표를 읽어서
-  거래량 TOP10, 등락률(오늘 수익률) TOP4를 뽑아낸다.
-- 이 페이지는 공식 API가 아니라 일반 HTML 표라서, 네이버가 페이지 구조를
-  바꾸면 이 스크립트도 같이 고쳐야 한다. (뉴스 RSS보다 훨씬 깨지기 쉬움)
-- 표 컬럼 순서(현재 기준): 종목명 | 현재가 | 전일비 | 등락률 | NAV | 3개월수익률 | 거래량 | 거래대금 | 시가총액
-  -> 순서가 바뀌면 parse_row()의 인덱스만 조정하면 됨.
+- finance.naver.com의 ETF 페이지가 내부적으로 호출하는 JSON API를 직접 호출.
+  https://finance.naver.com/api/sise/etfItemList.nhn
+- HTML 표를 긁는 것보다 안정적이지만, 이 역시 공식 문서화된 API가 아니라
+  네이버가 응답 형식을 바꾸면 깨질 수 있음.
+- 응답 필드 이름이 바뀌었을 가능성에 대비해, 여러 후보 키 이름을 순서대로 시도함.
 
 실행:
-    pip install requests beautifulsoup4
+    pip install requests
     python fetch_etf.py
 """
 
 import json
-import re
 from datetime import datetime, timezone
 
 import requests
-from bs4 import BeautifulSoup
 
-URL = "https://finance.naver.com/sise/etf.naver"
+URL = "https://finance.naver.com/api/sise/etfItemList.nhn"
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                   "(KHTML, like Gecko) Chrome/124.0 Safari/537.36",
-    "Referer": "https://finance.naver.com/",
+    "Referer": "https://finance.naver.com/sise/etf.naver",
+    "Accept": "application/json, text/plain, */*",
 }
 
 VOLUME_OUTPUT = "etf_volume_top10.json"
 GAINERS_OUTPUT = "etf_gainers_top4.json"
 
 
-def to_number(text: str) -> float:
-    """'1,234' / '+1.23%' / '-0.45' 같은 문자열에서 숫자만 뽑아 float으로."""
-    if not text:
-        return 0.0
-    cleaned = re.sub(r"[^0-9.\-]", "", text.replace(",", ""))
-    try:
-        return float(cleaned) if cleaned not in ("", "-", ".") else 0.0
-    except ValueError:
-        return 0.0
+def pick(d: dict, *keys, default=None):
+    """d에서 keys 중 실제로 존재하는 첫 번째 키의 값을 반환."""
+    for k in keys:
+        if k in d and d[k] is not None:
+            return d[k]
+    return default
 
 
-def parse_row(tr):
-    """<tr> 하나에서 ETF 한 종목의 정보를 뽑는다. 실패하면 None."""
-    link = tr.select_one("a")
-    if not link or "code=" not in link.get("href", ""):
+def normalize(raw: dict):
+    """API 응답의 한 항목을 우리 포맷으로 변환. 필수 필드가 없으면 None."""
+    code = pick(raw, "itemcode", "code", "itemCode")
+    name = pick(raw, "itemname", "name", "itemName")
+    if not code or not name:
         return None
-
-    tds = tr.find_all("td")
-    if len(tds) < 8:
-        return None
-
-    texts = [td.get_text(strip=True) for td in tds]
-    code_match = re.search(r"code=(\d+)", link["href"])
-
-    try:
-        return {
-            "name": link.get_text(strip=True),
-            "code": code_match.group(1) if code_match else "",
-            "price": to_number(texts[1]),
-            "change_rate": to_number(texts[3]),          # 오늘 등락률(%)
-            "three_month_return": to_number(texts[5]),   # 3개월 수익률(%)
-            "volume": int(to_number(texts[6])),           # 거래량
-        }
-    except (IndexError, ValueError):
-        return None
+    return {
+        "code": code,
+        "name": name,
+        "price": float(pick(raw, "nowVal", "now_val", "price", default=0) or 0),
+        "change_rate": float(pick(raw, "changeRate", "change_rate", "fluctuationsRatio", default=0) or 0),
+        "three_month_return": float(pick(raw, "threeMonthEarnRate", "three_month_earn_rate", default=0) or 0),
+        "volume": int(pick(raw, "quant", "volume", "quantity", default=0) or 0),
+    }
 
 
 def fetch_all_etfs():
     res = requests.get(URL, headers=HEADERS, timeout=15)
     res.raise_for_status()
-    res.encoding = "euc-kr"
-    soup = BeautifulSoup(res.text, "html.parser")
+    data = res.json()
 
-    rows = soup.select("table tr")
-    etfs = [parse_row(tr) for tr in rows]
-    etfs = [e for e in etfs if e]
-    return etfs
+    # 응답 구조 후보 몇 가지를 순서대로 시도
+    candidates = [
+        data.get("result", {}).get("etfItemList") if isinstance(data, dict) else None,
+        data.get("etfItemList") if isinstance(data, dict) else None,
+        data.get("result") if isinstance(data, dict) else None,
+        data if isinstance(data, list) else None,
+    ]
+    raw_list = next((c for c in candidates if isinstance(c, list) and c), [])
+
+    if not raw_list:
+        print("경고: 응답에서 ETF 목록을 못 찾았어요. 실제 응답 키:",
+              list(data.keys()) if isinstance(data, dict) else type(data))
+        return []
+
+    items = [normalize(r) for r in raw_list]
+    return [i for i in items if i]
 
 
 def main():
@@ -85,7 +81,7 @@ def main():
     generated_at = datetime.now(timezone.utc).isoformat()
 
     if not etfs:
-        print("경고: ETF 데이터를 하나도 못 읽었어요. 페이지 구조가 바뀌었을 수 있어요.")
+        print("경고: ETF 데이터를 하나도 못 읽었어요. API 응답 형식이 바뀌었을 수 있어요.")
 
     by_volume = sorted(etfs, key=lambda e: e["volume"], reverse=True)[:10]
     by_gain = sorted(etfs, key=lambda e: e["change_rate"], reverse=True)[:4]
