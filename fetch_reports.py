@@ -65,27 +65,34 @@ def find_research_list(obj, path=""):
 
 
 def extract_report_fields(item: dict, stock_name: str):
-    """리포트로 추정되는 dict 하나에서 제목/증권사/날짜/링크를 최대한 뽑아본다."""
+    """리포트 dict 하나에서 제목/증권사/날짜/링크를 뽑는다.
+    실제 확인된 필드명: tit(제목), bnm(증권사), wdt(작성일 YYYYMMDD), cd(종목코드), nm(종목명)"""
     def first_key(*candidates):
         for c in candidates:
             if c in item and item[c]:
                 return item[c]
         return None
 
-    title = first_key("title", "reportTitle", "stockOpinion", "name")
-    firm = first_key("secuFirmName", "writerFirmName", "brokerName", "firmName", "researcherName")
-    date = first_key("date", "regDt", "writeDate", "registerDate")
-    link = first_key("url", "link", "pdfUrl", "fileUrl")
+    title = first_key("tit", "title", "reportTitle", "stockOpinion", "name")
+    firm = first_key("bnm", "secuFirmName", "writerFirmName", "brokerName", "firmName")
+    raw_date = first_key("wdt", "date", "regDt", "writeDate", "registerDate")
+    name = first_key("nm") or stock_name
 
     if not title:
         return None
 
+    # wdt는 "20260907" 같은 8자리 문자열 -> "2026.09.07"로 보기 좋게 변환
+    date = str(raw_date) if raw_date else ""
+    if len(date) == 8 and date.isdigit():
+        date = f"{date[:4]}.{date[4:6]}.{date[6:]}"
+
     return {
-        "stock": stock_name,
+        "stock": str(name),
         "title": str(title),
         "firm": str(firm) if firm else "",
-        "date": str(date) if date else "",
-        "link": str(link) if link else "",
+        "date": date,
+        "link": "",  # 이 API에는 리포트 원문 링크가 없음
+        "_sort_key": str(raw_date) if raw_date else "",
     }
 
 
@@ -134,7 +141,20 @@ def main():
             debug_used = True  # 첫 실패 종목에서만 자세한 진단 로그를 찍음
 
     generated_at = datetime.now(timezone.utc).isoformat()
-    top = all_reports[:TOP_N]  # API가 최신순으로 준다는 전제. 필요시 날짜 정렬 로직 추가.
+
+    # 여러 종목에서 모은 리포트를 최신순으로 정렬 후 상위 N개
+    all_reports.sort(key=lambda r: r["_sort_key"], reverse=True)
+    seen_titles = set()
+    deduped = []
+    for r in all_reports:
+        if r["title"] in seen_titles:
+            continue
+        seen_titles.add(r["title"])
+        deduped.append(r)
+
+    top = deduped[:TOP_N]
+    for r in top:
+        del r["_sort_key"]
 
     if not top:
         print("경고: 리포트를 하나도 못 읽었어요. 위 [진단] 로그를 확인하세요.")
