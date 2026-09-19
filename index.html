@@ -428,14 +428,19 @@
 
   // ---- 증권사 리포트: reports_top10.json fetch ----
   function renderReports(items) {
-    document.getElementById('report-body').innerHTML = items.map(r => `
+    document.getElementById('report-body').innerHTML = items.map(r => {
+      const title = r.link
+        ? `<a href="${r.link}" target="_blank" rel="noopener noreferrer">${r.title || ''}</a>`
+        : (r.title || '');
+      return `
       <tr>
         <td>${r.stock || ''}</td>
-        <td><a href="${r.link || '#'}" target="_blank" rel="noopener noreferrer">${r.title || ''}</a></td>
+        <td>${title}</td>
         <td>${r.firm || ''}</td>
         <td>${r.date || ''}</td>
       </tr>
-    `).join('');
+    `;
+    }).join('');
   }
 
   fetch('./reports_top10.json', { cache: 'no-store' })
