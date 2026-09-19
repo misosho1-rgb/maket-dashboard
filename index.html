@@ -138,6 +138,8 @@
     flex-shrink: 0;
   }
   .news-list .headline { font-size: 15px; flex: 1; }
+  .news-list .headline a { color: var(--text); text-decoration: none; }
+  .news-list .headline a:hover { color: var(--accent); text-decoration: underline; }
   .news-list .tag { font-size: 12px; color: var(--text-dim); white-space: nowrap; }
 
   /* Report table */
@@ -402,13 +404,18 @@
   ];
 
   function renderNews(items) {
-    document.getElementById('news-list').innerHTML = items.map((n, i) => `
+    document.getElementById('news-list').innerHTML = items.map((n, i) => {
+      const headline = n.link
+        ? `<a href="${n.link}" target="_blank" rel="noopener noreferrer">${n.title}</a>`
+        : n.title;
+      return `
       <li>
         <span class="rank">${String(i+1).padStart(2,'0')}</span>
-        <span class="headline">${n.title}</span>
+        <span class="headline">${headline}</span>
         <span class="tag">${n.source || n.tag || ''}</span>
       </li>
-    `).join('');
+    `;
+    }).join('');
   }
 
   fetch('./us_news_top10.json', { cache: 'no-store' })
