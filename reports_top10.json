@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-09-20T22:34:30.067326+00:00",
+  "generated_at": "2026-09-20T23:03:23.441223+00:00",
   "items": [
+    {
+      "stock": "카카오",
+      "title": "중요한 것은 탁월한 계획보다 완벽한 실행",
+      "firm": "IBK투자증권",
+      "date": "2026.09.21",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96236&page=1"
+    },
     {
       "stock": "NAVER",
       "title": "대형 테넌트 계약이 필요",
@@ -63,13 +70,6 @@
       "firm": "미래에셋증권",
       "date": "2026.09.07",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96025&page=1"
-    },
-    {
-      "stock": "삼성바이오로직스",
-      "title": "유상증자, 기존 주주 가치 희석 제한적",
-      "firm": "DS투자증권",
-      "date": "2026.08.31",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=95945&page=1"
     }
   ]
 }
