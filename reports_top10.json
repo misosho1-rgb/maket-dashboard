@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-09-21T00:05:08.771410+00:00",
+  "generated_at": "2026-09-21T00:41:11.194923+00:00",
   "items": [
+    {
+      "stock": "LG에너지솔루션",
+      "title": "원-달러 환율 하락에도 실적 개선세 지속",
+      "firm": "iM증권",
+      "date": "2026.09.21",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96252&page=1"
+    },
     {
       "stock": "카카오",
       "title": "중요한 것은 탁월한 계획보다 완벽한 실행",
@@ -63,13 +70,6 @@
       "firm": "IBK투자증권",
       "date": "2026.09.08",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96033&page=1"
-    },
-    {
-      "stock": "삼성전자",
-      "title": "HBM으로 매크로 우려 극복",
-      "firm": "미래에셋증권",
-      "date": "2026.09.07",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96027&page=1"
     }
   ]
 }
