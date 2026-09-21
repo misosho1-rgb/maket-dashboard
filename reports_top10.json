@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T23:32:48.616989+00:00",
+  "generated_at": "2026-09-21T00:05:08.771410+00:00",
   "items": [
     {
       "stock": "카카오",
@@ -7,6 +7,13 @@
       "firm": "IBK투자증권",
       "date": "2026.09.21",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96236&page=1"
+    },
+    {
+      "stock": "삼성SDI",
+      "title": "전력 인프라 업체로서의 밸류에이션 재평가",
+      "firm": "iM증권",
+      "date": "2026.09.21",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96241&page=1"
     },
     {
       "stock": "NAVER",
@@ -63,13 +70,6 @@
       "firm": "미래에셋증권",
       "date": "2026.09.07",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96027&page=1"
-    },
-    {
-      "stock": "SK하이닉스",
-      "title": "HBM 고객 다변화 본격화",
-      "firm": "미래에셋증권",
-      "date": "2026.09.07",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96025&page=1"
     }
   ]
 }

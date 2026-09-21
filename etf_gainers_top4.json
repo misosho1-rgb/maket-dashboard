@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-20T23:32:41.959640+00:00",
+  "generated_at": "2026-09-21T00:05:01.949829+00:00",
   "items": [
     {
-      "code": "069500",
-      "name": "KODEX 200",
-      "price": 109285.0,
-      "change_rate": 0.0,
-      "three_month_return": -25.479,
-      "volume": 0
+      "code": "0195R0",
+      "name": "TIGER 삼성전자단일종목레버리지",
+      "price": 11205.0,
+      "change_rate": 5.81,
+      "three_month_return": -61.5608,
+      "volume": 632124
     },
     {
-      "code": "360750",
-      "name": "TIGER 미국S&P500",
-      "price": 26280.0,
-      "change_rate": 0.0,
-      "three_month_return": -7.0094,
-      "volume": 0
+      "code": "0193W0",
+      "name": "KODEX 삼성전자단일종목레버리지",
+      "price": 12320.0,
+      "change_rate": 5.8,
+      "three_month_return": -61.138,
+      "volume": 660270
     },
     {
-      "code": "133690",
-      "name": "TIGER 미국나스닥100",
-      "price": 181225.0,
-      "change_rate": 0.0,
-      "three_month_return": -10.6685,
-      "volume": 0
+      "code": "423920",
+      "name": "TIGER 미국필라델피아반도체레버리지(합성)",
+      "price": 84795.0,
+      "change_rate": 5.53,
+      "three_month_return": -47.0127,
+      "volume": 4673
     },
     {
-      "code": "379800",
-      "name": "KODEX 미국S&P500",
-      "price": 23885.0,
-      "change_rate": 0.0,
-      "three_month_return": -7.0333,
-      "volume": 0
+      "code": "0194M0",
+      "name": "ACE 삼성전자단일종목레버리지",
+      "price": 11305.0,
+      "change_rate": 5.51,
+      "three_month_return": -61.0647,
+      "volume": 6948
     }
   ]
 }
