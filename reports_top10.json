@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-09-22T23:03:23.310991+00:00",
+  "generated_at": "2026-09-22T23:34:01.805146+00:00",
   "items": [
+    {
+      "stock": "삼성전자",
+      "title": "HBM, 파운드리 중장기 성장성에 주목",
+      "firm": "키움증권",
+      "date": "2026.09.23",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96289&page=1"
+    },
     {
       "stock": "삼성전자",
       "title": "Beyond the cycle",
@@ -63,13 +70,6 @@
       "firm": "미래에셋증권",
       "date": "2026.09.15",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96155&page=1"
-    },
-    {
-      "stock": "삼성SDI",
-      "title": "3개 분기 연속 서프라이즈 예상",
-      "firm": "미래에셋증권",
-      "date": "2026.09.15",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96154&page=1"
     }
   ]
 }
