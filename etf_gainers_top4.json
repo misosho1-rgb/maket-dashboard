@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-22T00:40:09.220664+00:00",
+  "generated_at": "2026-09-22T01:02:42.721150+00:00",
   "items": [
-    {
-      "code": "243880",
-      "name": "TIGER 200IT레버리지",
-      "price": 373200.0,
-      "change_rate": 8.65,
-      "three_month_return": -63.4191,
-      "volume": 49755
-    },
     {
       "code": "0225V0",
       "name": "KODEX 미국CPU반도체TOP10",
-      "price": 12550.0,
-      "change_rate": 8.61,
+      "price": 12510.0,
+      "change_rate": 8.26,
       "three_month_return": 0.0,
-      "volume": 356820
+      "volume": 404813
+    },
+    {
+      "code": "243880",
+      "name": "TIGER 200IT레버리지",
+      "price": 368035.0,
+      "change_rate": 7.14,
+      "three_month_return": -63.4191,
+      "volume": 60151
     },
     {
       "code": "0198D0",
       "name": "1Q SK하이닉스선물단일종목레버리지",
-      "price": 11355.0,
-      "change_rate": 7.78,
+      "price": 11225.0,
+      "change_rate": 6.55,
       "three_month_return": -69.9601,
-      "volume": 28775
+      "volume": 29534
     },
     {
-      "code": "0194R0",
-      "name": "KIWOOM SK하이닉스선물단일종목레버리지",
-      "price": 10620.0,
-      "change_rate": 7.33,
-      "three_month_return": -69.3121,
-      "volume": 25354
+      "code": "0224D0",
+      "name": "KIWOOM 미국CPU반도체TOP4+",
+      "price": 11215.0,
+      "change_rate": 6.51,
+      "three_month_return": 0.0,
+      "volume": 124781
     }
   ]
 }
