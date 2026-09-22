@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-22T05:03:22.355365+00:00",
+  "generated_at": "2026-09-22T05:35:41.151295+00:00",
   "items": [
     {
       "code": "0225V0",
       "name": "KODEX 미국CPU반도체TOP10",
-      "price": 12235.0,
-      "change_rate": 5.88,
+      "price": 12145.0,
+      "change_rate": 5.11,
       "three_month_return": 0.0,
-      "volume": 938563
+      "volume": 978278
     },
     {
       "code": "409820",
       "name": "KODEX 미국나스닥100레버리지(합성 H)",
-      "price": 21265.0,
-      "change_rate": 4.5,
+      "price": 21230.0,
+      "change_rate": 4.32,
       "three_month_return": -4.6839,
-      "volume": 131717
+      "volume": 140552
     },
     {
       "code": "0224D0",
       "name": "KIWOOM 미국CPU반도체TOP4+",
-      "price": 10995.0,
-      "change_rate": 4.42,
+      "price": 10940.0,
+      "change_rate": 3.89,
       "three_month_return": 0.0,
-      "volume": 190392
+      "volume": 199493
     },
     {
-      "code": "261120",
-      "name": "TIGER 미국달러선물인버스2X",
-      "price": 5500.0,
-      "change_rate": 4.07,
-      "three_month_return": 21.0767,
-      "volume": 6736
+      "code": "261260",
+      "name": "KODEX 미국달러선물인버스2X",
+      "price": 5520.0,
+      "change_rate": 3.66,
+      "three_month_return": 21.7142,
+      "volume": 241670
     }
   ]
 }
