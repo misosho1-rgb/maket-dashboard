@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-22T06:04:13.706709+00:00",
+  "generated_at": "2026-09-22T06:40:41.088198+00:00",
   "items": [
     {
       "code": "0225V0",
       "name": "KODEX 미국CPU반도체TOP10",
-      "price": 12230.0,
-      "change_rate": 5.84,
+      "price": 12220.0,
+      "change_rate": 5.76,
       "three_month_return": 0.0,
-      "volume": 1080007
-    },
-    {
-      "code": "409820",
-      "name": "KODEX 미국나스닥100레버리지(합성 H)",
-      "price": 21270.0,
-      "change_rate": 4.52,
-      "three_month_return": -4.6839,
-      "volume": 161111
+      "volume": 1112847
     },
     {
       "code": "0224D0",
       "name": "KIWOOM 미국CPU반도체TOP4+",
-      "price": 10980.0,
-      "change_rate": 4.27,
+      "price": 10990.0,
+      "change_rate": 4.37,
       "three_month_return": 0.0,
-      "volume": 203609
+      "volume": 208033
     },
     {
-      "code": "494340",
-      "name": "ACE 글로벌AI맞춤형반도체",
-      "price": 20925.0,
+      "code": "409820",
+      "name": "KODEX 미국나스닥100레버리지(합성 H)",
+      "price": 21230.0,
+      "change_rate": 4.32,
+      "three_month_return": -4.6839,
+      "volume": 164339
+    },
+    {
+      "code": "480310",
+      "name": "TIGER 글로벌온디바이스AI",
+      "price": 22055.0,
       "change_rate": 4.03,
-      "three_month_return": -31.1131,
-      "volume": 29858
+      "three_month_return": -17.5103,
+      "volume": 89522
     }
   ]
 }
