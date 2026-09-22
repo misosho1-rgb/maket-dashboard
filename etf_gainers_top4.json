@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-22T03:36:44.306848+00:00",
+  "generated_at": "2026-09-22T04:03:25.239242+00:00",
   "items": [
     {
       "code": "0225V0",
       "name": "KODEX 미국CPU반도체TOP10",
-      "price": 12440.0,
-      "change_rate": 7.66,
+      "price": 12430.0,
+      "change_rate": 7.57,
       "three_month_return": 0.0,
-      "volume": 831011
+      "volume": 868643
     },
     {
       "code": "243880",
       "name": "TIGER 200IT레버리지",
-      "price": 369000.0,
-      "change_rate": 7.43,
+      "price": 364745.0,
+      "change_rate": 6.19,
       "three_month_return": -63.4191,
-      "volume": 83411
-    },
-    {
-      "code": "0194N0",
-      "name": "KIWOOM 삼성전자선물단일종목레버리지",
-      "price": 12520.0,
-      "change_rate": 6.15,
-      "three_month_return": -54.3457,
-      "volume": 13405
+      "volume": 88101
     },
     {
       "code": "0192M0",
       "name": "RISE 삼성전자단일종목레버리지",
-      "price": 12595.0,
-      "change_rate": 6.06,
+      "price": 12610.0,
+      "change_rate": 6.19,
       "three_month_return": -54.6756,
-      "volume": 24185
+      "volume": 28994
+    },
+    {
+      "code": "0198B0",
+      "name": "1Q 삼성전자선물단일종목레버리지",
+      "price": 12870.0,
+      "change_rate": 6.06,
+      "three_month_return": -55.8407,
+      "volume": 20620
     }
   ]
 }
