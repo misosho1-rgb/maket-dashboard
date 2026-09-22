@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-09-22T01:02:52.702229+00:00",
+  "generated_at": "2026-09-22T01:35:11.471342+00:00",
   "items": [
+    {
+      "stock": "삼성전자",
+      "title": "Beyond the cycle",
+      "firm": "대신증권",
+      "date": "2026.09.22",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96282&page=1"
+    },
     {
       "stock": "LG에너지솔루션",
       "title": "원-달러 환율 하락에도 실적 개선세 지속",
@@ -63,13 +70,6 @@
       "firm": "미래에셋증권",
       "date": "2026.09.15",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96154&page=1"
-    },
-    {
-      "stock": "NAVER",
-      "title": "아시아 유일 통합 AI 팩토리 사업자로의 부상",
-      "firm": "IBK투자증권",
-      "date": "2026.09.08",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96033&page=1"
     }
   ]
 }
