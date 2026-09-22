@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-21T23:34:54.338800+00:00",
+  "generated_at": "2026-09-22T00:04:50.955301+00:00",
   "items": [
     {
-      "code": "069500",
-      "name": "KODEX 200",
-      "price": 111700.0,
-      "change_rate": 0.0,
-      "three_month_return": -25.479,
-      "volume": 0
+      "code": "0225V0",
+      "name": "KODEX 미국CPU반도체TOP10",
+      "price": 12660.0,
+      "change_rate": 9.56,
+      "three_month_return": 0.0,
+      "volume": 153201
     },
     {
-      "code": "360750",
-      "name": "TIGER 미국S&P500",
-      "price": 26340.0,
-      "change_rate": 0.0,
-      "three_month_return": -7.0094,
-      "volume": 0
+      "code": "0224D0",
+      "name": "KIWOOM 미국CPU반도체TOP4+",
+      "price": 11315.0,
+      "change_rate": 7.45,
+      "three_month_return": 0.0,
+      "volume": 66488
     },
     {
-      "code": "133690",
-      "name": "TIGER 미국나스닥100",
-      "price": 182540.0,
-      "change_rate": 0.0,
-      "three_month_return": -10.6685,
-      "volume": 0
+      "code": "0198B0",
+      "name": "1Q 삼성전자선물단일종목레버리지",
+      "price": 13035.0,
+      "change_rate": 7.42,
+      "three_month_return": -55.8407,
+      "volume": 1244
     },
     {
-      "code": "379800",
-      "name": "KODEX 미국S&P500",
-      "price": 23940.0,
-      "change_rate": 0.0,
-      "three_month_return": -7.0333,
-      "volume": 0
+      "code": "243880",
+      "name": "TIGER 200IT레버리지",
+      "price": 368850.0,
+      "change_rate": 7.38,
+      "three_month_return": -63.4191,
+      "volume": 6897
     }
   ]
 }
