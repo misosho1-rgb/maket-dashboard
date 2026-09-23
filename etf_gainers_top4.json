@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-23T04:37:05.090475+00:00",
+  "generated_at": "2026-09-23T05:03:05.274250+00:00",
   "items": [
     {
       "code": "476260",
       "name": "HANARO 반도체핵심공정주도주",
-      "price": 14325.0,
-      "change_rate": 6.58,
+      "price": 14275.0,
+      "change_rate": 6.21,
       "three_month_return": -23.6147,
-      "volume": 455035
-    },
-    {
-      "code": "475300",
-      "name": "SOL 반도체전공정",
-      "price": 24620.0,
-      "change_rate": 5.53,
-      "three_month_return": -17.3867,
-      "volume": 1240187
-    },
-    {
-      "code": "494310",
-      "name": "KODEX 반도체레버리지",
-      "price": 92660.0,
-      "change_rate": 5.25,
-      "three_month_return": -58.6318,
-      "volume": 2634148
+      "volume": 512263
     },
     {
       "code": "0193K0",
       "name": "PLUS 삼성전자단일종목레버리지",
-      "price": 13905.0,
-      "change_rate": 5.14,
+      "price": 13865.0,
+      "change_rate": 4.84,
       "three_month_return": -52.6071,
-      "volume": 12983
+      "volume": 13033
+    },
+    {
+      "code": "271050",
+      "name": "KODEX WTI원유선물인버스(H)",
+      "price": 1803.0,
+      "change_rate": 4.83,
+      "three_month_return": -27.1187,
+      "volume": 8588480
+    },
+    {
+      "code": "0195R0",
+      "name": "TIGER 삼성전자단일종목레버리지",
+      "price": 12555.0,
+      "change_rate": 4.71,
+      "three_month_return": -54.1229,
+      "volume": 2579955
     }
   ]
 }
