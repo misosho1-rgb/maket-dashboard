@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-23T04:03:25.657801+00:00",
+  "generated_at": "2026-09-23T04:37:05.090475+00:00",
   "items": [
     {
       "code": "476260",
       "name": "HANARO 반도체핵심공정주도주",
-      "price": 14130.0,
-      "change_rate": 5.13,
+      "price": 14325.0,
+      "change_rate": 6.58,
       "three_month_return": -23.6147,
-      "volume": 404894
+      "volume": 455035
     },
     {
-      "code": "271050",
-      "name": "KODEX WTI원유선물인버스(H)",
-      "price": 1799.0,
-      "change_rate": 4.59,
-      "three_month_return": -27.1187,
-      "volume": 7558482
+      "code": "475300",
+      "name": "SOL 반도체전공정",
+      "price": 24620.0,
+      "change_rate": 5.53,
+      "three_month_return": -17.3867,
+      "volume": 1240187
+    },
+    {
+      "code": "494310",
+      "name": "KODEX 반도체레버리지",
+      "price": 92660.0,
+      "change_rate": 5.25,
+      "three_month_return": -58.6318,
+      "volume": 2634148
     },
     {
       "code": "0193K0",
       "name": "PLUS 삼성전자단일종목레버리지",
-      "price": 13825.0,
-      "change_rate": 4.54,
+      "price": 13905.0,
+      "change_rate": 5.14,
       "three_month_return": -52.6071,
-      "volume": 12826
-    },
-    {
-      "code": "0238F0",
-      "name": "KODEX 미국AI메모리TOP2플러스",
-      "price": 10915.0,
-      "change_rate": 4.4,
-      "three_month_return": 0.0,
-      "volume": 256327
+      "volume": 12983
     }
   ]
 }
