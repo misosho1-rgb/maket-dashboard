@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-23T00:04:38.349515+00:00",
+  "generated_at": "2026-09-23T00:39:41.335225+00:00",
   "items": [
-    {
-      "code": "0192L0",
-      "name": "RISE SK하이닉스단일종목레버리지",
-      "price": 10695.0,
-      "change_rate": 6.63,
-      "three_month_return": -72.8479,
-      "volume": 51
-    },
-    {
-      "code": "0194T0",
-      "name": "ACE SK하이닉스단일종목레버리지",
-      "price": 10475.0,
-      "change_rate": 6.4,
-      "three_month_return": -73.3379,
-      "volume": 2166
-    },
-    {
-      "code": "0197W0",
-      "name": "SOL SK하이닉스단일종목레버리지",
-      "price": 10325.0,
-      "change_rate": 6.39,
-      "three_month_return": -73.7526,
-      "volume": 1031
-    },
     {
       "code": "488080",
       "name": "TIGER 반도체TOP10레버리지",
-      "price": 39940.0,
-      "change_rate": 6.35,
+      "price": 39615.0,
+      "change_rate": 5.49,
       "three_month_return": -62.0523,
-      "volume": 264194
+      "volume": 1473954
+    },
+    {
+      "code": "243890",
+      "name": "TIGER 200에너지화학레버리지",
+      "price": 8515.0,
+      "change_rate": 5.38,
+      "three_month_return": -24.3092,
+      "volume": 8020
+    },
+    {
+      "code": "0193K0",
+      "name": "PLUS 삼성전자단일종목레버리지",
+      "price": 13920.0,
+      "change_rate": 5.26,
+      "three_month_return": -52.6071,
+      "volume": 4234
+    },
+    {
+      "code": "0195R0",
+      "name": "TIGER 삼성전자단일종목레버리지",
+      "price": 12615.0,
+      "change_rate": 5.21,
+      "three_month_return": -54.1229,
+      "volume": 785902
     }
   ]
 }
