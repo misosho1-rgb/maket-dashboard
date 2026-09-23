@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T03:03:32.411565+00:00",
+  "generated_at": "2026-09-23T03:37:09.179231+00:00",
   "items": [
     {
       "stock": "삼성전자",
@@ -14,6 +14,20 @@
       "firm": "키움증권",
       "date": "2026.09.23",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96289&page=1"
+    },
+    {
+      "stock": "현대차",
+      "title": "로봇 사업, 조연을 선택하다",
+      "firm": "삼성증권",
+      "date": "2026.09.23",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96309&page=1"
+    },
+    {
+      "stock": "기아",
+      "title": "갈림길: 배당주 vs 성장주",
+      "firm": "삼성증권",
+      "date": "2026.09.23",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96303&page=1"
     },
     {
       "stock": "삼성전자",
@@ -56,20 +70,6 @@
       "firm": "대신증권",
       "date": "2026.09.17",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96209&page=1"
-    },
-    {
-      "stock": "셀트리온",
-      "title": "유럽에서 확인한 Omlyclo의 Potential",
-      "firm": "대신증권",
-      "date": "2026.09.17",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96208&page=1"
-    },
-    {
-      "stock": "셀트리온",
-      "title": "더욱 강하게 밟는 가속성장페달, 2027년",
-      "firm": "DS투자증권",
-      "date": "2026.09.16",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96183&page=1"
     }
   ]
 }
