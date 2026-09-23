@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-23T01:34:52.500420+00:00",
+  "generated_at": "2026-09-23T02:03:32.677152+00:00",
   "items": [
-    {
-      "code": "0193K0",
-      "name": "PLUS 삼성전자단일종목레버리지",
-      "price": 13840.0,
-      "change_rate": 4.65,
-      "three_month_return": -52.6071,
-      "volume": 7748
-    },
     {
       "code": "0238F0",
       "name": "KODEX 미국AI메모리TOP2플러스",
-      "price": 10925.0,
-      "change_rate": 4.5,
+      "price": 10890.0,
+      "change_rate": 4.16,
       "three_month_return": 0.0,
-      "volume": 155433
+      "volume": 174242
     },
     {
-      "code": "0198B0",
-      "name": "1Q 삼성전자선물단일종목레버리지",
-      "price": 13135.0,
-      "change_rate": 4.49,
-      "three_month_return": -53.7102,
-      "volume": 15821
+      "code": "271050",
+      "name": "KODEX WTI원유선물인버스(H)",
+      "price": 1790.0,
+      "change_rate": 4.07,
+      "three_month_return": -27.1187,
+      "volume": 5960253
     },
     {
-      "code": "488080",
-      "name": "TIGER 반도체TOP10레버리지",
-      "price": 39235.0,
-      "change_rate": 4.47,
-      "three_month_return": -62.0523,
-      "volume": 2384722
+      "code": "0181B0",
+      "name": "HANARO 미국AI메모리반도체TOP4+",
+      "price": 10230.0,
+      "change_rate": 3.96,
+      "three_month_return": -33.2203,
+      "volume": 178974
+    },
+    {
+      "code": "0193K0",
+      "name": "PLUS 삼성전자단일종목레버리지",
+      "price": 13745.0,
+      "change_rate": 3.93,
+      "three_month_return": -52.6071,
+      "volume": 11635
     }
   ]
 }
