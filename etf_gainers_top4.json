@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-23T23:32:34.785187+00:00",
+  "generated_at": "2026-09-24T00:04:09.385466+00:00",
   "items": [
     {
       "code": "476260",
       "name": "HANARO 반도체핵심공정주도주",
       "price": 14355.0,
       "change_rate": 6.81,
-      "three_month_return": -23.6147,
+      "three_month_return": -7.2075,
       "volume": 652700
     },
     {
@@ -14,7 +14,7 @@
       "name": "TIGER 반도체TOP10레버리지",
       "price": 40000.0,
       "change_rate": 6.51,
-      "three_month_return": -62.0523,
+      "three_month_return": -48.6752,
       "volume": 5435679
     },
     {
@@ -22,7 +22,7 @@
       "name": "KODEX 반도체레버리지",
       "price": 93440.0,
       "change_rate": 6.13,
-      "three_month_return": -58.6318,
+      "three_month_return": -42.7855,
       "volume": 3287715
     },
     {
@@ -30,7 +30,7 @@
       "name": "PLUS 삼성전자단일종목레버리지",
       "price": 14010.0,
       "change_rate": 5.94,
-      "three_month_return": -52.6071,
+      "three_month_return": -34.179,
       "volume": 16628
     }
   ]
