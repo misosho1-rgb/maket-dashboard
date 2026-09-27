@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T22:36:45.459148+00:00",
+  "generated_at": "2026-09-27T23:03:02.549872+00:00",
   "items": [
     {
       "code": "476260",
@@ -26,12 +26,12 @@
       "volume": 3287715
     },
     {
-      "code": "0193K0",
-      "name": "PLUS 삼성전자단일종목레버리지",
-      "price": 14010.0,
-      "change_rate": 5.94,
-      "three_month_return": -34.179,
-      "volume": 16628
+      "code": "475300",
+      "name": "SOL 반도체전공정",
+      "price": 24645.0,
+      "change_rate": 5.64,
+      "three_month_return": -1.6953,
+      "volume": 1706171
     }
   ]
 }
