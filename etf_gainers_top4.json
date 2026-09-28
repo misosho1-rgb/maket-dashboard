@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-27T23:34:38.529684+00:00",
+  "generated_at": "2026-09-28T00:04:44.860130+00:00",
   "items": [
     {
-      "code": "069500",
-      "name": "KODEX 200",
-      "price": 113145.0,
-      "change_rate": 0.0,
-      "three_month_return": -14.6419,
-      "volume": 0
+      "code": "261070",
+      "name": "TIGER 코스닥150바이오테크",
+      "price": 11397.0,
+      "change_rate": 5.14,
+      "three_month_return": -21.6764,
+      "volume": 97180
     },
     {
-      "code": "360750",
-      "name": "TIGER 미국S&P500",
-      "price": 26200.0,
-      "change_rate": 0.0,
-      "three_month_return": -7.0135,
-      "volume": 0
+      "code": "130680",
+      "name": "TIGER 원유선물Enhanced(H)",
+      "price": 7965.0,
+      "change_rate": 4.8,
+      "three_month_return": 27.731,
+      "volume": 3486
     },
     {
-      "code": "133690",
-      "name": "TIGER 미국나스닥100",
-      "price": 184985.0,
-      "change_rate": 0.0,
-      "three_month_return": -8.6487,
-      "volume": 0
+      "code": "488290",
+      "name": "MIDAS 일본테크액티브",
+      "price": 44505.0,
+      "change_rate": 4.59,
+      "three_month_return": -28.721,
+      "volume": 7221
     },
     {
-      "code": "396500",
-      "name": "TIGER 반도체TOP10",
-      "price": 39395.0,
-      "change_rate": 0.0,
-      "three_month_return": -20.0264,
-      "volume": 0
+      "code": "261220",
+      "name": "KODEX WTI원유선물(H)",
+      "price": 27180.0,
+      "change_rate": 4.16,
+      "three_month_return": 28.737,
+      "volume": 7173
     }
   ]
 }
