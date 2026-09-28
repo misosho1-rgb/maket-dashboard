@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-28T04:39:56.589581+00:00",
+  "generated_at": "2026-09-28T05:04:03.545203+00:00",
   "items": [
-    {
-      "code": "0197X0",
-      "name": "SOL SK하이닉스선물단일종목인버스2X",
-      "price": 5880.0,
-      "change_rate": 8.09,
-      "three_month_return": -37.0735,
-      "volume": 10802196
-    },
     {
       "code": "0193L0",
       "name": "PLUS 삼성전자선물단일종목인버스2X",
-      "price": 8130.0,
-      "change_rate": 8.04,
+      "price": 8125.0,
+      "change_rate": 7.97,
       "three_month_return": -48.459,
-      "volume": 1947650
+      "volume": 1979698
+    },
+    {
+      "code": "0197X0",
+      "name": "SOL SK하이닉스선물단일종목인버스2X",
+      "price": 5850.0,
+      "change_rate": 7.54,
+      "three_month_return": -37.0735,
+      "volume": 10908694
     },
     {
       "code": "457990",
       "name": "PLUS 태양광&ESS",
-      "price": 36535.0,
-      "change_rate": 6.91,
+      "price": 36710.0,
+      "change_rate": 7.42,
       "three_month_return": -5.0959,
-      "volume": 432739
+      "volume": 451483
     },
     {
       "code": "462330",
       "name": "KODEX 2차전지산업레버리지",
-      "price": 1040.0,
-      "change_rate": 6.12,
+      "price": 1041.0,
+      "change_rate": 6.22,
       "three_month_return": -19.8037,
-      "volume": 69698442
+      "volume": 72351336
     }
   ]
 }
