@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-28T05:04:03.545203+00:00",
+  "generated_at": "2026-09-28T05:38:18.911152+00:00",
   "items": [
-    {
-      "code": "0193L0",
-      "name": "PLUS 삼성전자선물단일종목인버스2X",
-      "price": 8125.0,
-      "change_rate": 7.97,
-      "three_month_return": -48.459,
-      "volume": 1979698
-    },
     {
       "code": "0197X0",
       "name": "SOL SK하이닉스선물단일종목인버스2X",
-      "price": 5850.0,
-      "change_rate": 7.54,
+      "price": 5920.0,
+      "change_rate": 8.82,
       "three_month_return": -37.0735,
-      "volume": 10908694
+      "volume": 11179638
+    },
+    {
+      "code": "0193L0",
+      "name": "PLUS 삼성전자선물단일종목인버스2X",
+      "price": 8150.0,
+      "change_rate": 8.31,
+      "three_month_return": -48.459,
+      "volume": 2011558
     },
     {
       "code": "457990",
       "name": "PLUS 태양광&ESS",
-      "price": 36710.0,
-      "change_rate": 7.42,
+      "price": 36590.0,
+      "change_rate": 7.07,
       "three_month_return": -5.0959,
-      "volume": 451483
+      "volume": 495237
     },
     {
-      "code": "462330",
-      "name": "KODEX 2차전지산업레버리지",
-      "price": 1041.0,
-      "change_rate": 6.22,
-      "three_month_return": -19.8037,
-      "volume": 72351336
+      "code": "252710",
+      "name": "TIGER 200선물인버스2X",
+      "price": 79.0,
+      "change_rate": 6.76,
+      "three_month_return": -5.1283,
+      "volume": 120573000
     }
   ]
 }
