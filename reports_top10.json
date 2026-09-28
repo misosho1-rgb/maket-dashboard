@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-09-28T00:04:51.474137+00:00",
+  "generated_at": "2026-09-28T00:44:24.814427+00:00",
   "items": [
+    {
+      "stock": "SK하이닉스",
+      "title": "소음보다 방향성에",
+      "firm": "대신증권",
+      "date": "2026.09.28",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96327&page=1"
+    },
     {
       "stock": "삼성전자",
       "title": "메모리 가격 상승폭 둔화보다 사이클 장기화!",
@@ -63,13 +70,6 @@
       "firm": "미래에셋증권",
       "date": "2026.09.18",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96232&page=1"
-    },
-    {
-      "stock": "NAVER",
-      "title": "불확실한 디지털자산 규제, 지연과 방향성은 구분",
-      "firm": "대신증권",
-      "date": "2026.09.17",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96209&page=1"
     }
   ]
 }
