@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-09-28T23:03:25.512733+00:00",
+  "generated_at": "2026-09-28T23:36:29.392739+00:00",
   "items": [
+    {
+      "stock": "삼성전자",
+      "title": "긴 호흡으로",
+      "firm": "유진투자증권",
+      "date": "2026.09.29",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96343&page=1"
+    },
+    {
+      "stock": "기아",
+      "title": "피하기 어려운 원가 부담과 경쟁 심화",
+      "firm": "신한투자증권",
+      "date": "2026.09.29",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96338&page=1"
+    },
     {
       "stock": "SK하이닉스",
       "title": "소음보다 방향성에",
@@ -56,20 +70,6 @@
       "firm": "iM증권",
       "date": "2026.09.21",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96252&page=1"
-    },
-    {
-      "stock": "카카오",
-      "title": "중요한 것은 탁월한 계획보다 완벽한 실행",
-      "firm": "IBK투자증권",
-      "date": "2026.09.21",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96236&page=1"
-    },
-    {
-      "stock": "삼성SDI",
-      "title": "전력 인프라 업체로서의 밸류에이션 재평가",
-      "firm": "iM증권",
-      "date": "2026.09.21",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96241&page=1"
     }
   ]
 }
