@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-28T00:44:14.878306+00:00",
+  "generated_at": "2026-09-28T01:04:21.407760+00:00",
   "items": [
     {
       "code": "457990",
       "name": "PLUS 태양광&ESS",
-      "price": 36495.0,
-      "change_rate": 6.79,
+      "price": 36670.0,
+      "change_rate": 7.3,
       "three_month_return": -5.0959,
-      "volume": 199345
+      "volume": 232224
     },
     {
-      "code": "261070",
-      "name": "TIGER 코스닥150바이오테크",
-      "price": 11465.0,
-      "change_rate": 5.77,
-      "three_month_return": -21.6764,
-      "volume": 209950
+      "code": "0197X0",
+      "name": "SOL SK하이닉스선물단일종목인버스2X",
+      "price": 5805.0,
+      "change_rate": 6.71,
+      "three_month_return": -37.0735,
+      "volume": 5134967
     },
     {
       "code": "462330",
       "name": "KODEX 2차전지산업레버리지",
-      "price": 1034.0,
-      "change_rate": 5.51,
+      "price": 1041.0,
+      "change_rate": 6.22,
       "three_month_return": -19.8037,
-      "volume": 30102080
+      "volume": 37901562
     },
     {
-      "code": "243890",
-      "name": "TIGER 200에너지화학레버리지",
-      "price": 8835.0,
-      "change_rate": 5.43,
-      "three_month_return": -8.6649,
-      "volume": 15740
+      "code": "261070",
+      "name": "TIGER 코스닥150바이오테크",
+      "price": 11500.0,
+      "change_rate": 6.09,
+      "three_month_return": -21.6764,
+      "volume": 227276
     }
   ]
 }
