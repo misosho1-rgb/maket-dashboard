@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-29T04:03:58.330676+00:00",
+  "generated_at": "2026-09-29T04:38:29.204308+00:00",
   "items": [
-    {
-      "code": "465350",
-      "name": "RISE 2차전지TOP10인버스(합성)",
-      "price": 16525.0,
-      "change_rate": 4.39,
-      "three_month_return": -19.3992,
-      "volume": 38850
-    },
     {
       "code": "494310",
       "name": "KODEX 반도체레버리지",
-      "price": 91272.0,
-      "change_rate": 4.31,
+      "price": 91855.0,
+      "change_rate": 4.98,
       "three_month_return": -49.7344,
-      "volume": 2511676
-    },
-    {
-      "code": "0193K0",
-      "name": "PLUS 삼성전자단일종목레버리지",
-      "price": 13200.0,
-      "change_rate": 4.22,
-      "three_month_return": -48.5999,
-      "volume": 2086
+      "volume": 2704171
     },
     {
       "code": "475300",
       "name": "SOL 반도체전공정",
-      "price": 25015.0,
-      "change_rate": 3.67,
+      "price": 25145.0,
+      "change_rate": 4.21,
       "three_month_return": -8.6158,
-      "volume": 1340196
+      "volume": 1460788
+    },
+    {
+      "code": "465350",
+      "name": "RISE 2차전지TOP10인버스(합성)",
+      "price": 16495.0,
+      "change_rate": 4.2,
+      "three_month_return": -19.3992,
+      "volume": 39767
+    },
+    {
+      "code": "471990",
+      "name": "KODEX AI반도체핵심장비",
+      "price": 27670.0,
+      "change_rate": 3.65,
+      "three_month_return": 1.6879,
+      "volume": 1808329
     }
   ]
 }
