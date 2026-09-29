@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-29T06:04:43.769136+00:00",
+  "generated_at": "2026-09-29T06:43:24.184911+00:00",
   "items": [
     {
       "code": "494310",
       "name": "KODEX 반도체레버리지",
-      "price": 92730.0,
-      "change_rate": 5.98,
+      "price": 94000.0,
+      "change_rate": 7.43,
       "three_month_return": -49.7344,
-      "volume": 3212667
-    },
-    {
-      "code": "319640",
-      "name": "TIGER 골드선물(H)",
-      "price": 25800.0,
-      "change_rate": 5.41,
-      "three_month_return": 2.4487,
-      "volume": 26445
+      "volume": 3411977
     },
     {
       "code": "475300",
       "name": "SOL 반도체전공정",
-      "price": 25385.0,
-      "change_rate": 5.2,
+      "price": 25545.0,
+      "change_rate": 5.86,
       "three_month_return": -8.6158,
-      "volume": 1881981
+      "volume": 2085552
     },
     {
       "code": "471990",
       "name": "KODEX AI반도체핵심장비",
-      "price": 27920.0,
-      "change_rate": 4.59,
+      "price": 28110.0,
+      "change_rate": 5.3,
       "three_month_return": 1.6879,
-      "volume": 2145171
+      "volume": 2238778
+    },
+    {
+      "code": "455850",
+      "name": "SOL AI반도체소부장",
+      "price": 28415.0,
+      "change_rate": 5.26,
+      "three_month_return": -3.2438,
+      "volume": 3710647
     }
   ]
 }
