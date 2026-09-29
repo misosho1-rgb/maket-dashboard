@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T02:03:32.296938+00:00",
+  "generated_at": "2026-09-29T02:36:33.329549+00:00",
   "items": [
     {
       "code": "252670",
@@ -7,15 +7,15 @@
       "price": 72.0,
       "change_rate": -1.37,
       "three_month_return": 5.7971,
-      "volume": 2867018065
+      "volume": 2895963873
     },
     {
       "code": "114800",
       "name": "KODEX 인버스",
-      "price": 993.0,
-      "change_rate": -0.5,
+      "price": 997.0,
+      "change_rate": -0.1,
       "three_month_return": 10.033,
-      "volume": 377699881
+      "volume": 411902782
     },
     {
       "code": "252710",
@@ -23,7 +23,7 @@
       "price": 79.0,
       "change_rate": 0.0,
       "three_month_return": 8.2191,
-      "volume": 93610445
+      "volume": 100995383
     },
     {
       "code": "462330",
@@ -31,55 +31,55 @@
       "price": 963.0,
       "change_rate": -7.23,
       "three_month_return": -1.1429,
-      "volume": 61077562
+      "volume": 64530319
     },
     {
       "code": "233740",
       "name": "KODEX 코스닥150레버리지",
-      "price": 6860.0,
-      "change_rate": -1.44,
+      "price": 6880.0,
+      "change_rate": -1.15,
       "three_month_return": -24.5938,
-      "volume": 22306623
+      "volume": 24457779
     },
     {
       "code": "360750",
       "name": "TIGER 미국S&P500",
-      "price": 25870.0,
-      "change_rate": -0.9,
+      "price": 25850.0,
+      "change_rate": -0.98,
       "three_month_return": -6.1713,
-      "volume": 19821752
+      "volume": 21665433
     },
     {
       "code": "251340",
       "name": "KODEX 코스닥150선물인버스",
-      "price": 2410.0,
-      "change_rate": 0.84,
+      "price": 2405.0,
+      "change_rate": 0.63,
       "three_month_return": -2.6477,
-      "volume": 17438179
+      "volume": 18516934
     },
     {
       "code": "379800",
       "name": "KODEX 미국S&P500",
-      "price": 23517.0,
-      "change_rate": -0.88,
+      "price": 23500.0,
+      "change_rate": -0.95,
       "three_month_return": -6.1297,
-      "volume": 15639798
+      "volume": 16824102
     },
     {
       "code": "229200",
       "name": "KODEX 코스닥150",
-      "price": 14030.0,
-      "change_rate": -0.67,
+      "price": 14045.0,
+      "change_rate": -0.57,
       "three_month_return": -7.4378,
-      "volume": 13163074
+      "volume": 14906906
     },
     {
       "code": "379810",
       "name": "KODEX 미국나스닥100",
-      "price": 27185.0,
-      "change_rate": -0.77,
+      "price": 27145.0,
+      "change_rate": -0.91,
       "three_month_return": -7.2167,
-      "volume": 11959352
+      "volume": 12806968
     }
   ]
 }

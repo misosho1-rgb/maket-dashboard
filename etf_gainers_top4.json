@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-29T02:03:32.296938+00:00",
+  "generated_at": "2026-09-29T02:36:33.329549+00:00",
   "items": [
-    {
-      "code": "0193K0",
-      "name": "PLUS 삼성전자단일종목레버리지",
-      "price": 13505.0,
-      "change_rate": 6.63,
-      "three_month_return": -48.5999,
-      "volume": 1431
-    },
     {
       "code": "0192M0",
       "name": "RISE 삼성전자단일종목레버리지",
-      "price": 12375.0,
-      "change_rate": 6.27,
+      "price": 12300.0,
+      "change_rate": 5.62,
       "three_month_return": -49.5014,
-      "volume": 23273
+      "volume": 23375
     },
     {
-      "code": "0193W0",
-      "name": "KODEX 삼성전자단일종목레버리지",
-      "price": 13255.0,
-      "change_rate": 6.0,
-      "three_month_return": -49.92,
-      "volume": 5226428
+      "code": "0193K0",
+      "name": "PLUS 삼성전자단일종목레버리지",
+      "price": 13360.0,
+      "change_rate": 5.49,
+      "three_month_return": -48.5999,
+      "volume": 1965
     },
     {
-      "code": "0195R0",
-      "name": "TIGER 삼성전자단일종목레버리지",
-      "price": 12055.0,
-      "change_rate": 5.98,
-      "three_month_return": -50.6401,
-      "volume": 3851419
+      "code": "494310",
+      "name": "KODEX 반도체레버리지",
+      "price": 92275.0,
+      "change_rate": 5.46,
+      "three_month_return": -49.7344,
+      "volume": 1885907
+    },
+    {
+      "code": "0194N0",
+      "name": "KIWOOM 삼성전자선물단일종목레버리지",
+      "price": 12110.0,
+      "change_rate": 5.21,
+      "three_month_return": -49.7163,
+      "volume": 46514
     }
   ]
 }
