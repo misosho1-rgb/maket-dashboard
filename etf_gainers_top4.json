@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-29T05:03:53.949885+00:00",
+  "generated_at": "2026-09-29T05:37:59.003620+00:00",
   "items": [
+    {
+      "code": "465350",
+      "name": "RISE 2차전지TOP10인버스(합성)",
+      "price": 16550.0,
+      "change_rate": 4.55,
+      "three_month_return": -19.3992,
+      "volume": 48218
+    },
     {
       "code": "494310",
       "name": "KODEX 반도체레버리지",
-      "price": 92050.0,
-      "change_rate": 5.2,
+      "price": 91240.0,
+      "change_rate": 4.27,
       "three_month_return": -49.7344,
-      "volume": 2822765
+      "volume": 3009862
     },
     {
       "code": "475300",
       "name": "SOL 반도체전공정",
-      "price": 25230.0,
-      "change_rate": 4.56,
+      "price": 25130.0,
+      "change_rate": 4.14,
       "three_month_return": -8.6158,
-      "volume": 1537405
+      "volume": 1711061
     },
     {
-      "code": "465350",
-      "name": "RISE 2차전지TOP10인버스(합성)",
-      "price": 16520.0,
-      "change_rate": 4.36,
-      "three_month_return": -19.3992,
-      "volume": 40226
-    },
-    {
-      "code": "471990",
-      "name": "KODEX AI반도체핵심장비",
-      "price": 27825.0,
-      "change_rate": 4.23,
-      "three_month_return": 1.6879,
-      "volume": 1900513
+      "code": "0197X0",
+      "name": "SOL SK하이닉스선물단일종목인버스2X",
+      "price": 6180.0,
+      "change_rate": 4.13,
+      "three_month_return": -18.2507,
+      "volume": 10216313
     }
   ]
 }
