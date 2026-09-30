@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-30T01:37:05.457287+00:00",
+  "generated_at": "2026-09-30T02:04:25.639137+00:00",
   "items": [
-    {
-      "code": "0192L0",
-      "name": "RISE SK하이닉스단일종목레버리지",
-      "price": 9765.0,
-      "change_rate": 5.45,
-      "three_month_return": -67.1515,
-      "volume": 33090
-    },
     {
       "code": "0215T0",
       "name": "HANARO 미국AI광통신TOP10",
-      "price": 9185.0,
-      "change_rate": 4.97,
+      "price": 9190.0,
+      "change_rate": 5.03,
       "three_month_return": 0.0,
-      "volume": 4810
+      "volume": 10194
     },
     {
-      "code": "0198D0",
-      "name": "1Q SK하이닉스선물단일종목레버리지",
-      "price": 9885.0,
-      "change_rate": 4.88,
-      "three_month_return": -68.5204,
-      "volume": 7281
+      "code": "271050",
+      "name": "KODEX WTI원유선물인버스(H)",
+      "price": 1792.0,
+      "change_rate": 4.37,
+      "three_month_return": -31.7297,
+      "volume": 4277174
     },
     {
-      "code": "0197W0",
-      "name": "SOL SK하이닉스단일종목레버리지",
-      "price": 9350.0,
-      "change_rate": 4.82,
-      "three_month_return": -68.2563,
-      "volume": 85755
+      "code": "217770",
+      "name": "TIGER 원유선물인버스(H)",
+      "price": 1128.0,
+      "change_rate": 4.25,
+      "three_month_return": -33.0446,
+      "volume": 507820
+    },
+    {
+      "code": "0173Y0",
+      "name": "KODEX 미국AI광통신네트워크",
+      "price": 11045.0,
+      "change_rate": 4.1,
+      "three_month_return": -27.3901,
+      "volume": 606486
     }
   ]
 }
