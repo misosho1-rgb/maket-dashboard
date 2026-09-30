@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-30T01:06:22.990778+00:00",
+  "generated_at": "2026-09-30T01:37:05.457287+00:00",
   "items": [
     {
-      "code": "0195S0",
-      "name": "TIGER SK하이닉스단일종목레버리지",
-      "price": 9550.0,
-      "change_rate": 5.47,
-      "three_month_return": -68.2448,
-      "volume": 3331658
+      "code": "0192L0",
+      "name": "RISE SK하이닉스단일종목레버리지",
+      "price": 9765.0,
+      "change_rate": 5.45,
+      "three_month_return": -67.1515,
+      "volume": 33090
+    },
+    {
+      "code": "0215T0",
+      "name": "HANARO 미국AI광통신TOP10",
+      "price": 9185.0,
+      "change_rate": 4.97,
+      "three_month_return": 0.0,
+      "volume": 4810
     },
     {
       "code": "0198D0",
       "name": "1Q SK하이닉스선물단일종목레버리지",
-      "price": 9940.0,
-      "change_rate": 5.46,
+      "price": 9885.0,
+      "change_rate": 4.88,
       "three_month_return": -68.5204,
-      "volume": 7235
+      "volume": 7281
     },
     {
       "code": "0197W0",
       "name": "SOL SK하이닉스단일종목레버리지",
-      "price": 9400.0,
-      "change_rate": 5.38,
+      "price": 9350.0,
+      "change_rate": 4.82,
       "three_month_return": -68.2563,
-      "volume": 82366
-    },
-    {
-      "code": "0194T0",
-      "name": "ACE SK하이닉스단일종목레버리지",
-      "price": 9565.0,
-      "change_rate": 5.34,
-      "three_month_return": -67.9096,
-      "volume": 37542
+      "volume": 85755
     }
   ]
 }
