@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-09-29T23:34:58.748368+00:00",
+  "generated_at": "2026-09-30T00:04:55.564778+00:00",
   "items": [
+    {
+      "stock": "삼성전자",
+      "title": "HBM 시장 침투 준비 완료",
+      "firm": "신한투자증권",
+      "date": "2026.09.30",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96383&page=1"
+    },
+    {
+      "stock": "SK하이닉스",
+      "title": "흔들림 없는 실적 우상향",
+      "firm": "신한투자증권",
+      "date": "2026.09.30",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96384&page=1"
+    },
     {
       "stock": "삼성전자",
       "title": "긴 호흡으로",
@@ -56,20 +70,6 @@
       "firm": "삼성증권",
       "date": "2026.09.23",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96303&page=1"
-    },
-    {
-      "stock": "삼성전자",
-      "title": "Beyond the cycle",
-      "firm": "대신증권",
-      "date": "2026.09.22",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96282&page=1"
-    },
-    {
-      "stock": "LG에너지솔루션",
-      "title": "원-달러 환율 하락에도 실적 개선세 지속",
-      "firm": "iM증권",
-      "date": "2026.09.21",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96252&page=1"
     }
   ]
 }
