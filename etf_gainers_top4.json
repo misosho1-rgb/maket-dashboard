@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-01T02:39:04.409060+00:00",
+  "generated_at": "2026-10-01T03:04:18.377436+00:00",
   "items": [
     {
       "code": "0184V0",
       "name": "UNICORN K바이오액티브",
-      "price": 5625.0,
-      "change_rate": 8.49,
+      "price": 5640.0,
+      "change_rate": 8.78,
       "three_month_return": -31.5964,
-      "volume": 32687
+      "volume": 41201
     },
     {
       "code": "0229F0",
       "name": "마이티 신약포커스바이오액티브",
-      "price": 8550.0,
-      "change_rate": 7.55,
+      "price": 8565.0,
+      "change_rate": 7.74,
       "three_month_return": 0.0,
-      "volume": 3195
+      "volume": 3230
     },
     {
       "code": "233160",
       "name": "TIGER 코스닥150 레버리지",
-      "price": 8630.0,
-      "change_rate": 7.01,
+      "price": 8620.0,
+      "change_rate": 6.88,
       "three_month_return": -31.7971,
-      "volume": 1928296
+      "volume": 2009259
     },
     {
-      "code": "233740",
-      "name": "KODEX 코스닥150레버리지",
-      "price": 7795.0,
-      "change_rate": 6.85,
-      "three_month_return": -32.0448,
-      "volume": 47147553
+      "code": "306530",
+      "name": "HANARO 코스닥150선물레버리지",
+      "price": 7865.0,
+      "change_rate": 6.86,
+      "three_month_return": -31.6303,
+      "volume": 30312
     }
   ]
 }
