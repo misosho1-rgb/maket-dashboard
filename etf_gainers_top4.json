@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-01T01:06:49.393840+00:00",
+  "generated_at": "2026-10-01T01:37:38.150892+00:00",
   "items": [
     {
-      "code": "0239Z0",
-      "name": "PLUS AI반도체소부장액티브",
-      "price": 12230.0,
-      "change_rate": 4.49,
-      "three_month_return": 0.0,
-      "volume": 356193
+      "code": "0184V0",
+      "name": "UNICORN K바이오액티브",
+      "price": 5605.0,
+      "change_rate": 8.1,
+      "three_month_return": -31.5964,
+      "volume": 13175
     },
     {
-      "code": "464920",
-      "name": "PLUS 일본반도체소부장",
-      "price": 25570.0,
-      "change_rate": 4.03,
-      "three_month_return": -21.9435,
-      "volume": 5527
+      "code": "233160",
+      "name": "TIGER 코스닥150 레버리지",
+      "price": 8580.0,
+      "change_rate": 6.39,
+      "three_month_return": -31.7971,
+      "volume": 1414157
     },
     {
-      "code": "475300",
-      "name": "SOL 반도체전공정",
-      "price": 27215.0,
-      "change_rate": 3.87,
-      "three_month_return": -7.6001,
-      "volume": 1711995
+      "code": "306530",
+      "name": "HANARO 코스닥150선물레버리지",
+      "price": 7805.0,
+      "change_rate": 6.05,
+      "three_month_return": -31.6303,
+      "volume": 21651
     },
     {
-      "code": "494310",
-      "name": "KODEX 반도체레버리지",
-      "price": 99170.0,
-      "change_rate": 3.71,
-      "three_month_return": -45.7537,
-      "volume": 1601644
+      "code": "233740",
+      "name": "KODEX 코스닥150레버리지",
+      "price": 7730.0,
+      "change_rate": 5.96,
+      "three_month_return": -32.0448,
+      "volume": 34879394
     }
   ]
 }
