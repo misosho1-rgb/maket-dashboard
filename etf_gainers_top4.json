@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-01T23:02:41.251091+00:00",
+  "generated_at": "2026-10-01T23:36:19.171503+00:00",
   "items": [
     {
-      "code": "291630",
-      "name": "KIWOOM 코스닥150선물레버리지",
-      "price": 4125.0,
-      "change_rate": 11.49,
-      "three_month_return": -31.5449,
-      "volume": 146709
+      "code": "069500",
+      "name": "KODEX 200",
+      "price": 111520.0,
+      "change_rate": 0.0,
+      "three_month_return": -20.7927,
+      "volume": 0
     },
     {
-      "code": "306530",
-      "name": "HANARO 코스닥150선물레버리지",
-      "price": 8185.0,
-      "change_rate": 11.21,
-      "three_month_return": -31.6303,
-      "volume": 50840
+      "code": "360750",
+      "name": "TIGER 미국S&P500",
+      "price": 25965.0,
+      "change_rate": 0.0,
+      "three_month_return": -9.6085,
+      "volume": 0
     },
     {
-      "code": "278240",
-      "name": "RISE 코스닥150선물레버리지",
-      "price": 9155.0,
-      "change_rate": 10.9,
-      "three_month_return": -31.4654,
-      "volume": 222189
+      "code": "133690",
+      "name": "TIGER 미국나스닥100",
+      "price": 185655.0,
+      "change_rate": 0.0,
+      "three_month_return": -11.2062,
+      "volume": 0
     },
     {
-      "code": "494310",
-      "name": "KODEX 반도체레버리지",
-      "price": 105700.0,
-      "change_rate": 10.54,
-      "three_month_return": -45.7537,
-      "volume": 4360017
+      "code": "396500",
+      "name": "TIGER 반도체TOP10",
+      "price": 39950.0,
+      "change_rate": 0.0,
+      "three_month_return": -24.2508,
+      "volume": 0
     }
   ]
 }
