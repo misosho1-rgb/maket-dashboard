@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-01T00:47:04.172165+00:00",
+  "generated_at": "2026-10-01T01:06:49.393840+00:00",
   "items": [
     {
       "code": "0239Z0",
       "name": "PLUS AI반도체소부장액티브",
-      "price": 12310.0,
-      "change_rate": 5.17,
+      "price": 12230.0,
+      "change_rate": 4.49,
       "three_month_return": 0.0,
-      "volume": 268710
+      "volume": 356193
+    },
+    {
+      "code": "464920",
+      "name": "PLUS 일본반도체소부장",
+      "price": 25570.0,
+      "change_rate": 4.03,
+      "three_month_return": -21.9435,
+      "volume": 5527
     },
     {
       "code": "475300",
       "name": "SOL 반도체전공정",
-      "price": 27245.0,
-      "change_rate": 3.99,
+      "price": 27215.0,
+      "change_rate": 3.87,
       "three_month_return": -7.6001,
-      "volume": 1313892
+      "volume": 1711995
     },
     {
-      "code": "364990",
-      "name": "TIGER 게임TOP10",
-      "price": 4565.0,
-      "change_rate": 3.99,
-      "three_month_return": -12.1122,
-      "volume": 60133
-    },
-    {
-      "code": "476260",
-      "name": "HANARO 반도체핵심공정주도주",
-      "price": 15375.0,
-      "change_rate": 3.81,
-      "three_month_return": -15.0803,
-      "volume": 207619
+      "code": "494310",
+      "name": "KODEX 반도체레버리지",
+      "price": 99170.0,
+      "change_rate": 3.71,
+      "three_month_return": -45.7537,
+      "volume": 1601644
     }
   ]
 }

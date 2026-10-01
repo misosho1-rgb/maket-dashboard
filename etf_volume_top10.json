@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T00:47:04.172165+00:00",
+  "generated_at": "2026-10-01T01:06:49.393840+00:00",
   "items": [
     {
       "code": "252670",
@@ -7,31 +7,23 @@
       "price": 73.0,
       "change_rate": 1.39,
       "three_month_return": 4.3478,
-      "volume": 881983913
+      "volume": 1470967530
     },
     {
       "code": "114800",
       "name": "KODEX 인버스",
-      "price": 1006.0,
-      "change_rate": 0.8,
+      "price": 1003.0,
+      "change_rate": 0.5,
       "three_month_return": 10.643,
-      "volume": 174620221
+      "volume": 221344035
     },
     {
       "code": "462330",
       "name": "KODEX 2차전지산업레버리지",
-      "price": 986.0,
-      "change_rate": 0.31,
+      "price": 993.0,
+      "change_rate": 1.02,
       "three_month_return": -17.6027,
-      "volume": 24533293
-    },
-    {
-      "code": "233740",
-      "name": "KODEX 코스닥150레버리지",
-      "price": 7450.0,
-      "change_rate": 2.12,
-      "three_month_return": -32.0448,
-      "volume": 17760671
+      "volume": 29918371
     },
     {
       "code": "252710",
@@ -39,7 +31,15 @@
       "price": 80.0,
       "change_rate": 0.0,
       "three_month_return": 11.1111,
-      "volume": 17536549
+      "volume": 24022161
+    },
+    {
+      "code": "233740",
+      "name": "KODEX 코스닥150레버리지",
+      "price": 7480.0,
+      "change_rate": 2.54,
+      "three_month_return": -32.0448,
+      "volume": 21319478
     },
     {
       "code": "251340",
@@ -47,39 +47,39 @@
       "price": 2315.0,
       "change_rate": -1.07,
       "three_month_return": 4.2316,
-      "volume": 16272437
+      "volume": 20016368
     },
     {
       "code": "379810",
       "name": "KODEX 미국나스닥100",
-      "price": 27515.0,
-      "change_rate": 1.23,
+      "price": 27480.0,
+      "change_rate": 1.1,
       "three_month_return": -11.1694,
-      "volume": 5207385
+      "volume": 7865288
     },
     {
       "code": "229200",
       "name": "KODEX 코스닥150",
-      "price": 14635.0,
-      "change_rate": 1.25,
+      "price": 14660.0,
+      "change_rate": 1.42,
       "three_month_return": -12.7377,
-      "volume": 5061403
-    },
-    {
-      "code": "069500",
-      "name": "KODEX 200",
-      "price": 108765.0,
-      "change_rate": -0.71,
-      "three_month_return": -20.7927,
-      "volume": 4702778
+      "volume": 7506956
     },
     {
       "code": "102110",
       "name": "TIGER 200",
-      "price": 109055.0,
-      "change_rate": -0.77,
+      "price": 109505.0,
+      "change_rate": -0.36,
       "three_month_return": -20.6318,
-      "volume": 4113528
+      "volume": 6721116
+    },
+    {
+      "code": "069500",
+      "name": "KODEX 200",
+      "price": 109205.0,
+      "change_rate": -0.31,
+      "three_month_return": -20.7927,
+      "volume": 6424345
     }
   ]
 }
