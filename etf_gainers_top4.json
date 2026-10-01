@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-30T23:36:19.951452+00:00",
+  "generated_at": "2026-10-01T00:05:04.614880+00:00",
   "items": [
     {
-      "code": "069500",
-      "name": "KODEX 200",
-      "price": 109545.0,
-      "change_rate": 0.0,
-      "three_month_return": -19.2088,
-      "volume": 0
+      "code": "364990",
+      "name": "TIGER 게임TOP10",
+      "price": 4565.0,
+      "change_rate": 3.99,
+      "three_month_return": -12.1122,
+      "volume": 5296
     },
     {
-      "code": "360750",
-      "name": "TIGER 미국S&P500",
-      "price": 25825.0,
-      "change_rate": 0.0,
-      "three_month_return": -8.4971,
-      "volume": 0
+      "code": "0164G0",
+      "name": "RISE 차이나AI반도체TOP4Plus",
+      "price": 11835.0,
+      "change_rate": 3.45,
+      "three_month_return": -42.0467,
+      "volume": 22
     },
     {
-      "code": "133690",
-      "name": "TIGER 미국나스닥100",
-      "price": 181810.0,
-      "change_rate": 0.0,
-      "three_month_return": -9.4944,
-      "volume": 0
+      "code": "0197X0",
+      "name": "SOL SK하이닉스선물단일종목인버스2X",
+      "price": 6065.0,
+      "change_rate": 3.06,
+      "three_month_return": -19.2176,
+      "volume": 778688
     },
     {
-      "code": "379800",
-      "name": "KODEX 미국S&P500",
-      "price": 23470.0,
-      "change_rate": 0.0,
-      "three_month_return": -8.4575,
-      "volume": 0
+      "code": "300950",
+      "name": "KODEX 게임산업",
+      "price": 5375.0,
+      "change_rate": 2.97,
+      "three_month_return": -10.8455,
+      "volume": 2838
     }
   ]
 }
