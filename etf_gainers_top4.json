@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-02T03:04:47.561749+00:00",
+  "generated_at": "2026-10-02T03:39:44.583897+00:00",
   "items": [
-    {
-      "code": "0100K0",
-      "name": "KODEX 방산TOP10레버리지",
-      "price": 6235.0,
-      "change_rate": 5.68,
-      "three_month_return": -35.1649,
-      "volume": 466742
-    },
-    {
-      "code": "0207G0",
-      "name": "SOL 우주항공밸류체인",
-      "price": 8075.0,
-      "change_rate": 5.56,
-      "three_month_return": -2.6718,
-      "volume": 423686
-    },
     {
       "code": "0219B0",
       "name": "KoAct 광통신&위성네트워크액티브",
       "price": 13170.0,
       "change_rate": 5.53,
       "three_month_return": 0.0,
-      "volume": 355858
+      "volume": 377625
+    },
+    {
+      "code": "0100K0",
+      "name": "KODEX 방산TOP10레버리지",
+      "price": 6200.0,
+      "change_rate": 5.08,
+      "three_month_return": -35.1649,
+      "volume": 482734
+    },
+    {
+      "code": "0207G0",
+      "name": "SOL 우주항공밸류체인",
+      "price": 8035.0,
+      "change_rate": 5.03,
+      "three_month_return": -2.6718,
+      "volume": 429326
     },
     {
       "code": "0173Y0",
       "name": "KODEX 미국AI광통신네트워크",
-      "price": 11820.0,
-      "change_rate": 4.74,
+      "price": 11790.0,
+      "change_rate": 4.47,
       "three_month_return": -25.5952,
-      "volume": 906096
+      "volume": 941078
     }
   ]
 }
