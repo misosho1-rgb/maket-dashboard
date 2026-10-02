@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T00:04:51.074157+00:00",
+  "generated_at": "2026-10-02T00:45:24.507024+00:00",
   "items": [
     {
       "stock": "삼성전자",
@@ -7,6 +7,13 @@
       "firm": "IBK투자증권",
       "date": "2026.10.02",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96418&page=1"
+    },
+    {
+      "stock": "NAVER",
+      "title": "비용 압박은 하반기가 정점",
+      "firm": "한화투자증권",
+      "date": "2026.10.02",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96428&page=1"
     },
     {
       "stock": "NAVER",
@@ -63,13 +70,6 @@
       "firm": "대신증권",
       "date": "2026.09.28",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96327&page=1"
-    },
-    {
-      "stock": "셀트리온",
-      "title": "바이오시밀러 Golden Decade의 준비된 플레이어",
-      "firm": "메리츠증권",
-      "date": "2026.09.28",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96337&page=1"
     }
   ]
 }
