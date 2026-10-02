@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-01T23:36:19.171503+00:00",
+  "generated_at": "2026-10-02T00:04:44.619690+00:00",
   "items": [
     {
-      "code": "069500",
-      "name": "KODEX 200",
-      "price": 111520.0,
-      "change_rate": 0.0,
-      "three_month_return": -20.7927,
-      "volume": 0
+      "code": "0084E0",
+      "name": "KIWOOM 미국대형주500월간목표헤지액티브",
+      "price": 10570.0,
+      "change_rate": 6.98,
+      "three_month_return": -12.7996,
+      "volume": 2
     },
     {
-      "code": "360750",
-      "name": "TIGER 미국S&P500",
-      "price": 25965.0,
-      "change_rate": 0.0,
-      "three_month_return": -9.6085,
-      "volume": 0
+      "code": "0173Y0",
+      "name": "KODEX 미국AI광통신네트워크",
+      "price": 11730.0,
+      "change_rate": 3.94,
+      "three_month_return": -25.5952,
+      "volume": 45782
     },
     {
-      "code": "133690",
-      "name": "TIGER 미국나스닥100",
-      "price": 185655.0,
-      "change_rate": 0.0,
-      "three_month_return": -11.2062,
-      "volume": 0
+      "code": "261220",
+      "name": "KODEX WTI원유선물(H)",
+      "price": 27135.0,
+      "change_rate": 3.93,
+      "three_month_return": 34.6223,
+      "volume": 5668
     },
     {
-      "code": "396500",
-      "name": "TIGER 반도체TOP10",
-      "price": 39950.0,
-      "change_rate": 0.0,
-      "three_month_return": -24.2508,
-      "volume": 0
+      "code": "130680",
+      "name": "TIGER 원유선물Enhanced(H)",
+      "price": 7895.0,
+      "change_rate": 3.81,
+      "three_month_return": 34.2453,
+      "volume": 160
     }
   ]
 }
