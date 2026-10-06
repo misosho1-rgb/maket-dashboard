@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-10-06T23:03:18.572709+00:00",
+  "generated_at": "2026-10-06T23:37:51.182682+00:00",
   "items": [
+    {
+      "stock": "SK하이닉스",
+      "title": "실적에 수급을 더한다",
+      "firm": "IBK투자증권",
+      "date": "2026.10.07",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96468&page=1"
+    },
+    {
+      "stock": "삼성바이오로직스",
+      "title": "신규 공장이 채운 실적, 수주가 더할 모멘텀",
+      "firm": "IBK투자증권",
+      "date": "2026.10.07",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96470&page=1"
+    },
+    {
+      "stock": "NAVER",
+      "title": "기대 보단 우려가 더 컸던 3분기",
+      "firm": "유진투자증권",
+      "date": "2026.10.07",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96469&page=1"
+    },
     {
       "stock": "삼성전자",
       "title": "3Q26 Preview HBM이 만들고, 메모리가 이어간다",
@@ -49,27 +70,6 @@
       "firm": "SK증권",
       "date": "2026.10.06",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96440&page=1"
-    },
-    {
-      "stock": "NAVER",
-      "title": "핵심 성장 스토리 유지",
-      "firm": "교보증권",
-      "date": "2026.10.06",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96454&page=1"
-    },
-    {
-      "stock": "POSCO홀딩스",
-      "title": "안정적인 영업실적 달성 중",
-      "firm": "하나증권",
-      "date": "2026.10.06",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96450&page=1"
-    },
-    {
-      "stock": "카카오",
-      "title": "미래 전략 가시화 필요",
-      "firm": "한화투자증권",
-      "date": "2026.10.06",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96463&page=1"
     }
   ]
 }

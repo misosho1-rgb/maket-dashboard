@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-06T23:03:09.071025+00:00",
+  "generated_at": "2026-10-06T23:37:43.213578+00:00",
   "items": [
     {
-      "code": "482030",
-      "name": "KoAct 반도체&2차전지핵심소재액티브",
-      "price": 10475.0,
-      "change_rate": 4.02,
-      "three_month_return": 6.2236,
-      "volume": 67291
+      "code": "069500",
+      "name": "KODEX 200",
+      "price": 110745.0,
+      "change_rate": 0.0,
+      "three_month_return": -9.1026,
+      "volume": 0
     },
     {
-      "code": "488290",
-      "name": "MIDAS 일본테크액티브",
-      "price": 48570.0,
-      "change_rate": 3.79,
-      "three_month_return": -18.0186,
-      "volume": 2184
+      "code": "360750",
+      "name": "TIGER 미국S&P500",
+      "price": 25975.0,
+      "change_rate": 0.0,
+      "three_month_return": -10.5004,
+      "volume": 0
     },
     {
-      "code": "494310",
-      "name": "KODEX 반도체레버리지",
-      "price": 107115.0,
-      "change_rate": 2.96,
-      "three_month_return": -17.7485,
-      "volume": 3029528
+      "code": "133690",
+      "name": "TIGER 미국나스닥100",
+      "price": 185250.0,
+      "change_rate": 0.0,
+      "three_month_return": -10.3993,
+      "volume": 0
     },
     {
-      "code": "497570",
-      "name": "TIGER 미국필라델피아AI반도체나스닥",
-      "price": 23425.0,
-      "change_rate": 2.94,
-      "three_month_return": -12.396,
-      "volume": 304797
+      "code": "396500",
+      "name": "TIGER 반도체TOP10",
+      "price": 40110.0,
+      "change_rate": 0.0,
+      "three_month_return": -8.9977,
+      "volume": 0
     }
   ]
 }
