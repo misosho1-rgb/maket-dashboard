@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-05T23:35:35.299947+00:00",
+  "generated_at": "2026-10-06T00:05:10.182208+00:00",
   "items": [
     {
-      "code": "069500",
-      "name": "KODEX 200",
-      "price": 112060.0,
-      "change_rate": 0.0,
-      "three_month_return": -9.1026,
-      "volume": 0
+      "code": "105010",
+      "name": "TIGER 라틴35",
+      "price": 6605.0,
+      "change_rate": 8.37,
+      "three_month_return": -12.0151,
+      "volume": 1018
     },
     {
-      "code": "360750",
-      "name": "TIGER 미국S&P500",
-      "price": 25780.0,
-      "change_rate": 0.0,
-      "three_month_return": -10.5004,
-      "volume": 0
+      "code": "464920",
+      "name": "PLUS 일본반도체소부장",
+      "price": 27995.0,
+      "change_rate": 7.94,
+      "three_month_return": -13.5645,
+      "volume": 1426
     },
     {
-      "code": "133690",
-      "name": "TIGER 미국나스닥100",
-      "price": 183055.0,
-      "change_rate": 0.0,
-      "three_month_return": -10.3993,
-      "volume": 0
+      "code": "0227K0",
+      "name": "RISE 미국우주위성통신",
+      "price": 10060.0,
+      "change_rate": 6.17,
+      "three_month_return": 0.0,
+      "volume": 2802
     },
     {
-      "code": "396500",
-      "name": "TIGER 반도체TOP10",
-      "price": 39900.0,
-      "change_rate": 0.0,
-      "three_month_return": -8.9977,
-      "volume": 0
+      "code": "0207G0",
+      "name": "SOL 우주항공밸류체인",
+      "price": 8590.0,
+      "change_rate": 5.79,
+      "three_month_return": 14.4467,
+      "volume": 65555
     }
   ]
 }
