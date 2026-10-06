@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-06T00:05:17.178082+00:00",
+  "generated_at": "2026-10-06T00:48:34.189598+00:00",
   "items": [
+    {
+      "stock": "삼성전자",
+      "title": "3Q26 Preview HBM이 만들고, 메모리가 이어간다",
+      "firm": "교보증권",
+      "date": "2026.10.06",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96456&page=1"
+    },
     {
       "stock": "삼성전자",
       "title": "반도체 사상 첫 매출 천억불 달성",
@@ -24,10 +31,38 @@
     },
     {
       "stock": "삼성바이오로직스",
+      "title": "환율도 꺾지 못한 성장세 (3Q26 Preview)",
+      "firm": "하나증권",
+      "date": "2026.10.06",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96453&page=1"
+    },
+    {
+      "stock": "삼성바이오로직스",
+      "title": "환율 하락에도 견조한 흐름",
+      "firm": "유안타증권",
+      "date": "2026.10.06",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96446&page=1"
+    },
+    {
+      "stock": "삼성바이오로직스",
       "title": "3Q26 Pre: 파업과 환율 부담에도 컨센 부합",
       "firm": "SK증권",
       "date": "2026.10.06",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96440&page=1"
+    },
+    {
+      "stock": "NAVER",
+      "title": "핵심 성장 스토리 유지",
+      "firm": "교보증권",
+      "date": "2026.10.06",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96454&page=1"
+    },
+    {
+      "stock": "POSCO홀딩스",
+      "title": "안정적인 영업실적 달성 중",
+      "firm": "하나증권",
+      "date": "2026.10.06",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96450&page=1"
     },
     {
       "stock": "삼성전자",
@@ -35,41 +70,6 @@
       "firm": "IBK투자증권",
       "date": "2026.10.02",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96418&page=1"
-    },
-    {
-      "stock": "NAVER",
-      "title": "비용 압박은 하반기가 정점",
-      "firm": "한화투자증권",
-      "date": "2026.10.02",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96428&page=1"
-    },
-    {
-      "stock": "NAVER",
-      "title": "모든 우려가 반영된 주가, 기회로 삼자",
-      "firm": "하나증권",
-      "date": "2026.10.02",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96425&page=1"
-    },
-    {
-      "stock": "삼성전자",
-      "title": "견조한 실적에 HBM이 가세",
-      "firm": "하나증권",
-      "date": "2026.10.01",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96409&page=1"
-    },
-    {
-      "stock": "POSCO홀딩스",
-      "title": "철강은 개선, 연결은 숨고르기",
-      "firm": "신한투자증권",
-      "date": "2026.10.01",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96403&page=1"
-    },
-    {
-      "stock": "삼성전자",
-      "title": "HBM 시장 침투 준비 완료",
-      "firm": "신한투자증권",
-      "date": "2026.09.30",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96383&page=1"
     }
   ]
 }

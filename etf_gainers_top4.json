@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-06T00:05:10.182208+00:00",
+  "generated_at": "2026-10-06T00:48:24.524075+00:00",
   "items": [
     {
       "code": "105010",
       "name": "TIGER 라틴35",
-      "price": 6605.0,
-      "change_rate": 8.37,
+      "price": 6640.0,
+      "change_rate": 8.94,
       "three_month_return": -12.0151,
-      "volume": 1018
+      "volume": 12091
     },
     {
-      "code": "464920",
-      "name": "PLUS 일본반도체소부장",
-      "price": 27995.0,
-      "change_rate": 7.94,
-      "three_month_return": -13.5645,
-      "volume": 1426
+      "code": "278240",
+      "name": "RISE 코스닥150선물레버리지",
+      "price": 9590.0,
+      "change_rate": 6.03,
+      "three_month_return": -13.9392,
+      "volume": 70624
     },
     {
       "code": "0227K0",
       "name": "RISE 미국우주위성통신",
-      "price": 10060.0,
-      "change_rate": 6.17,
+      "price": 10040.0,
+      "change_rate": 5.96,
       "three_month_return": 0.0,
-      "volume": 2802
+      "volume": 25118
     },
     {
-      "code": "0207G0",
-      "name": "SOL 우주항공밸류체인",
-      "price": 8590.0,
-      "change_rate": 5.79,
-      "three_month_return": 14.4467,
-      "volume": 65555
+      "code": "0083S0",
+      "name": "1Q 미국메디컬AI",
+      "price": 12445.0,
+      "change_rate": 5.91,
+      "three_month_return": 0.417,
+      "volume": 16293
     }
   ]
 }
