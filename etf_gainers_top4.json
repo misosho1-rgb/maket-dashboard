@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-06T01:06:32.995084+00:00",
+  "generated_at": "2026-10-06T01:37:30.531901+00:00",
   "items": [
     {
       "code": "105010",
       "name": "TIGER 라틴35",
-      "price": 6640.0,
-      "change_rate": 8.94,
+      "price": 6650.0,
+      "change_rate": 9.11,
       "three_month_return": -12.0151,
-      "volume": 14212
-    },
-    {
-      "code": "306530",
-      "name": "HANARO 코스닥150선물레버리지",
-      "price": 8580.0,
-      "change_rate": 6.72,
-      "three_month_return": -13.8264,
-      "volume": 29701
+      "volume": 15330
     },
     {
       "code": "278240",
       "name": "RISE 코스닥150선물레버리지",
-      "price": 9605.0,
-      "change_rate": 6.19,
+      "price": 9750.0,
+      "change_rate": 7.79,
       "three_month_return": -13.9392,
-      "volume": 75028
+      "volume": 80087
     },
     {
-      "code": "233740",
-      "name": "KODEX 코스닥150레버리지",
-      "price": 8515.0,
-      "change_rate": 5.97,
-      "three_month_return": -13.7876,
-      "volume": 32291215
+      "code": "306530",
+      "name": "HANARO 코스닥150선물레버리지",
+      "price": 8665.0,
+      "change_rate": 7.77,
+      "three_month_return": -13.8264,
+      "volume": 33586
+    },
+    {
+      "code": "462330",
+      "name": "KODEX 2차전지산업레버리지",
+      "price": 1150.0,
+      "change_rate": 7.38,
+      "three_month_return": -0.6494,
+      "volume": 44015495
     }
   ]
 }
