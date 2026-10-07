@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-07T23:03:04.781427+00:00",
+  "generated_at": "2026-10-07T23:37:05.708794+00:00",
   "items": [
     {
-      "code": "486450",
-      "name": "SOL 미국AI전력인프라",
-      "price": 19435.0,
-      "change_rate": 3.32,
-      "three_month_return": -20.5156,
-      "volume": 111331
+      "code": "069500",
+      "name": "KODEX 200",
+      "price": 108550.0,
+      "change_rate": 0.0,
+      "three_month_return": -14.7221,
+      "volume": 0
     },
     {
-      "code": "463640",
-      "name": "KODEX 미국S&P500유틸리티",
-      "price": 12940.0,
-      "change_rate": 2.94,
-      "three_month_return": -21.9189,
-      "volume": 8862
+      "code": "360750",
+      "name": "TIGER 미국S&P500",
+      "price": 26025.0,
+      "change_rate": 0.0,
+      "three_month_return": -8.8128,
+      "volume": 0
     },
     {
-      "code": "487230",
-      "name": "KODEX 미국AI전력핵심인프라",
-      "price": 20625.0,
-      "change_rate": 2.71,
-      "three_month_return": -21.3803,
-      "volume": 1115328
+      "code": "133690",
+      "name": "TIGER 미국나스닥100",
+      "price": 185285.0,
+      "change_rate": 0.0,
+      "three_month_return": -7.5076,
+      "volume": 0
     },
     {
-      "code": "475050",
-      "name": "ACE KPOP포커스",
-      "price": 6810.0,
-      "change_rate": 2.71,
-      "three_month_return": -15.7561,
-      "volume": 1584458
+      "code": "379800",
+      "name": "KODEX 미국S&P500",
+      "price": 23655.0,
+      "change_rate": 0.0,
+      "three_month_return": -8.8466,
+      "volume": 0
     }
   ]
 }

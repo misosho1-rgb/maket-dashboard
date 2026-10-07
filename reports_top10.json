@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-07T23:03:11.735041+00:00",
+  "generated_at": "2026-10-07T23:37:14.098467+00:00",
   "items": [
+    {
+      "stock": "LG에너지솔루션",
+      "title": "회복의 이유가 더 많아졌다",
+      "firm": "신한투자증권",
+      "date": "2026.10.08",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96525&page=1"
+    },
     {
       "stock": "삼성전자",
       "title": "주인공은 HBM으로 바뀐다",
@@ -63,13 +70,6 @@
       "firm": "미래에셋증권",
       "date": "2026.10.06",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96445&page=1"
-    },
-    {
-      "stock": "삼성바이오로직스",
-      "title": "환율도 꺾지 못한 성장세 (3Q26 Preview)",
-      "firm": "하나증권",
-      "date": "2026.10.06",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96453&page=1"
     }
   ]
 }

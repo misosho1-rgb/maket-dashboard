@@ -1,85 +1,85 @@
 {
-  "generated_at": "2026-10-07T23:03:04.781427+00:00",
+  "generated_at": "2026-10-07T23:37:05.708794+00:00",
   "items": [
     {
-      "code": "462330",
-      "name": "KODEX 2차전지산업레버리지",
-      "price": 1150.0,
-      "change_rate": -4.17,
-      "three_month_return": 15.942,
-      "volume": 85322583
+      "code": "069500",
+      "name": "KODEX 200",
+      "price": 108550.0,
+      "change_rate": 0.0,
+      "three_month_return": -14.7221,
+      "volume": 0
     },
     {
-      "code": "498400",
-      "name": "KODEX 200타겟위클리커버드콜",
-      "price": 20285.0,
-      "change_rate": -1.86,
-      "three_month_return": -14.3175,
-      "volume": 7293616
+      "code": "360750",
+      "name": "TIGER 미국S&P500",
+      "price": 26025.0,
+      "change_rate": 0.0,
+      "three_month_return": -8.8128,
+      "volume": 0
     },
     {
-      "code": "487240",
-      "name": "KODEX AI전력핵심설비",
-      "price": 35525.0,
-      "change_rate": -5.18,
-      "three_month_return": -6.7166,
-      "volume": 5586090
+      "code": "133690",
+      "name": "TIGER 미국나스닥100",
+      "price": 185285.0,
+      "change_rate": 0.0,
+      "three_month_return": -7.5076,
+      "volume": 0
     },
     {
-      "code": "455850",
-      "name": "SOL AI반도체소부장",
-      "price": 30310.0,
-      "change_rate": -5.37,
-      "three_month_return": 25.7804,
-      "volume": 4628708
+      "code": "379800",
+      "name": "KODEX 미국S&P500",
+      "price": 23655.0,
+      "change_rate": 0.0,
+      "three_month_return": -8.8466,
+      "volume": 0
     },
     {
-      "code": "462010",
-      "name": "TIGER 2차전지소재Fn",
-      "price": 5135.0,
-      "change_rate": -4.2,
-      "three_month_return": 11.3187,
-      "volume": 4093358
+      "code": "488770",
+      "name": "KODEX 머니마켓액티브",
+      "price": 105750.0,
+      "change_rate": 0.0,
+      "three_month_return": 0.8633,
+      "volume": 0
     },
     {
-      "code": "488080",
-      "name": "TIGER 반도체TOP10레버리지",
-      "price": 38605.0,
-      "change_rate": -4.9,
-      "three_month_return": -33.9973,
-      "volume": 3818496
+      "code": "379810",
+      "name": "KODEX 미국나스닥100",
+      "price": 27710.0,
+      "change_rate": 0.0,
+      "three_month_return": -7.4327,
+      "volume": 0
     },
     {
-      "code": "472150",
-      "name": "TIGER 배당커버드콜액티브",
-      "price": 19950.0,
-      "change_rate": -1.63,
-      "three_month_return": -14.5562,
-      "volume": 3500756
+      "code": "396500",
+      "name": "TIGER 반도체TOP10",
+      "price": 38875.0,
+      "change_rate": 0.0,
+      "three_month_return": -9.8652,
+      "volume": 0
     },
     {
-      "code": "494310",
-      "name": "KODEX 반도체레버리지",
-      "price": 98400.0,
-      "change_rate": -8.14,
-      "three_month_return": -20.2242,
-      "volume": 2937061
+      "code": "102110",
+      "name": "TIGER 200",
+      "price": 108885.0,
+      "change_rate": 0.0,
+      "three_month_return": -14.5276,
+      "volume": 0
     },
     {
-      "code": "475300",
-      "name": "SOL 반도체전공정",
-      "price": 26515.0,
-      "change_rate": -7.13,
-      "three_month_return": 20.3625,
-      "volume": 2794963
+      "code": "278530",
+      "name": "KODEX 200TR",
+      "price": 39330.0,
+      "change_rate": 0.0,
+      "three_month_return": -14.4425,
+      "volume": 0
     },
     {
-      "code": "471990",
-      "name": "KODEX AI반도체핵심장비",
-      "price": 30485.0,
-      "change_rate": -5.56,
-      "three_month_return": 33.0448,
-      "volume": 2510191
+      "code": "459580",
+      "name": "KODEX CD금리액티브(합성)",
+      "price": 1074240.0,
+      "change_rate": 0.0,
+      "three_month_return": 0.7402,
+      "volume": 0
     }
   ]
 }
