@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-07T01:39:56.783782+00:00",
+  "generated_at": "2026-10-07T02:05:22.225234+00:00",
   "items": [
     {
       "code": "0051G0",
       "name": "SOL 미국원자력SMR",
-      "price": 12530.0,
-      "change_rate": 7.19,
+      "price": 12515.0,
+      "change_rate": 7.06,
       "three_month_return": -21.2795,
-      "volume": 46643
+      "volume": 49217
     },
     {
       "code": "0155M0",
       "name": "ACE 미국SMR원자력TOP10",
-      "price": 6420.0,
-      "change_rate": 6.29,
+      "price": 6400.0,
+      "change_rate": 5.96,
       "three_month_return": -26.1163,
-      "volume": 18077
+      "volume": 27016
     },
     {
       "code": "0132H0",
       "name": "KODEX 미국원자력SMR",
-      "price": 7280.0,
-      "change_rate": 5.35,
+      "price": 7275.0,
+      "change_rate": 5.28,
       "three_month_return": -30.0608,
-      "volume": 72683
+      "volume": 74549
     },
     {
       "code": "0123G0",
       "name": "TIGER 미국AI전력SMR",
-      "price": 6155.0,
-      "change_rate": 5.03,
+      "price": 6150.0,
+      "change_rate": 4.95,
       "three_month_return": -24.4359,
-      "volume": 182737
+      "volume": 191738
     }
   ]
 }

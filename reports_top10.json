@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-07T01:40:04.263790+00:00",
+  "generated_at": "2026-10-07T02:05:30.477293+00:00",
   "items": [
+    {
+      "stock": "삼성전자",
+      "title": "주인공은 HBM으로 바뀐다",
+      "firm": "한화투자증권",
+      "date": "2026.10.07",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96513&page=1"
+    },
     {
       "stock": "SK하이닉스",
       "title": "실적에 수급을 더한다",
@@ -63,13 +70,6 @@
       "firm": "하나증권",
       "date": "2026.10.06",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96453&page=1"
-    },
-    {
-      "stock": "삼성바이오로직스",
-      "title": "환율 하락에도 견조한 흐름",
-      "firm": "유안타증권",
-      "date": "2026.10.06",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96446&page=1"
     }
   ]
 }
