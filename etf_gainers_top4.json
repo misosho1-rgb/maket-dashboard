@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-07T05:05:39.893256+00:00",
+  "generated_at": "2026-10-07T05:39:44.692340+00:00",
   "items": [
     {
       "code": "0051G0",
       "name": "SOL 미국원자력SMR",
-      "price": 12415.0,
-      "change_rate": 6.2,
+      "price": 12395.0,
+      "change_rate": 6.03,
       "three_month_return": -21.2795,
-      "volume": 259252
+      "volume": 291601
     },
     {
       "code": "0155M0",
       "name": "ACE 미국SMR원자력TOP10",
-      "price": 6390.0,
-      "change_rate": 5.79,
+      "price": 6385.0,
+      "change_rate": 5.71,
       "three_month_return": -26.1163,
-      "volume": 35564
+      "volume": 46228
     },
     {
       "code": "0197X0",
       "name": "SOL SK하이닉스선물단일종목인버스2X",
-      "price": 6160.0,
-      "change_rate": 4.85,
+      "price": 6190.0,
+      "change_rate": 5.36,
       "three_month_return": -29.7669,
-      "volume": 15839409
+      "volume": 16542865
     },
     {
       "code": "0008T0",
       "name": "SOL 화장품TOP3플러스",
-      "price": 17410.0,
-      "change_rate": 4.47,
+      "price": 17390.0,
+      "change_rate": 4.35,
       "three_month_return": 11.0259,
-      "volume": 1980572
+      "volume": 2021680
     }
   ]
 }
