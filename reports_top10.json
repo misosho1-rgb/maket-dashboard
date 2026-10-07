@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T00:05:24.333757+00:00",
+  "generated_at": "2026-10-07T00:49:37.213455+00:00",
   "items": [
     {
       "stock": "SK하이닉스",
@@ -7,6 +7,13 @@
       "firm": "IBK투자증권",
       "date": "2026.10.07",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96468&page=1"
+    },
+    {
+      "stock": "삼성바이오로직스",
+      "title": "단기 부담에도 컨센서스 부합 기대",
+      "firm": "대신증권",
+      "date": "2026.10.07",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96486&page=1"
     },
     {
       "stock": "삼성바이오로직스",
@@ -63,13 +70,6 @@
       "firm": "유안타증권",
       "date": "2026.10.06",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96446&page=1"
-    },
-    {
-      "stock": "삼성바이오로직스",
-      "title": "3Q26 Pre: 파업과 환율 부담에도 컨센 부합",
-      "firm": "SK증권",
-      "date": "2026.10.06",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96440&page=1"
     }
   ]
 }
