@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-06T23:37:43.213578+00:00",
+  "generated_at": "2026-10-07T00:05:15.832733+00:00",
   "items": [
     {
-      "code": "069500",
-      "name": "KODEX 200",
-      "price": 110745.0,
-      "change_rate": 0.0,
-      "three_month_return": -9.1026,
-      "volume": 0
+      "code": "0051G0",
+      "name": "SOL 미국원자력SMR",
+      "price": 12535.0,
+      "change_rate": 7.23,
+      "three_month_return": -21.2795,
+      "volume": 9229
     },
     {
-      "code": "360750",
-      "name": "TIGER 미국S&P500",
-      "price": 25975.0,
-      "change_rate": 0.0,
-      "three_month_return": -10.5004,
-      "volume": 0
+      "code": "0155M0",
+      "name": "ACE 미국SMR원자력TOP10",
+      "price": 6390.0,
+      "change_rate": 5.79,
+      "three_month_return": -26.1163,
+      "volume": 4481
     },
     {
-      "code": "133690",
-      "name": "TIGER 미국나스닥100",
-      "price": 185250.0,
-      "change_rate": 0.0,
-      "three_month_return": -10.3993,
-      "volume": 0
+      "code": "0123G0",
+      "name": "TIGER 미국AI전력SMR",
+      "price": 6165.0,
+      "change_rate": 5.2,
+      "three_month_return": -24.4359,
+      "volume": 66075
     },
     {
-      "code": "396500",
-      "name": "TIGER 반도체TOP10",
-      "price": 40110.0,
-      "change_rate": 0.0,
-      "three_month_return": -8.9977,
-      "volume": 0
+      "code": "0132H0",
+      "name": "KODEX 미국원자력SMR",
+      "price": 7260.0,
+      "change_rate": 5.07,
+      "three_month_return": -30.0608,
+      "volume": 18444
     }
   ]
 }
