@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-08T00:04:50.166640+00:00",
+  "generated_at": "2026-10-08T00:49:43.882901+00:00",
   "items": [
     {
       "code": "412570",
       "name": "TIGER 2차전지TOP10레버리지",
-      "price": 1369.0,
-      "change_rate": 4.98,
+      "price": 1415.0,
+      "change_rate": 8.51,
       "three_month_return": 18.8696,
-      "volume": 1579475
+      "volume": 7817532
     },
     {
       "code": "462330",
       "name": "KODEX 2차전지산업레버리지",
-      "price": 1195.0,
-      "change_rate": 3.91,
+      "price": 1243.0,
+      "change_rate": 8.09,
       "three_month_return": 17.1079,
-      "volume": 6891760
+      "volume": 57227045
     },
     {
-      "code": "449690",
-      "name": "TIGER 한중반도체(합성)",
-      "price": 49415.0,
-      "change_rate": 2.68,
-      "three_month_return": -22.1468,
-      "volume": 1
+      "code": "476260",
+      "name": "HANARO 반도체핵심공정주도주",
+      "price": 15660.0,
+      "change_rate": 4.43,
+      "three_month_return": 8.8961,
+      "volume": 188918
     },
     {
-      "code": "0238F0",
-      "name": "KODEX 미국AI메모리TOP2플러스",
-      "price": 10475.0,
-      "change_rate": 2.44,
-      "three_month_return": 0.0,
-      "volume": 10838
+      "code": "305540",
+      "name": "TIGER 2차전지테마",
+      "price": 20722.0,
+      "change_rate": 4.29,
+      "three_month_return": 15.155,
+      "volume": 535966
     }
   ]
 }

@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-08T00:04:57.050161+00:00",
+  "generated_at": "2026-10-08T00:49:53.368852+00:00",
   "items": [
+    {
+      "stock": "SK하이닉스",
+      "title": "증명의 시간",
+      "firm": "유진투자증권",
+      "date": "2026.10.08",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96537&page=1"
+    },
     {
       "stock": "LG에너지솔루션",
       "title": "회복의 이유가 더 많아졌다",
@@ -63,13 +70,6 @@
       "firm": "SK증권",
       "date": "2026.10.06",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96443&page=1"
-    },
-    {
-      "stock": "SK하이닉스",
-      "title": "작은 의심들까지 모두 소화했다",
-      "firm": "미래에셋증권",
-      "date": "2026.10.06",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96445&page=1"
     }
   ]
 }
