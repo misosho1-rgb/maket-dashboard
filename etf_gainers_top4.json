@@ -1,29 +1,21 @@
 {
-  "generated_at": "2026-10-08T04:05:31.400669+00:00",
+  "generated_at": "2026-10-08T04:41:14.999906+00:00",
   "items": [
     {
-      "code": "253160",
-      "name": "PLUS 200선물인버스2X",
-      "price": 156.0,
-      "change_rate": 5.41,
-      "three_month_return": -15.4286,
-      "volume": 1390115
+      "code": "476260",
+      "name": "HANARO 반도체핵심공정주도주",
+      "price": 15735.0,
+      "change_rate": 4.93,
+      "three_month_return": 8.8961,
+      "volume": 497740
     },
     {
-      "code": "252420",
-      "name": "RISE 200선물인버스2X",
-      "price": 82.0,
-      "change_rate": 5.13,
-      "three_month_return": -10.3449,
-      "volume": 1212297
-    },
-    {
-      "code": "252710",
-      "name": "TIGER 200선물인버스2X",
-      "price": 84.0,
-      "change_rate": 5.0,
-      "three_month_return": -9.091,
-      "volume": 136852388
+      "code": "475300",
+      "name": "SOL 반도체전공정",
+      "price": 27715.0,
+      "change_rate": 4.53,
+      "three_month_return": 18.5027,
+      "volume": 2377477
     },
     {
       "code": "252670",
@@ -31,7 +23,15 @@
       "price": 76.0,
       "change_rate": 4.11,
       "three_month_return": -13.0953,
-      "volume": 4577349103
+      "volume": 4820115701
+    },
+    {
+      "code": "253160",
+      "name": "PLUS 200선물인버스2X",
+      "price": 154.0,
+      "change_rate": 4.05,
+      "three_month_return": -15.4286,
+      "volume": 1428796
     }
   ]
 }
