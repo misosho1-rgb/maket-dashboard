@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T02:05:29.437200+00:00",
+  "generated_at": "2026-10-08T02:38:50.126797+00:00",
   "items": [
     {
       "stock": "SK하이닉스",
@@ -21,6 +21,20 @@
       "firm": "교보증권",
       "date": "2026.10.08",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96561&page=1"
+    },
+    {
+      "stock": "현대차",
+      "title": "실적 부진의 깊이는 실적 반등의 강도로",
+      "firm": "한화투자증권",
+      "date": "2026.10.08",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96571&page=1"
+    },
+    {
+      "stock": "기아",
+      "title": "물량 확대는 증익으로 귀결",
+      "firm": "한화투자증권",
+      "date": "2026.10.08",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96570&page=1"
     },
     {
       "stock": "삼성SDI",
@@ -56,20 +70,6 @@
       "firm": "IBK투자증권",
       "date": "2026.10.07",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96470&page=1"
-    },
-    {
-      "stock": "NAVER",
-      "title": "기대 보단 우려가 더 컸던 3분기",
-      "firm": "유진투자증권",
-      "date": "2026.10.07",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96469&page=1"
-    },
-    {
-      "stock": "삼성전자",
-      "title": "3Q26 Preview HBM이 만들고, 메모리가 이어간다",
-      "firm": "교보증권",
-      "date": "2026.10.06",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96456&page=1"
     }
   ]
 }
