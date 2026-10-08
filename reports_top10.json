@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T01:40:02.133924+00:00",
+  "generated_at": "2026-10-08T02:05:29.437200+00:00",
   "items": [
     {
       "stock": "SK하이닉스",
@@ -14,6 +14,20 @@
       "firm": "신한투자증권",
       "date": "2026.10.08",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96525&page=1"
+    },
+    {
+      "stock": "삼성바이오로직스",
+      "title": "3Q26 Preview: 수주 재개 기대, 환율 하락에도 컨센 부합",
+      "firm": "교보증권",
+      "date": "2026.10.08",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96561&page=1"
+    },
+    {
+      "stock": "삼성SDI",
+      "title": "본업 흑자를 확인할 3분기",
+      "firm": "DS투자증권",
+      "date": "2026.10.08",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96564&page=1"
     },
     {
       "stock": "삼성전자",
@@ -56,20 +70,6 @@
       "firm": "교보증권",
       "date": "2026.10.06",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96456&page=1"
-    },
-    {
-      "stock": "삼성전자",
-      "title": "반도체 사상 첫 매출 천억불 달성",
-      "firm": "미래에셋증권",
-      "date": "2026.10.06",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96444&page=1"
-    },
-    {
-      "stock": "삼성전자",
-      "title": "현저한 저평가",
-      "firm": "SK증권",
-      "date": "2026.10.06",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96443&page=1"
     }
   ]
 }
