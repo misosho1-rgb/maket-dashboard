@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-08T03:41:00.520504+00:00",
+  "generated_at": "2026-10-08T04:05:31.400669+00:00",
   "items": [
-    {
-      "code": "252670",
-      "name": "KODEX 200선물인버스2X",
-      "price": 77.0,
-      "change_rate": 5.48,
-      "three_month_return": -13.0953,
-      "volume": 4233743597
-    },
-    {
-      "code": "476260",
-      "name": "HANARO 반도체핵심공정주도주",
-      "price": 15620.0,
-      "change_rate": 4.17,
-      "three_month_return": 8.8961,
-      "volume": 422877
-    },
-    {
-      "code": "253230",
-      "name": "KIWOOM 200선물인버스2X",
-      "price": 77.0,
-      "change_rate": 4.05,
-      "three_month_return": -9.7561,
-      "volume": 3443276
-    },
     {
       "code": "253160",
       "name": "PLUS 200선물인버스2X",
-      "price": 154.0,
-      "change_rate": 4.05,
+      "price": 156.0,
+      "change_rate": 5.41,
       "three_month_return": -15.4286,
-      "volume": 1146930
+      "volume": 1390115
+    },
+    {
+      "code": "252420",
+      "name": "RISE 200선물인버스2X",
+      "price": 82.0,
+      "change_rate": 5.13,
+      "three_month_return": -10.3449,
+      "volume": 1212297
+    },
+    {
+      "code": "252710",
+      "name": "TIGER 200선물인버스2X",
+      "price": 84.0,
+      "change_rate": 5.0,
+      "three_month_return": -9.091,
+      "volume": 136852388
+    },
+    {
+      "code": "252670",
+      "name": "KODEX 200선물인버스2X",
+      "price": 76.0,
+      "change_rate": 4.11,
+      "three_month_return": -13.0953,
+      "volume": 4577349103
     }
   ]
 }
