@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-07T23:37:05.708794+00:00",
+  "generated_at": "2026-10-08T00:04:50.166640+00:00",
   "items": [
     {
-      "code": "069500",
-      "name": "KODEX 200",
-      "price": 108550.0,
-      "change_rate": 0.0,
-      "three_month_return": -14.7221,
-      "volume": 0
+      "code": "412570",
+      "name": "TIGER 2차전지TOP10레버리지",
+      "price": 1369.0,
+      "change_rate": 4.98,
+      "three_month_return": 18.8696,
+      "volume": 1579475
     },
     {
-      "code": "360750",
-      "name": "TIGER 미국S&P500",
-      "price": 26025.0,
-      "change_rate": 0.0,
-      "three_month_return": -8.8128,
-      "volume": 0
+      "code": "462330",
+      "name": "KODEX 2차전지산업레버리지",
+      "price": 1195.0,
+      "change_rate": 3.91,
+      "three_month_return": 17.1079,
+      "volume": 6891760
     },
     {
-      "code": "133690",
-      "name": "TIGER 미국나스닥100",
-      "price": 185285.0,
-      "change_rate": 0.0,
-      "three_month_return": -7.5076,
-      "volume": 0
+      "code": "449690",
+      "name": "TIGER 한중반도체(합성)",
+      "price": 49415.0,
+      "change_rate": 2.68,
+      "three_month_return": -22.1468,
+      "volume": 1
     },
     {
-      "code": "379800",
-      "name": "KODEX 미국S&P500",
-      "price": 23655.0,
-      "change_rate": 0.0,
-      "three_month_return": -8.8466,
-      "volume": 0
+      "code": "0238F0",
+      "name": "KODEX 미국AI메모리TOP2플러스",
+      "price": 10475.0,
+      "change_rate": 2.44,
+      "three_month_return": 0.0,
+      "volume": 10838
     }
   ]
 }
