@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-08T04:41:14.999906+00:00",
+  "generated_at": "2026-10-08T05:05:25.186093+00:00",
   "items": [
     {
       "code": "476260",
       "name": "HANARO 반도체핵심공정주도주",
-      "price": 15735.0,
-      "change_rate": 4.93,
+      "price": 15675.0,
+      "change_rate": 4.53,
       "three_month_return": 8.8961,
-      "volume": 497740
+      "volume": 532273
+    },
+    {
+      "code": "412570",
+      "name": "TIGER 2차전지TOP10레버리지",
+      "price": 1357.0,
+      "change_rate": 4.06,
+      "three_month_return": 18.8696,
+      "volume": 13819352
     },
     {
       "code": "475300",
       "name": "SOL 반도체전공정",
-      "price": 27715.0,
-      "change_rate": 4.53,
+      "price": 27545.0,
+      "change_rate": 3.88,
       "three_month_return": 18.5027,
-      "volume": 2377477
+      "volume": 2586450
     },
     {
-      "code": "252670",
-      "name": "KODEX 200선물인버스2X",
-      "price": 76.0,
-      "change_rate": 4.11,
-      "three_month_return": -13.0953,
-      "volume": 4820115701
-    },
-    {
-      "code": "253160",
-      "name": "PLUS 200선물인버스2X",
-      "price": 154.0,
-      "change_rate": 4.05,
-      "three_month_return": -15.4286,
-      "volume": 1428796
+      "code": "471990",
+      "name": "KODEX AI반도체핵심장비",
+      "price": 31655.0,
+      "change_rate": 3.84,
+      "three_month_return": 32.498,
+      "volume": 2557459
     }
   ]
 }
