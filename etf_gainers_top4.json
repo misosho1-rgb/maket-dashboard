@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-08T05:39:46.583667+00:00",
+  "generated_at": "2026-10-08T06:06:20.026171+00:00",
   "items": [
     {
-      "code": "412570",
-      "name": "TIGER 2차전지TOP10레버리지",
-      "price": 1370.0,
-      "change_rate": 5.06,
-      "three_month_return": 18.8696,
-      "volume": 14266383
+      "code": "252670",
+      "name": "KODEX 200선물인버스2X",
+      "price": 77.0,
+      "change_rate": 5.48,
+      "three_month_return": -13.0953,
+      "volume": 5295728335
+    },
+    {
+      "code": "253160",
+      "name": "PLUS 200선물인버스2X",
+      "price": 155.0,
+      "change_rate": 4.73,
+      "three_month_return": -15.4286,
+      "volume": 1484517
     },
     {
       "code": "476260",
       "name": "HANARO 반도체핵심공정주도주",
-      "price": 15705.0,
-      "change_rate": 4.73,
+      "price": 15635.0,
+      "change_rate": 4.27,
       "three_month_return": 8.8961,
-      "volume": 578574
+      "volume": 609077
     },
     {
-      "code": "462330",
-      "name": "KODEX 2차전지산업레버리지",
-      "price": 1203.0,
-      "change_rate": 4.61,
-      "three_month_return": 17.1079,
-      "volume": 113488955
-    },
-    {
-      "code": "252670",
-      "name": "KODEX 200선물인버스2X",
-      "price": 76.0,
-      "change_rate": 4.11,
-      "three_month_return": -13.0953,
-      "volume": 4922764712
+      "code": "412570",
+      "name": "TIGER 2차전지TOP10레버리지",
+      "price": 1357.0,
+      "change_rate": 4.06,
+      "three_month_return": 18.8696,
+      "volume": 14588911
     }
   ]
 }
