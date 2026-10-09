@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-08T23:38:44.875132+00:00",
+  "generated_at": "2026-10-09T00:05:58.390366+00:00",
   "items": [
     {
       "code": "252710",
       "name": "TIGER 200선물인버스2X",
       "price": 85.0,
       "change_rate": 6.25,
-      "three_month_return": -9.091,
+      "three_month_return": -13.2654,
       "volume": 158886600
     },
     {
@@ -14,7 +14,7 @@
       "name": "KODEX 200선물인버스2X",
       "price": 77.0,
       "change_rate": 5.48,
-      "three_month_return": -13.0953,
+      "three_month_return": -16.3044,
       "volume": 5514434366
     },
     {
@@ -22,7 +22,7 @@
       "name": "KIWOOM 200선물인버스2X",
       "price": 78.0,
       "change_rate": 5.41,
-      "three_month_return": -9.7561,
+      "three_month_return": -13.3334,
       "volume": 5432265
     },
     {
@@ -30,7 +30,7 @@
       "name": "PLUS 200선물인버스2X",
       "price": 156.0,
       "change_rate": 5.41,
-      "three_month_return": -15.4286,
+      "three_month_return": -13.8122,
       "volume": 1630703
     }
   ]
