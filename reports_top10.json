@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-12T01:12:03.476685+00:00",
+  "generated_at": "2026-10-12T01:42:57.163377+00:00",
   "items": [
+    {
+      "stock": "삼성전자",
+      "title": "강한 DRAM 가격. LPDDR 공급 부족 심화",
+      "firm": "하나증권",
+      "date": "2026.10.12",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96616&page=1"
+    },
     {
       "stock": "삼성전자",
       "title": "눈높이를 높이는 구간",
@@ -31,6 +38,13 @@
     },
     {
       "stock": "LG에너지솔루션",
+      "title": "북미 ESS 물량 증가 지속",
+      "firm": "하나증권",
+      "date": "2026.10.12",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96614&page=1"
+    },
+    {
+      "stock": "LG에너지솔루션",
       "title": "보상금 제외해도 호실적",
       "firm": "유진투자증권",
       "date": "2026.10.12",
@@ -56,20 +70,6 @@
       "firm": "IBK투자증권",
       "date": "2026.10.12",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96584&page=1"
-    },
-    {
-      "stock": "현대차",
-      "title": "3Q26 Preview: 환율의 역습",
-      "firm": "유진투자증권",
-      "date": "2026.10.12",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96603&page=1"
-    },
-    {
-      "stock": "현대차",
-      "title": "당장은 실적",
-      "firm": "신한투자증권",
-      "date": "2026.10.12",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96587&page=1"
     }
   ]
 }
