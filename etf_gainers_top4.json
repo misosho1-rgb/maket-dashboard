@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-12T03:06:39.594318+00:00",
+  "generated_at": "2026-10-12T03:45:46.657571+00:00",
   "items": [
     {
       "code": "0197X0",
       "name": "SOL SK하이닉스선물단일종목인버스2X",
-      "price": 6950.0,
-      "change_rate": 6.68,
+      "price": 7065.0,
+      "change_rate": 8.44,
       "three_month_return": -37.416,
-      "volume": 7729400
+      "volume": 8078232
     },
     {
       "code": "252670",
       "name": "KODEX 200선물인버스2X",
-      "price": 82.0,
-      "change_rate": 6.49,
+      "price": 83.0,
+      "change_rate": 7.79,
       "three_month_return": -16.3044,
-      "volume": 4875950814
+      "volume": 5377330003
     },
     {
-      "code": "0041D0",
-      "name": "KODEX 미국AI소프트웨어TOP10",
-      "price": 14930.0,
-      "change_rate": 6.19,
-      "three_month_return": 8.1211,
-      "volume": 146070
+      "code": "0193L0",
+      "name": "PLUS 삼성전자선물단일종목인버스2X",
+      "price": 9015.0,
+      "change_rate": 6.81,
+      "three_month_return": -46.5316,
+      "volume": 806389
     },
     {
-      "code": "252420",
-      "name": "RISE 200선물인버스2X",
-      "price": 87.0,
-      "change_rate": 6.1,
-      "three_month_return": -12.766,
-      "volume": 1429832
+      "code": "253160",
+      "name": "PLUS 200선물인버스2X",
+      "price": 166.0,
+      "change_rate": 6.41,
+      "three_month_return": -13.8122,
+      "volume": 1114864
     }
   ]
 }
