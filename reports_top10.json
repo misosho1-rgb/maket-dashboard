@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-12T02:06:32.932982+00:00",
+  "generated_at": "2026-10-12T02:43:00.631916+00:00",
   "items": [
+    {
+      "stock": "삼성전자",
+      "title": "사상 최초 DRAM 분기 매출 100조원 상회",
+      "firm": "DS투자증권",
+      "date": "2026.10.12",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96634&page=1"
+    },
     {
       "stock": "삼성전자",
       "title": "강한 DRAM 가격. LPDDR 공급 부족 심화",
@@ -63,13 +70,6 @@
       "firm": "iM증권",
       "date": "2026.10.12",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96585&page=1"
-    },
-    {
-      "stock": "LG에너지솔루션",
-      "title": "3Q26 잠정 실적 코멘트",
-      "firm": "IBK투자증권",
-      "date": "2026.10.12",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96584&page=1"
     }
   ]
 }
