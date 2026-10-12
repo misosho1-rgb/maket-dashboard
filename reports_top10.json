@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-12T00:06:04.418078+00:00",
+  "generated_at": "2026-10-12T00:52:44.291353+00:00",
   "items": [
+    {
+      "stock": "삼성전자",
+      "title": "눈높이를 높이는 구간",
+      "firm": "유진투자증권",
+      "date": "2026.10.12",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96597&page=1"
+    },
     {
       "stock": "삼성전자",
       "title": "환율도 메모리 호황을 막진 못했다",
@@ -14,6 +21,13 @@
       "firm": "키움증권",
       "date": "2026.10.12",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96578&page=1"
+    },
+    {
+      "stock": "LG에너지솔루션",
+      "title": "보상금 제외해도 호실적",
+      "firm": "유진투자증권",
+      "date": "2026.10.12",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96596&page=1"
     },
     {
       "stock": "LG에너지솔루션",
@@ -56,20 +70,6 @@
       "firm": "키움증권",
       "date": "2026.10.12",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96579&page=1"
-    },
-    {
-      "stock": "SK하이닉스",
-      "title": "증명의 시간",
-      "firm": "유진투자증권",
-      "date": "2026.10.08",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96537&page=1"
-    },
-    {
-      "stock": "LG에너지솔루션",
-      "title": "회복의 이유가 더 많아졌다",
-      "firm": "신한투자증권",
-      "date": "2026.10.08",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96525&page=1"
     }
   ]
 }
