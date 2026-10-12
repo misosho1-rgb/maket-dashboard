@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-10-11T23:38:41.801335+00:00",
+  "generated_at": "2026-10-12T00:06:04.418078+00:00",
   "items": [
+    {
+      "stock": "삼성전자",
+      "title": "환율도 메모리 호황을 막진 못했다",
+      "firm": "IBK투자증권",
+      "date": "2026.10.12",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96588&page=1"
+    },
     {
       "stock": "삼성전자",
       "title": "4Q26 영업이익 116조원 전망",
@@ -10,10 +17,31 @@
     },
     {
       "stock": "LG에너지솔루션",
+      "title": "LG에너지솔루션 3Q26 잠정실적 발표",
+      "firm": "신한투자증권",
+      "date": "2026.10.12",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96590&page=1"
+    },
+    {
+      "stock": "LG에너지솔루션",
+      "title": "3Q26 일회성 요인 제외하더라도 호실적",
+      "firm": "iM증권",
+      "date": "2026.10.12",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96585&page=1"
+    },
+    {
+      "stock": "LG에너지솔루션",
       "title": "3Q26 잠정 실적 코멘트",
       "firm": "IBK투자증권",
       "date": "2026.10.12",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96584&page=1"
+    },
+    {
+      "stock": "현대차",
+      "title": "당장은 실적",
+      "firm": "신한투자증권",
+      "date": "2026.10.12",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96587&page=1"
     },
     {
       "stock": "현대차",
@@ -42,34 +70,6 @@
       "firm": "신한투자증권",
       "date": "2026.10.08",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96525&page=1"
-    },
-    {
-      "stock": "삼성바이오로직스",
-      "title": "3Q26 Preview: 수주 재개 기대, 환율 하락에도 컨센 부합",
-      "firm": "교보증권",
-      "date": "2026.10.08",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96561&page=1"
-    },
-    {
-      "stock": "현대차",
-      "title": "실적 부진의 깊이는 실적 반등의 강도로",
-      "firm": "한화투자증권",
-      "date": "2026.10.08",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96571&page=1"
-    },
-    {
-      "stock": "기아",
-      "title": "물량 확대는 증익으로 귀결",
-      "firm": "한화투자증권",
-      "date": "2026.10.08",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96570&page=1"
-    },
-    {
-      "stock": "삼성SDI",
-      "title": "본업 흑자를 확인할 3분기",
-      "firm": "DS투자증권",
-      "date": "2026.10.08",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96564&page=1"
     }
   ]
 }
