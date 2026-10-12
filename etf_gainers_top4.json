@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-12T01:42:48.005111+00:00",
+  "generated_at": "2026-10-12T02:06:25.747614+00:00",
   "items": [
-    {
-      "code": "456680",
-      "name": "TIGER 차이나전기차레버리지(합성)",
-      "price": 4950.0,
-      "change_rate": 7.49,
-      "three_month_return": -44.6182,
-      "volume": 9306
-    },
-    {
-      "code": "438320",
-      "name": "TIGER 차이나항셍테크레버리지(합성 H)",
-      "price": 4375.0,
-      "change_rate": 6.32,
-      "three_month_return": -26.8445,
-      "volume": 15908
-    },
     {
       "code": "0197X0",
       "name": "SOL SK하이닉스선물단일종목인버스2X",
-      "price": 6910.0,
-      "change_rate": 6.06,
+      "price": 6990.0,
+      "change_rate": 7.29,
       "three_month_return": -37.416,
-      "volume": 5091860
+      "volume": 6747603
+    },
+    {
+      "code": "252670",
+      "name": "KODEX 200선물인버스2X",
+      "price": 82.0,
+      "change_rate": 6.49,
+      "three_month_return": -16.3044,
+      "volume": 3758917024
     },
     {
       "code": "0041D0",
       "name": "KODEX 미국AI소프트웨어TOP10",
-      "price": 14910.0,
-      "change_rate": 6.05,
+      "price": 14935.0,
+      "change_rate": 6.22,
       "three_month_return": 8.1211,
-      "volume": 102536
+      "volume": 108243
+    },
+    {
+      "code": "418670",
+      "name": "TIGER 글로벌AI사이버보안",
+      "price": 20450.0,
+      "change_rate": 5.58,
+      "three_month_return": 6.5749,
+      "volume": 152933
     }
   ]
 }
