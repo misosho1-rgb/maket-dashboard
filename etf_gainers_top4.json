@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-12T23:56:08.022778+00:00",
+  "generated_at": "2026-10-13T04:48:22.302518+00:00",
   "items": [
     {
-      "code": "069500",
-      "name": "KODEX 200",
-      "price": 101605.0,
-      "change_rate": 0.0,
-      "three_month_return": -15.5844,
-      "volume": 0
+      "code": "0197X0",
+      "name": "SOL SK하이닉스선물단일종목인버스2X",
+      "price": 8650.0,
+      "change_rate": 21.15,
+      "three_month_return": -22.4756,
+      "volume": 19250242
     },
     {
-      "code": "360750",
-      "name": "TIGER 미국S&P500",
-      "price": 25945.0,
-      "change_rate": 0.0,
-      "three_month_return": -7.3939,
-      "volume": 0
+      "code": "0193L0",
+      "name": "PLUS 삼성전자선물단일종목인버스2X",
+      "price": 10750.0,
+      "change_rate": 17.1,
+      "three_month_return": -38.0358,
+      "volume": 909311
     },
     {
-      "code": "133690",
-      "name": "TIGER 미국나스닥100",
-      "price": 182960.0,
-      "change_rate": 0.0,
-      "three_month_return": -6.9554,
-      "volume": 0
+      "code": "252670",
+      "name": "KODEX 200선물인버스2X",
+      "price": 95.0,
+      "change_rate": 14.46,
+      "three_month_return": -3.4884,
+      "volume": 8836761569
     },
     {
-      "code": "488770",
-      "name": "KODEX 머니마켓액티브",
-      "price": 105805.0,
-      "change_rate": 0.0,
-      "three_month_return": 0.8627,
-      "volume": 0
+      "code": "252710",
+      "name": "TIGER 200선물인버스2X",
+      "price": 104.0,
+      "change_rate": 14.29,
+      "three_month_return": -1.087,
+      "volume": 156260683
     }
   ]
 }

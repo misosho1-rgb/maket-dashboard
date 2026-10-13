@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-10-12T23:56:14.805365+00:00",
+  "generated_at": "2026-10-13T04:48:30.516227+00:00",
   "items": [
+    {
+      "stock": "SK하이닉스",
+      "title": "컨센서스에 부합",
+      "firm": "하나증권",
+      "date": "2026.10.13",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96671&page=1"
+    },
+    {
+      "stock": "카카오",
+      "title": "광고 성장 숨 고르기, AI 전략 확인이 관건",
+      "firm": "대신증권",
+      "date": "2026.10.13",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96658&page=1"
+    },
     {
       "stock": "삼성전자",
       "title": "사상 최초 DRAM 분기 매출 100조원 상회",
@@ -56,20 +70,6 @@
       "firm": "유진투자증권",
       "date": "2026.10.12",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96596&page=1"
-    },
-    {
-      "stock": "LG에너지솔루션",
-      "title": "LG에너지솔루션 3Q26 잠정실적 발표",
-      "firm": "신한투자증권",
-      "date": "2026.10.12",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96590&page=1"
-    },
-    {
-      "stock": "LG에너지솔루션",
-      "title": "3Q26 일회성 요인 제외하더라도 호실적",
-      "firm": "iM증권",
-      "date": "2026.10.12",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96585&page=1"
     }
   ]
 }
