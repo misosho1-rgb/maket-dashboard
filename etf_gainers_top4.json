@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-13T19:23:45.977781+00:00",
+  "generated_at": "2026-10-13T23:20:25.382362+00:00",
   "items": [
     {
-      "code": "0197X0",
-      "name": "SOL SK하이닉스선물단일종목인버스2X",
-      "price": 8600.0,
-      "change_rate": 20.45,
-      "three_month_return": -22.4756,
-      "volume": 22878119
+      "code": "069500",
+      "name": "KODEX 200",
+      "price": 95250.0,
+      "change_rate": 0.0,
+      "three_month_return": -15.5844,
+      "volume": 0
     },
     {
-      "code": "0193L0",
-      "name": "PLUS 삼성전자선물단일종목인버스2X",
-      "price": 10535.0,
-      "change_rate": 14.76,
-      "three_month_return": -38.0358,
-      "volume": 1023703
+      "code": "360750",
+      "name": "TIGER 미국S&P500",
+      "price": 26030.0,
+      "change_rate": 0.0,
+      "three_month_return": -7.3939,
+      "volume": 0
     },
     {
-      "code": "252670",
-      "name": "KODEX 200선물인버스2X",
-      "price": 94.0,
-      "change_rate": 13.25,
-      "three_month_return": -3.4884,
-      "volume": 10631279020
+      "code": "133690",
+      "name": "TIGER 미국나스닥100",
+      "price": 181150.0,
+      "change_rate": 0.0,
+      "three_month_return": -6.9554,
+      "volume": 0
     },
     {
-      "code": "253230",
-      "name": "KIWOOM 200선물인버스2X",
-      "price": 95.0,
-      "change_rate": 13.1,
-      "three_month_return": 0.0,
-      "volume": 6102251
+      "code": "488770",
+      "name": "KODEX 머니마켓액티브",
+      "price": 105815.0,
+      "change_rate": 0.0,
+      "three_month_return": 0.8627,
+      "volume": 0
     }
   ]
 }
