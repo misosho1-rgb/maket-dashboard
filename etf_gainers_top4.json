@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-13T23:20:25.382362+00:00",
+  "generated_at": "2026-10-14T02:01:06.042658+00:00",
   "items": [
     {
-      "code": "069500",
-      "name": "KODEX 200",
-      "price": 95250.0,
-      "change_rate": 0.0,
-      "three_month_return": -15.5844,
-      "volume": 0
+      "code": "412570",
+      "name": "TIGER 2차전지TOP10레버리지",
+      "price": 1363.0,
+      "change_rate": 7.32,
+      "three_month_return": 17.2668,
+      "volume": 8889166
     },
     {
-      "code": "360750",
-      "name": "TIGER 미국S&P500",
-      "price": 26030.0,
-      "change_rate": 0.0,
-      "three_month_return": -7.3939,
-      "volume": 0
+      "code": "462330",
+      "name": "KODEX 2차전지산업레버리지",
+      "price": 1165.0,
+      "change_rate": 6.3,
+      "three_month_return": 16.1016,
+      "volume": 71187094
     },
     {
-      "code": "133690",
-      "name": "TIGER 미국나스닥100",
-      "price": 181150.0,
-      "change_rate": 0.0,
-      "three_month_return": -6.9554,
-      "volume": 0
+      "code": "0209D0",
+      "name": "KODEX 전고체배터리ESS TOP2플러스",
+      "price": 9520.0,
+      "change_rate": 4.21,
+      "three_month_return": 24.9658,
+      "volume": 6166056
     },
     {
-      "code": "488770",
-      "name": "KODEX 머니마켓액티브",
-      "price": 105815.0,
-      "change_rate": 0.0,
-      "three_month_return": 0.8627,
-      "volume": 0
+      "code": "0005D0",
+      "name": "SOL 전고체배터리&실리콘음극재",
+      "price": 17235.0,
+      "change_rate": 4.04,
+      "three_month_return": 21.5779,
+      "volume": 1440922
     }
   ]
 }
