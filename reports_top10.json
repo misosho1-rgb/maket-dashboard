@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-10-14T21:50:17.260151+00:00",
+  "generated_at": "2026-10-15T00:10:56.134046+00:00",
   "items": [
+    {
+      "stock": "현대차",
+      "title": "낮은 눈높이, 26.4Q에 거는 기대",
+      "firm": "iM증권",
+      "date": "2026.10.15",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96735&page=1"
+    },
+    {
+      "stock": "기아",
+      "title": "우수한 본업임에도 믹스 악화가 걸린다",
+      "firm": "iM증권",
+      "date": "2026.10.15",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96738&page=1"
+    },
     {
       "stock": "삼성SDI",
       "title": "일회성 너머의 ESS 성장",
@@ -56,20 +70,6 @@
       "firm": "키움증권",
       "date": "2026.10.12",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96578&page=1"
-    },
-    {
-      "stock": "SK하이닉스",
-      "title": "환율을 이기는 호실적 예상",
-      "firm": "SK증권",
-      "date": "2026.10.12",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96606&page=1"
-    },
-    {
-      "stock": "LG에너지솔루션",
-      "title": "북미 ESS 물량 증가 지속",
-      "firm": "하나증권",
-      "date": "2026.10.12",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96614&page=1"
     }
   ]
 }

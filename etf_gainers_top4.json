@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-14T21:50:08.722445+00:00",
+  "generated_at": "2026-10-15T00:10:49.083464+00:00",
   "items": [
     {
-      "code": "462330",
-      "name": "KODEX 2차전지산업레버리지",
-      "price": 1175.0,
-      "change_rate": 7.21,
-      "three_month_return": 16.1016,
-      "volume": 139393616
+      "code": "0197X0",
+      "name": "SOL SK하이닉스선물단일종목인버스2X",
+      "price": 10070.0,
+      "change_rate": 13.21,
+      "three_month_return": -20.3671,
+      "volume": 2058918
     },
     {
-      "code": "412570",
-      "name": "TIGER 2차전지TOP10레버리지",
-      "price": 1360.0,
-      "change_rate": 7.09,
-      "three_month_return": 17.2668,
-      "volume": 15410018
+      "code": "0193L0",
+      "name": "PLUS 삼성전자선물단일종목인버스2X",
+      "price": 11740.0,
+      "change_rate": 12.13,
+      "three_month_return": -37.8082,
+      "volume": 128659
     },
     {
-      "code": "0209D0",
-      "name": "KODEX 전고체배터리ESS TOP2플러스",
-      "price": 9620.0,
-      "change_rate": 5.31,
-      "three_month_return": 24.9658,
-      "volume": 10646378
+      "code": "252710",
+      "name": "TIGER 200선물인버스2X",
+      "price": 114.0,
+      "change_rate": 11.76,
+      "three_month_return": -3.7736,
+      "volume": 14793914
     },
     {
-      "code": "0005D0",
-      "name": "SOL 전고체배터리&실리콘음극재",
-      "price": 17425.0,
-      "change_rate": 5.19,
-      "three_month_return": 21.5779,
-      "volume": 2801454
+      "code": "253160",
+      "name": "PLUS 200선물인버스2X",
+      "price": 210.0,
+      "change_rate": 11.7,
+      "three_month_return": -5.5277,
+      "volume": 403711
     }
   ]
 }
