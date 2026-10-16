@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-16T03:02:16.167861+00:00",
+  "generated_at": "2026-10-16T08:21:25.441367+00:00",
   "items": [
     {
       "code": "0100K0",
       "name": "KODEX 방산TOP10레버리지",
-      "price": 4465.0,
-      "change_rate": 13.9,
+      "price": 4350.0,
+      "change_rate": 10.97,
       "three_month_return": -45.8564,
-      "volume": 983535
+      "volume": 1177956
+    },
+    {
+      "code": "0239Z0",
+      "name": "PLUS AI반도체소부장액티브",
+      "price": 11090.0,
+      "change_rate": 10.62,
+      "three_month_return": 0.0,
+      "volume": 662084
+    },
+    {
+      "code": "306530",
+      "name": "HANARO 코스닥150선물레버리지",
+      "price": 6175.0,
+      "change_rate": 9.97,
+      "three_month_return": -28.8791,
+      "volume": 82061
     },
     {
       "code": "0104G0",
       "name": "PLUS K방산레버리지",
-      "price": 3965.0,
-      "change_rate": 11.22,
+      "price": 3905.0,
+      "change_rate": 9.54,
       "three_month_return": -47.3023,
-      "volume": 102606
-    },
-    {
-      "code": "412560",
-      "name": "TIGER BBIG레버리지",
-      "price": 1559.0,
-      "change_rate": 9.25,
-      "three_month_return": -10.8125,
-      "volume": 6133
-    },
-    {
-      "code": "0221Z0",
-      "name": "ACE K바이오코스닥액티브",
-      "price": 8465.0,
-      "change_rate": 9.23,
-      "three_month_return": 0.0,
-      "volume": 20086
+      "volume": 120276
     }
   ]
 }
