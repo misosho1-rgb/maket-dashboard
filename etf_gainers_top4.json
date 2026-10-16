@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-15T23:57:51.058465+00:00",
+  "generated_at": "2026-10-16T03:02:16.167861+00:00",
   "items": [
     {
-      "code": "360750",
-      "name": "TIGER 미국S&P500",
-      "price": 25700.0,
-      "change_rate": 0.0,
-      "three_month_return": -7.7428,
-      "volume": 0
+      "code": "0100K0",
+      "name": "KODEX 방산TOP10레버리지",
+      "price": 4465.0,
+      "change_rate": 13.9,
+      "three_month_return": -45.8564,
+      "volume": 983535
     },
     {
-      "code": "069500",
-      "name": "KODEX 200",
-      "price": 87025.0,
-      "change_rate": 0.0,
-      "three_month_return": -25.3008,
-      "volume": 0
+      "code": "0104G0",
+      "name": "PLUS K방산레버리지",
+      "price": 3965.0,
+      "change_rate": 11.22,
+      "three_month_return": -47.3023,
+      "volume": 102606
     },
     {
-      "code": "133690",
-      "name": "TIGER 미국나스닥100",
-      "price": 176515.0,
-      "change_rate": 0.0,
-      "three_month_return": -10.0412,
-      "volume": 0
+      "code": "412560",
+      "name": "TIGER BBIG레버리지",
+      "price": 1559.0,
+      "change_rate": 9.25,
+      "three_month_return": -10.8125,
+      "volume": 6133
     },
     {
-      "code": "488770",
-      "name": "KODEX 머니마켓액티브",
-      "price": 105835.0,
-      "change_rate": 0.0,
-      "three_month_return": 0.8624,
-      "volume": 0
+      "code": "0221Z0",
+      "name": "ACE K바이오코스닥액티브",
+      "price": 8465.0,
+      "change_rate": 9.23,
+      "three_month_return": 0.0,
+      "volume": 20086
     }
   ]
 }
