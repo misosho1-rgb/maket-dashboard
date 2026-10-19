@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-19T00:17:38.570639+00:00",
+  "generated_at": "2026-10-19T04:58:44.030131+00:00",
   "items": [
     {
-      "code": "491630",
-      "name": "RISE 미국반도체인버스(합성 H)",
-      "price": 5525.0,
-      "change_rate": 5.24,
-      "three_month_return": -1.501,
-      "volume": 189
+      "code": "412570",
+      "name": "TIGER 2차전지TOP10레버리지",
+      "price": 1355.0,
+      "change_rate": 14.35,
+      "three_month_return": 10.3351,
+      "volume": 15597567
     },
     {
-      "code": "0197X0",
-      "name": "SOL SK하이닉스선물단일종목인버스2X",
-      "price": 11230.0,
-      "change_rate": 5.05,
-      "three_month_return": -4.5962,
-      "volume": 4736961
+      "code": "462330",
+      "name": "KODEX 2차전지산업레버리지",
+      "price": 1153.0,
+      "change_rate": 14.05,
+      "three_month_return": 9.7719,
+      "volume": 143320195
     },
     {
-      "code": "252420",
-      "name": "RISE 200선물인버스2X",
-      "price": 116.0,
-      "change_rate": 4.5,
-      "three_month_return": 7.7669,
-      "volume": 552103
+      "code": "0209D0",
+      "name": "KODEX 전고체배터리ESS TOP2플러스",
+      "price": 9550.0,
+      "change_rate": 8.46,
+      "three_month_return": 20.1227,
+      "volume": 10761805
     },
     {
-      "code": "496770",
-      "name": "PLUS 글로벌방산",
-      "price": 16215.0,
-      "change_rate": 4.21,
-      "three_month_return": -11.4904,
-      "volume": 2166
+      "code": "0005D0",
+      "name": "SOL 전고체배터리&실리콘음극재",
+      "price": 17340.0,
+      "change_rate": 8.24,
+      "three_month_return": 22.7586,
+      "volume": 3382955
     }
   ]
 }
