@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-18T22:02:00.023607+00:00",
+  "generated_at": "2026-10-19T00:17:38.570639+00:00",
   "items": [
     {
-      "code": "0100K0",
-      "name": "KODEX 방산TOP10레버리지",
-      "price": 4350.0,
-      "change_rate": 10.97,
-      "three_month_return": -38.9902,
-      "volume": 1177956
+      "code": "491630",
+      "name": "RISE 미국반도체인버스(합성 H)",
+      "price": 5525.0,
+      "change_rate": 5.24,
+      "three_month_return": -1.501,
+      "volume": 189
     },
     {
-      "code": "0239Z0",
-      "name": "PLUS AI반도체소부장액티브",
-      "price": 11090.0,
-      "change_rate": 10.62,
-      "three_month_return": 0.0,
-      "volume": 662084
+      "code": "0197X0",
+      "name": "SOL SK하이닉스선물단일종목인버스2X",
+      "price": 11230.0,
+      "change_rate": 5.05,
+      "three_month_return": -4.5962,
+      "volume": 4736961
     },
     {
-      "code": "306530",
-      "name": "HANARO 코스닥150선물레버리지",
-      "price": 6175.0,
-      "change_rate": 9.97,
-      "three_month_return": -11.8487,
-      "volume": 82061
+      "code": "252420",
+      "name": "RISE 200선물인버스2X",
+      "price": 116.0,
+      "change_rate": 4.5,
+      "three_month_return": 7.7669,
+      "volume": 552103
     },
     {
-      "code": "0104G0",
-      "name": "PLUS K방산레버리지",
-      "price": 3905.0,
-      "change_rate": 9.54,
-      "three_month_return": -43.4468,
-      "volume": 120276
+      "code": "496770",
+      "name": "PLUS 글로벌방산",
+      "price": 16215.0,
+      "change_rate": 4.21,
+      "three_month_return": -11.4904,
+      "volume": 2166
     }
   ]
 }

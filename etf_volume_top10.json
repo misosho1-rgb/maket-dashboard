@@ -1,85 +1,85 @@
 {
-  "generated_at": "2026-10-18T22:02:00.023607+00:00",
+  "generated_at": "2026-10-19T00:17:38.570639+00:00",
   "items": [
     {
       "code": "252670",
       "name": "KODEX 200선물인버스2X",
-      "price": 106.0,
-      "change_rate": -3.64,
+      "price": 109.0,
+      "change_rate": 2.83,
       "three_month_return": 6.0,
-      "volume": 11710245636
+      "volume": 2233955450
     },
     {
       "code": "114800",
       "name": "KODEX 인버스",
-      "price": 1217.0,
-      "change_rate": -2.01,
+      "price": 1236.0,
+      "change_rate": 1.56,
       "three_month_return": 9.8375,
-      "volume": 1042300742
+      "volume": 197186826
     },
     {
       "code": "252710",
       "name": "TIGER 200선물인버스2X",
-      "price": 116.0,
-      "change_rate": -2.52,
+      "price": 118.0,
+      "change_rate": 1.72,
       "three_month_return": 8.4112,
-      "volume": 185088679
-    },
-    {
-      "code": "462330",
-      "name": "KODEX 2차전지산업레버리지",
-      "price": 1011.0,
-      "change_rate": -0.98,
-      "three_month_return": 9.7719,
-      "volume": 118330544
+      "volume": 38243516
     },
     {
       "code": "233740",
       "name": "KODEX 코스닥150레버리지",
-      "price": 6095.0,
-      "change_rate": 9.23,
+      "price": 6040.0,
+      "change_rate": -0.9,
       "three_month_return": -12.7416,
-      "volume": 103923976
+      "volume": 17726603
+    },
+    {
+      "code": "462330",
+      "name": "KODEX 2차전지산업레버리지",
+      "price": 1024.0,
+      "change_rate": 1.29,
+      "three_month_return": 9.7719,
+      "volume": 17723348
     },
     {
       "code": "251340",
       "name": "KODEX 코스닥150선물인버스",
-      "price": 2485.0,
-      "change_rate": -4.79,
+      "price": 2500.0,
+      "change_rate": 0.6,
       "three_month_return": -7.1029,
-      "volume": 61877398
-    },
-    {
-      "code": "229200",
-      "name": "KODEX 코스닥150",
-      "price": 13370.0,
-      "change_rate": 4.78,
-      "three_month_return": -1.5464,
-      "volume": 35753790
-    },
-    {
-      "code": "360750",
-      "name": "TIGER 미국S&P500",
-      "price": 25650.0,
-      "change_rate": -0.19,
-      "three_month_return": -7.7075,
-      "volume": 35540633
-    },
-    {
-      "code": "069500",
-      "name": "KODEX 200",
-      "price": 88750.0,
-      "change_rate": 1.98,
-      "three_month_return": -18.4141,
-      "volume": 34188267
+      "volume": 9817344
     },
     {
       "code": "0193T0",
       "name": "KODEX SK하이닉스단일종목레버리지",
-      "price": 5335.0,
-      "change_rate": 0.95,
+      "price": 5055.0,
+      "change_rate": -5.25,
       "three_month_return": -63.4214,
-      "volume": 30751738
+      "volume": 8145148
+    },
+    {
+      "code": "229200",
+      "name": "KODEX 코스닥150",
+      "price": 13300.0,
+      "change_rate": -0.52,
+      "three_month_return": -1.5464,
+      "volume": 5330889
+    },
+    {
+      "code": "0197X0",
+      "name": "SOL SK하이닉스선물단일종목인버스2X",
+      "price": 11230.0,
+      "change_rate": 5.05,
+      "three_month_return": -4.5962,
+      "volume": 4736961
+    },
+    {
+      "code": "0195S0",
+      "name": "TIGER SK하이닉스단일종목레버리지",
+      "price": 4275.0,
+      "change_rate": -5.0,
+      "three_month_return": -63.2953,
+      "volume": 3523800
     }
   ]
 }
