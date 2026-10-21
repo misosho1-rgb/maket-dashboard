@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-21T00:46:39.897383+00:00",
+  "generated_at": "2026-10-21T05:31:46.077648+00:00",
   "items": [
+    {
+      "code": "0195S0",
+      "name": "TIGER SK하이닉스단일종목레버리지",
+      "price": 4575.0,
+      "change_rate": 10.91,
+      "three_month_return": -63.1368,
+      "volume": 13617646
+    },
+    {
+      "code": "0197W0",
+      "name": "SOL SK하이닉스단일종목레버리지",
+      "price": 4515.0,
+      "change_rate": 10.8,
+      "three_month_return": -63.0218,
+      "volume": 195342
+    },
+    {
+      "code": "0193T0",
+      "name": "KODEX SK하이닉스단일종목레버리지",
+      "price": 5400.0,
+      "change_rate": 10.66,
+      "three_month_return": -63.1699,
+      "volume": 30529739
+    },
     {
       "code": "0194R0",
       "name": "KIWOOM SK하이닉스선물단일종목레버리지",
-      "price": 4720.0,
-      "change_rate": 16.11,
+      "price": 4495.0,
+      "change_rate": 10.58,
       "three_month_return": -62.61,
-      "volume": 6630
-    },
-    {
-      "code": "0198D0",
-      "name": "1Q SK하이닉스선물단일종목레버리지",
-      "price": 4955.0,
-      "change_rate": 15.5,
-      "three_month_return": -63.0491,
-      "volume": 31026
-    },
-    {
-      "code": "0194T0",
-      "name": "ACE SK하이닉스단일종목레버리지",
-      "price": 4805.0,
-      "change_rate": 15.23,
-      "three_month_return": -62.3307,
-      "volume": 70926
-    },
-    {
-      "code": "0192L0",
-      "name": "RISE SK하이닉스단일종목레버리지",
-      "price": 4895.0,
-      "change_rate": 15.18,
-      "three_month_return": -62.0027,
-      "volume": 14987
+      "volume": 19236
     }
   ]
 }
