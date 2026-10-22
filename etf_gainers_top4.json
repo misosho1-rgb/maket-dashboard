@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-22T20:40:10.951257+00:00",
+  "generated_at": "2026-10-22T23:46:03.092247+00:00",
   "items": [
     {
-      "code": "0197X0",
-      "name": "SOL SK하이닉스선물단일종목인버스2X",
-      "price": 11280.0,
-      "change_rate": 10.64,
-      "three_month_return": -9.2164,
-      "volume": 11877800
+      "code": "069500",
+      "name": "KODEX 200",
+      "price": 86525.0,
+      "change_rate": 0.0,
+      "three_month_return": -16.8619,
+      "volume": 0
     },
     {
-      "code": "252670",
-      "name": "KODEX 200선물인버스2X",
-      "price": 110.0,
-      "change_rate": 7.84,
-      "three_month_return": 0.99,
-      "volume": 10082843444
+      "code": "360750",
+      "name": "TIGER 미국S&P500",
+      "price": 25285.0,
+      "change_rate": 0.0,
+      "three_month_return": -6.8792,
+      "volume": 0
     },
     {
-      "code": "0193L0",
-      "name": "PLUS 삼성전자선물단일종목인버스2X",
-      "price": 11800.0,
-      "change_rate": 7.42,
-      "three_month_return": -33.0796,
-      "volume": 343870
+      "code": "488770",
+      "name": "KODEX 머니마켓액티브",
+      "price": 105905.0,
+      "change_rate": 0.0,
+      "three_month_return": 0.8667,
+      "volume": 0
     },
     {
-      "code": "465350",
-      "name": "RISE 2차전지TOP10인버스(합성)",
-      "price": 16370.0,
-      "change_rate": 7.24,
-      "three_month_return": -24.017,
-      "volume": 64379
+      "code": "133690",
+      "name": "TIGER 미국나스닥100",
+      "price": 172000.0,
+      "change_rate": 0.0,
+      "three_month_return": -7.8528,
+      "volume": 0
     }
   ]
 }
