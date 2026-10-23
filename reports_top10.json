@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-10-22T23:46:12.844702+00:00",
+  "generated_at": "2026-10-23T02:29:08.102284+00:00",
   "items": [
+    {
+      "stock": "셀트리온",
+      "title": "옴리클로, 3대시장 First-mover의 완성",
+      "firm": "SK증권",
+      "date": "2026.10.23",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=97000&page=1"
+    },
+    {
+      "stock": "셀트리온",
+      "title": "WAC 2026 참관 후기: 꽃가루 휘날리며",
+      "firm": "iM증권",
+      "date": "2026.10.23",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=96985&page=1"
+    },
     {
       "stock": "삼성바이오로직스",
       "title": "가이던스 상향, 6공장과 수주도 곧 (3Q26 Review)",
@@ -56,20 +70,6 @@
       "firm": "iM증권",
       "date": "2026.10.15",
       "link": "https://finance.naver.com/research/company_read.naver?nid=96738&page=1"
-    },
-    {
-      "stock": "LG화학",
-      "title": "3Q26 preview - 자회사 서프라이즈 영향",
-      "firm": "삼성증권",
-      "date": "2026.10.15",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96754&page=1"
-    },
-    {
-      "stock": "삼성SDI",
-      "title": "일회성 너머의 ESS 성장",
-      "firm": "신한투자증권",
-      "date": "2026.10.14",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=96693&page=1"
     }
   ]
 }
