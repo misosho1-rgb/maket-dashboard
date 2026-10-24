@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-23T23:39:17.783493+00:00",
+  "generated_at": "2026-10-24T02:26:59.807202+00:00",
   "items": [
     {
       "code": "252670",
       "name": "KODEX 200선물인버스2X",
       "price": 108.0,
       "change_rate": -1.82,
-      "three_month_return": 10.0,
+      "three_month_return": 17.3913,
       "volume": 13255392143
     },
     {
@@ -14,7 +14,7 @@
       "name": "KODEX 인버스",
       "price": 1235.0,
       "change_rate": -0.64,
-      "three_month_return": 11.8811,
+      "three_month_return": 16.29,
       "volume": 1406369830
     },
     {
@@ -22,7 +22,7 @@
       "name": "TIGER 200선물인버스2X",
       "price": 117.0,
       "change_rate": -1.68,
-      "three_month_return": 10.1851,
+      "three_month_return": 18.1818,
       "volume": 251719893
     },
     {
@@ -30,7 +30,7 @@
       "name": "KODEX 2차전지산업레버리지",
       "price": 843.0,
       "change_rate": -7.67,
-      "three_month_return": 7.665,
+      "three_month_return": -15.6157,
       "volume": 124221131
     },
     {
@@ -38,7 +38,7 @@
       "name": "KODEX 코스닥150레버리지",
       "price": 5255.0,
       "change_rate": -4.63,
-      "three_month_return": -7.0827,
+      "three_month_return": -22.0327,
       "volume": 88989603
     },
     {
@@ -46,7 +46,7 @@
       "name": "KODEX 코스닥150선물인버스",
       "price": 2655.0,
       "change_rate": 2.31,
-      "three_month_return": -10.3627,
+      "three_month_return": -1.1174,
       "volume": 46467988
     },
     {
@@ -54,7 +54,7 @@
       "name": "KODEX 코스닥150",
       "price": 12440.0,
       "change_rate": -2.24,
-      "three_month_return": 1.5968,
+      "three_month_return": -7.1642,
       "volume": 45957076
     },
     {
@@ -62,7 +62,7 @@
       "name": "TIGER 미국S&P500",
       "price": 25205.0,
       "change_rate": -0.32,
-      "three_month_return": -7.9135,
+      "three_month_return": -7.3805,
       "volume": 39732050
     },
     {
@@ -70,7 +70,7 @@
       "name": "KODEX SK하이닉스단일종목레버리지",
       "price": 5315.0,
       "change_rate": 8.8,
-      "three_month_return": -65.5501,
+      "three_month_return": -65.798,
       "volume": 38734142
     },
     {
@@ -78,7 +78,7 @@
       "name": "KODEX 미국S&P500",
       "price": 22915.0,
       "change_rate": -0.3,
-      "three_month_return": -7.9894,
+      "three_month_return": -7.366,
       "volume": 36850227
     }
   ]
