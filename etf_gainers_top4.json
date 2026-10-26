@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-26T19:39:11.910349+00:00",
+  "generated_at": "2026-10-26T23:27:09.151797+00:00",
   "items": [
     {
-      "code": "418670",
-      "name": "TIGER 글로벌AI사이버보안",
-      "price": 20175.0,
-      "change_rate": 5.55,
-      "three_month_return": 13.4084,
-      "volume": 274326
+      "code": "069500",
+      "name": "KODEX 200",
+      "price": 85995.0,
+      "change_rate": 0.0,
+      "three_month_return": -22.9443,
+      "volume": 0
     },
     {
-      "code": "252710",
-      "name": "TIGER 200선물인버스2X",
-      "price": 122.0,
-      "change_rate": 4.27,
-      "three_month_return": 18.1818,
-      "volume": 94993824
+      "code": "360750",
+      "name": "TIGER 미국S&P500",
+      "price": 25080.0,
+      "change_rate": 0.0,
+      "three_month_return": -7.3805,
+      "volume": 0
     },
     {
-      "code": "291620",
-      "name": "KIWOOM 코스닥150선물인버스",
-      "price": 4890.0,
-      "change_rate": 3.93,
-      "three_month_return": -2.588,
-      "volume": 22320
+      "code": "488770",
+      "name": "KODEX 머니마켓액티브",
+      "price": 105945.0,
+      "change_rate": 0.0,
+      "three_month_return": 0.8809,
+      "volume": 0
     },
     {
-      "code": "252670",
-      "name": "KODEX 200선물인버스2X",
-      "price": 112.0,
-      "change_rate": 3.7,
-      "three_month_return": 17.3913,
-      "volume": 10573490421
+      "code": "133690",
+      "name": "TIGER 미국나스닥100",
+      "price": 169395.0,
+      "change_rate": 0.0,
+      "three_month_return": -9.2663,
+      "volume": 0
     }
   ]
 }
