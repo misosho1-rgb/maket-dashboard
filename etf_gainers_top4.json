@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-28T02:28:10.279073+00:00",
+  "generated_at": "2026-10-28T08:50:35.748941+00:00",
   "items": [
     {
-      "code": "0193T0",
-      "name": "KODEX SK하이닉스단일종목레버리지",
-      "price": 6770.0,
-      "change_rate": 16.62,
-      "three_month_return": -58.1622,
-      "volume": 21809956
-    },
-    {
-      "code": "0198B0",
-      "name": "1Q 삼성전자선물단일종목레버리지",
-      "price": 9205.0,
-      "change_rate": 16.59,
-      "three_month_return": -35.0206,
-      "volume": 52811
-    },
-    {
-      "code": "0194T0",
-      "name": "ACE SK하이닉스단일종목레버리지",
-      "price": 5780.0,
-      "change_rate": 16.41,
-      "three_month_return": -57.2168,
-      "volume": 75526
+      "code": "0198D0",
+      "name": "1Q SK하이닉스선물단일종목레버리지",
+      "price": 6285.0,
+      "change_rate": 22.63,
+      "three_month_return": -57.871,
+      "volume": 126605
     },
     {
       "code": "0192L0",
       "name": "RISE SK하이닉스단일종목레버리지",
-      "price": 5895.0,
-      "change_rate": 16.39,
+      "price": 6205.0,
+      "change_rate": 22.51,
       "three_month_return": -56.8753,
-      "volume": 33363
+      "volume": 81453
+    },
+    {
+      "code": "0194T0",
+      "name": "ACE SK하이닉스단일종목레버리지",
+      "price": 6075.0,
+      "change_rate": 22.36,
+      "three_month_return": -57.2168,
+      "volume": 151030
+    },
+    {
+      "code": "0193T0",
+      "name": "KODEX SK하이닉스단일종목레버리지",
+      "price": 7100.0,
+      "change_rate": 22.31,
+      "three_month_return": -58.1622,
+      "volume": 34591418
     }
   ]
 }
