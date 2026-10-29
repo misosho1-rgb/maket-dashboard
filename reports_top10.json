@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-10-29T19:20:30.740704+00:00",
+  "generated_at": "2026-10-29T23:26:38.741178+00:00",
   "items": [
+    {
+      "stock": "삼성전자",
+      "title": "HBM 기대감 속, 범용 메모리 출하량 급증",
+      "firm": "키움증권",
+      "date": "2026.10.30",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=97275&page=1"
+    },
+    {
+      "stock": "삼성SDI",
+      "title": "더블, 더블, 더블. 중국 점유율을 가져오기 시작",
+      "firm": "미래에셋증권",
+      "date": "2026.10.30",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=97272&page=1"
+    },
     {
       "stock": "SK하이닉스",
       "title": "메모리 가격 상회로 실적 상향",
@@ -56,20 +70,6 @@
       "firm": "대신증권",
       "date": "2026.10.28",
       "link": "https://finance.naver.com/research/company_read.naver?nid=97150&page=1"
-    },
-    {
-      "stock": "셀트리온",
-      "title": "3Q26 Review: 예상보다 더 잘되고 있다",
-      "firm": "현대차증권",
-      "date": "2026.10.28",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=97153&page=1"
-    },
-    {
-      "stock": "셀트리온",
-      "title": "신제품 성장 가속화, 높아지는 2027년 기대감",
-      "firm": "대신증권",
-      "date": "2026.10.28",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=97149&page=1"
     }
   ]
 }
