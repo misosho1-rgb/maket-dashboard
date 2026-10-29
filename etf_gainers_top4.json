@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T06:37:20.846429+00:00",
+  "generated_at": "2026-10-29T13:49:52.273575+00:00",
   "items": [
     {
       "code": "0193L0",
@@ -23,7 +23,7 @@
       "price": 6305.0,
       "change_rate": 5.0,
       "three_month_return": -28.8508,
-      "volume": 16328531
+      "volume": 16333283
     },
     {
       "code": "0193T0",
@@ -31,7 +31,7 @@
       "price": 7430.0,
       "change_rate": 4.65,
       "three_month_return": -28.4995,
-      "volume": 43207219
+      "volume": 43208868
     }
   ]
 }
