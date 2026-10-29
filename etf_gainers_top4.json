@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-29T00:31:19.332199+00:00",
+  "generated_at": "2026-10-29T06:37:20.846429+00:00",
   "items": [
+    {
+      "code": "0193L0",
+      "name": "PLUS 삼성전자선물단일종목인버스2X",
+      "price": 9695.0,
+      "change_rate": 8.08,
+      "three_month_return": -57.6087,
+      "volume": 1665962
+    },
+    {
+      "code": "465350",
+      "name": "RISE 2차전지TOP10인버스(합성)",
+      "price": 17115.0,
+      "change_rate": 5.06,
+      "three_month_return": -21.3234,
+      "volume": 96267
+    },
     {
       "code": "0195S0",
       "name": "TIGER SK하이닉스단일종목레버리지",
-      "price": 6645.0,
-      "change_rate": 10.66,
+      "price": 6305.0,
+      "change_rate": 5.0,
       "three_month_return": -28.8508,
-      "volume": 4235786
-    },
-    {
-      "code": "0197W0",
-      "name": "SOL SK하이닉스단일종목레버리지",
-      "price": 6565.0,
-      "change_rate": 10.61,
-      "three_month_return": -27.7102,
-      "volume": 208980
-    },
-    {
-      "code": "0194R0",
-      "name": "KIWOOM SK하이닉스선물단일종목레버리지",
-      "price": 6540.0,
-      "change_rate": 10.38,
-      "three_month_return": -26.6057,
-      "volume": 45602
+      "volume": 16328531
     },
     {
       "code": "0193T0",
       "name": "KODEX SK하이닉스단일종목레버리지",
-      "price": 7835.0,
-      "change_rate": 10.35,
+      "price": 7430.0,
+      "change_rate": 4.65,
       "three_month_return": -28.4995,
-      "volume": 12104404
+      "volume": 43207219
     }
   ]
 }
