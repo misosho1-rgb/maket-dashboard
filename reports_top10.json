@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-11-01T20:55:39.262828+00:00",
+  "generated_at": "2026-11-02T00:02:39.532050+00:00",
   "items": [
+    {
+      "stock": "기아",
+      "title": "3Q26 Review: EV 판매 증가의 역풍",
+      "firm": "유진투자증권",
+      "date": "2026.11.02",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=97404&page=1"
+    },
+    {
+      "stock": "기아",
+      "title": "26.3Q Review: 수익성에 대한 입증이 필요",
+      "firm": "iM증권",
+      "date": "2026.11.02",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=97400&page=1"
+    },
     {
       "stock": "삼성전자",
       "title": "초우량 고성장 파격 세일 중",
@@ -56,20 +70,6 @@
       "firm": "미래에셋증권",
       "date": "2026.10.30",
       "link": "https://finance.naver.com/research/company_read.naver?nid=97343&page=1"
-    },
-    {
-      "stock": "현대차",
-      "title": "생산 차질의 이연이 내년 성장으로",
-      "firm": "한화투자증권",
-      "date": "2026.10.30",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=97342&page=1"
-    },
-    {
-      "stock": "현대차",
-      "title": "저점을 받쳐줄 실적",
-      "firm": "대신증권",
-      "date": "2026.10.30",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=97327&page=1"
     }
   ]
 }
