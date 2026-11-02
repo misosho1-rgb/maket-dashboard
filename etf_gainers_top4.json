@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-02T16:40:33.649576+00:00",
+  "generated_at": "2026-11-02T23:44:00.753046+00:00",
   "items": [
     {
-      "code": "0080Y0",
-      "name": "SOL 조선TOP3플러스레버리지",
-      "price": 4140.0,
-      "change_rate": 15.32,
-      "three_month_return": -55.8969,
-      "volume": 2411213
+      "code": "069500",
+      "name": "KODEX 200",
+      "price": 92945.0,
+      "change_rate": 0.0,
+      "three_month_return": 3.7579,
+      "volume": 0
     },
     {
-      "code": "0104G0",
-      "name": "PLUS K방산레버리지",
-      "price": 2605.0,
-      "change_rate": 10.38,
-      "three_month_return": -51.3403,
-      "volume": 117964
+      "code": "360750",
+      "name": "TIGER 미국S&P500",
+      "price": 25355.0,
+      "change_rate": 0.0,
+      "three_month_return": -2.8368,
+      "volume": 0
     },
     {
-      "code": "0198D0",
-      "name": "1Q SK하이닉스선물단일종목레버리지",
-      "price": 6145.0,
-      "change_rate": 9.15,
-      "three_month_return": -8.9734,
-      "volume": 34244
+      "code": "488770",
+      "name": "KODEX 머니마켓액티브",
+      "price": 106025.0,
+      "change_rate": 0.0,
+      "three_month_return": 0.8898,
+      "volume": 0
     },
     {
-      "code": "0194R0",
-      "name": "KIWOOM SK하이닉스선물단일종목레버리지",
-      "price": 5755.0,
-      "change_rate": 8.28,
-      "three_month_return": -7.9291,
-      "volume": 36042
+      "code": "133690",
+      "name": "TIGER 미국나스닥100",
+      "price": 170205.0,
+      "change_rate": 0.0,
+      "three_month_return": -1.8274,
+      "volume": 0
     }
   ]
 }
