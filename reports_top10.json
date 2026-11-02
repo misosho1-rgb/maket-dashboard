@@ -1,19 +1,40 @@
 {
-  "generated_at": "2026-11-02T00:02:39.532050+00:00",
+  "generated_at": "2026-11-02T06:31:48.072050+00:00",
   "items": [
     {
       "stock": "기아",
-      "title": "3Q26 Review: EV 판매 증가의 역풍",
-      "firm": "유진투자증권",
+      "title": "예상 대비 큰 PT/지역 믹스 악화 영향",
+      "firm": "한화투자증권",
       "date": "2026.11.02",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=97404&page=1"
+      "link": "https://finance.naver.com/research/company_read.naver?nid=97501&page=1"
     },
     {
       "stock": "기아",
-      "title": "26.3Q Review: 수익성에 대한 입증이 필요",
-      "firm": "iM증권",
+      "title": "빛 좋은 개살구였던 3분기. 점유율은 얻고 수익성은 잃었다",
+      "firm": "하나증권",
       "date": "2026.11.02",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=97400&page=1"
+      "link": "https://finance.naver.com/research/company_read.naver?nid=97487&page=1"
+    },
+    {
+      "stock": "기아",
+      "title": "3Q26Re: 고난의 행군 너머를 볼 수 있는가",
+      "firm": "유안타증권",
+      "date": "2026.11.02",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=97473&page=1"
+    },
+    {
+      "stock": "기아",
+      "title": "3Q26 리뷰: 전기차 영향, 배당수익률 7%",
+      "firm": "미래에셋증권",
+      "date": "2026.11.02",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=97449&page=1"
+    },
+    {
+      "stock": "기아",
+      "title": "점유율 확대를 위한 성장통",
+      "firm": "신한투자증권",
+      "date": "2026.11.02",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=97423&page=1"
     },
     {
       "stock": "삼성전자",
@@ -49,27 +70,6 @@
       "firm": "유안타증권",
       "date": "2026.10.30",
       "link": "https://finance.naver.com/research/company_read.naver?nid=97353&page=1"
-    },
-    {
-      "stock": "현대차",
-      "title": "4분기 판매 반등, 로보틱스는 실행 국면 진입",
-      "firm": "하나증권",
-      "date": "2026.10.30",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=97375&page=1"
-    },
-    {
-      "stock": "현대차",
-      "title": "3Q26 Re: 왜 서프를 내고 주가는 하락했는가",
-      "firm": "유안타증권",
-      "date": "2026.10.30",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=97357&page=1"
-    },
-    {
-      "stock": "현대차",
-      "title": "3Q26 리뷰: 실적 우려 있지만, BD 모멘텀 주목",
-      "firm": "미래에셋증권",
-      "date": "2026.10.30",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=97343&page=1"
     }
   ]
 }

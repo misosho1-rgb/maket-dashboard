@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-02T00:02:33.421701+00:00",
+  "generated_at": "2026-11-02T06:31:39.630567+00:00",
   "items": [
     {
-      "code": "0118Z0",
-      "name": "ACE 미국AI테크핵심산업액티브",
-      "price": 8300.0,
-      "change_rate": 7.37,
-      "three_month_return": -3.1329,
-      "volume": 131
+      "code": "0080Y0",
+      "name": "SOL 조선TOP3플러스레버리지",
+      "price": 4140.0,
+      "change_rate": 15.32,
+      "three_month_return": -55.8969,
+      "volume": 2411159
     },
     {
-      "code": "0193L0",
-      "name": "PLUS 삼성전자선물단일종목인버스2X",
-      "price": 10970.0,
-      "change_rate": 6.82,
-      "three_month_return": -56.0736,
-      "volume": 35506
+      "code": "0104G0",
+      "name": "PLUS K방산레버리지",
+      "price": 2605.0,
+      "change_rate": 10.38,
+      "three_month_return": -51.3403,
+      "volume": 117964
     },
     {
-      "code": "252670",
-      "name": "KODEX 200선물인버스2X",
-      "price": 102.0,
-      "change_rate": 5.15,
-      "three_month_return": -32.1679,
-      "volume": 387398314
+      "code": "0198D0",
+      "name": "1Q SK하이닉스선물단일종목레버리지",
+      "price": 6145.0,
+      "change_rate": 9.15,
+      "three_month_return": -8.9734,
+      "volume": 34244
     },
     {
-      "code": "252710",
-      "name": "TIGER 200선물인버스2X",
-      "price": 111.0,
-      "change_rate": 3.74,
-      "three_month_return": -31.4103,
-      "volume": 16589545
+      "code": "0194R0",
+      "name": "KIWOOM SK하이닉스선물단일종목레버리지",
+      "price": 5755.0,
+      "change_rate": 8.28,
+      "three_month_return": -7.9291,
+      "volume": 36042
     }
   ]
 }
