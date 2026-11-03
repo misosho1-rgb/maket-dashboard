@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-11-02T23:44:07.252143+00:00",
+  "generated_at": "2026-11-03T04:30:51.561702+00:00",
   "items": [
+    {
+      "stock": "POSCO홀딩스",
+      "title": "3분기 컨센서스 상회, 철강·비철 업종 내 최선호주",
+      "firm": "한화투자증권",
+      "date": "2026.11.03",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=97554&page=1"
+    },
+    {
+      "stock": "POSCO홀딩스",
+      "title": "업황 부진에도 선방 중인 철강 사업부!",
+      "firm": "하나증권",
+      "date": "2026.11.03",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=97547&page=1"
+    },
+    {
+      "stock": "POSCO홀딩스",
+      "title": "철강 본업의 저력을 확인한 3분기",
+      "firm": "미래에셋증권",
+      "date": "2026.11.03",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=97541&page=1"
+    },
     {
       "stock": "POSCO홀딩스",
       "title": "악재가 충분히 반영된 주가",
@@ -16,18 +37,18 @@
       "link": "https://finance.naver.com/research/company_read.naver?nid=97520&page=1"
     },
     {
-      "stock": "POSCO홀딩스",
-      "title": "호실적 뒤의 그늘",
-      "firm": "유진투자증권",
-      "date": "2026.11.03",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=97516&page=1"
-    },
-    {
       "stock": "기아",
       "title": "가시밭길 위로 EV Riding, 결국 연간 감익으로",
       "firm": "키움증권",
       "date": "2026.11.03",
       "link": "https://finance.naver.com/research/company_read.naver?nid=97507&page=1"
+    },
+    {
+      "stock": "셀트리온",
+      "title": "신규 시밀러 견인 성장 확인",
+      "firm": "유안타증권",
+      "date": "2026.11.03",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=97544&page=1"
     },
     {
       "stock": "기아",
@@ -49,27 +70,6 @@
       "firm": "유안타증권",
       "date": "2026.11.02",
       "link": "https://finance.naver.com/research/company_read.naver?nid=97473&page=1"
-    },
-    {
-      "stock": "기아",
-      "title": "3Q26 리뷰: 전기차 영향, 배당수익률 7%",
-      "firm": "미래에셋증권",
-      "date": "2026.11.02",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=97449&page=1"
-    },
-    {
-      "stock": "삼성전자",
-      "title": "초우량 고성장 파격 세일 중",
-      "firm": "미래에셋증권",
-      "date": "2026.10.30",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=97383&page=1"
-    },
-    {
-      "stock": "삼성전자",
-      "title": "3Q26 Review 사상 최대 실적, 메모리가 이끌었다",
-      "firm": "교보증권",
-      "date": "2026.10.30",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=97370&page=1"
     }
   ]
 }
