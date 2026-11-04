@@ -1,6 +1,55 @@
 {
-  "generated_at": "2026-11-03T19:42:38.962486+00:00",
+  "generated_at": "2026-11-04T00:16:24.840993+00:00",
   "items": [
+    {
+      "stock": "삼성전자",
+      "title": "STRESS TEST",
+      "firm": "iM증권",
+      "date": "2026.11.04",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=97570&page=1"
+    },
+    {
+      "stock": "SK하이닉스",
+      "title": "HBM 하나로 시가총액 설명",
+      "firm": "iM증권",
+      "date": "2026.11.04",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=97571&page=1"
+    },
+    {
+      "stock": "LG에너지솔루션",
+      "title": "확실한 공급자 우위 시장 확인",
+      "firm": "하나증권",
+      "date": "2026.11.04",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=97590&page=1"
+    },
+    {
+      "stock": "LG에너지솔루션",
+      "title": "ESS 중심의 성장축 전환",
+      "firm": "IBK투자증권",
+      "date": "2026.11.04",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=97573&page=1"
+    },
+    {
+      "stock": "LG에너지솔루션",
+      "title": "북미 ESS 70GWh",
+      "firm": "유진투자증권",
+      "date": "2026.11.04",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=97572&page=1"
+    },
+    {
+      "stock": "LG에너지솔루션",
+      "title": "ESS 수주 모멘텀 이어진다",
+      "firm": "iM증권",
+      "date": "2026.11.04",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=97563&page=1"
+    },
+    {
+      "stock": "LG에너지솔루션",
+      "title": "정상 궤도 진입 중. 수급 리스크는 기 반영",
+      "firm": "미래에셋증권",
+      "date": "2026.11.04",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=97561&page=1"
+    },
     {
       "stock": "POSCO홀딩스",
       "title": "3분기 컨센서스 상회, 철강·비철 업종 내 최선호주",
@@ -21,55 +70,6 @@
       "firm": "미래에셋증권",
       "date": "2026.11.03",
       "link": "https://finance.naver.com/research/company_read.naver?nid=97541&page=1"
-    },
-    {
-      "stock": "POSCO홀딩스",
-      "title": "악재가 충분히 반영된 주가",
-      "firm": "iM증권",
-      "date": "2026.11.03",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=97524&page=1"
-    },
-    {
-      "stock": "POSCO홀딩스",
-      "title": "2027년 도약 전에 들어가는 얕은 겨울잠",
-      "firm": "신한투자증권",
-      "date": "2026.11.03",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=97520&page=1"
-    },
-    {
-      "stock": "기아",
-      "title": "가시밭길 위로 EV Riding, 결국 연간 감익으로",
-      "firm": "키움증권",
-      "date": "2026.11.03",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=97507&page=1"
-    },
-    {
-      "stock": "셀트리온",
-      "title": "신규 시밀러 견인 성장 확인",
-      "firm": "유안타증권",
-      "date": "2026.11.03",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=97544&page=1"
-    },
-    {
-      "stock": "기아",
-      "title": "예상 대비 큰 PT/지역 믹스 악화 영향",
-      "firm": "한화투자증권",
-      "date": "2026.11.02",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=97501&page=1"
-    },
-    {
-      "stock": "기아",
-      "title": "빛 좋은 개살구였던 3분기. 점유율은 얻고 수익성은 잃었다",
-      "firm": "하나증권",
-      "date": "2026.11.02",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=97487&page=1"
-    },
-    {
-      "stock": "기아",
-      "title": "3Q26Re: 고난의 행군 너머를 볼 수 있는가",
-      "firm": "유안타증권",
-      "date": "2026.11.02",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=97473&page=1"
     }
   ]
 }
