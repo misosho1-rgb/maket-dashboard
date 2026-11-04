@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-04T00:16:18.490091+00:00",
+  "generated_at": "2026-11-04T06:46:35.916294+00:00",
   "items": [
     {
-      "code": "0100K0",
-      "name": "KODEX 방산TOP10레버리지",
-      "price": 3145.0,
-      "change_rate": 10.54,
-      "three_month_return": -48.831,
-      "volume": 250264
+      "code": "462330",
+      "name": "KODEX 2차전지산업레버리지",
+      "price": 848.0,
+      "change_rate": 14.13,
+      "three_month_return": -1.7196,
+      "volume": 269214088
     },
     {
-      "code": "0104G0",
-      "name": "PLUS K방산레버리지",
-      "price": 2780.0,
-      "change_rate": 10.1,
-      "three_month_return": -53.2408,
-      "volume": 19039
+      "code": "412570",
+      "name": "TIGER 2차전지TOP10레버리지",
+      "price": 1009.0,
+      "change_rate": 12.74,
+      "three_month_return": 2.2857,
+      "volume": 25738882
     },
     {
-      "code": "0194R0",
-      "name": "KIWOOM SK하이닉스선물단일종목레버리지",
-      "price": 5695.0,
-      "change_rate": 10.05,
-      "three_month_return": -32.0759,
-      "volume": 414
+      "code": "457990",
+      "name": "PLUS 태양광&ESS",
+      "price": 31660.0,
+      "change_rate": 11.52,
+      "three_month_return": -7.1008,
+      "volume": 2334985
     },
     {
-      "code": "0198D0",
-      "name": "1Q SK하이닉스선물단일종목레버리지",
-      "price": 5935.0,
-      "change_rate": 9.3,
-      "three_month_return": -33.7401,
-      "volume": 2238
+      "code": "0209D0",
+      "name": "KODEX 전고체배터리ESS TOP2플러스",
+      "price": 8330.0,
+      "change_rate": 10.99,
+      "three_month_return": 12.6876,
+      "volume": 10318250
     }
   ]
 }
