@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-04T21:01:49.793133+00:00",
+  "generated_at": "2026-11-05T01:33:11.985600+00:00",
   "items": [
     {
-      "code": "462330",
-      "name": "KODEX 2차전지산업레버리지",
-      "price": 848.0,
-      "change_rate": 14.13,
-      "three_month_return": -1.7196,
-      "volume": 269253549
+      "code": "0197X0",
+      "name": "SOL SK하이닉스선물단일종목인버스2X",
+      "price": 9185.0,
+      "change_rate": 16.41,
+      "three_month_return": -15.3888,
+      "volume": 6898250
     },
     {
-      "code": "412570",
-      "name": "TIGER 2차전지TOP10레버리지",
-      "price": 1009.0,
-      "change_rate": 12.74,
-      "three_month_return": 2.2857,
-      "volume": 25739883
+      "code": "0193L0",
+      "name": "PLUS 삼성전자선물단일종목인버스2X",
+      "price": 12180.0,
+      "change_rate": 11.03,
+      "three_month_return": -11.1741,
+      "volume": 303073
     },
     {
-      "code": "457990",
-      "name": "PLUS 태양광&ESS",
-      "price": 31660.0,
-      "change_rate": 11.52,
-      "three_month_return": -7.1008,
-      "volume": 2335103
+      "code": "217770",
+      "name": "TIGER 원유선물인버스(H)",
+      "price": 1116.0,
+      "change_rate": 9.09,
+      "three_month_return": -24.7241,
+      "volume": 1983952
     },
     {
-      "code": "0209D0",
-      "name": "KODEX 전고체배터리ESS TOP2플러스",
-      "price": 8330.0,
-      "change_rate": 10.99,
-      "three_month_return": 12.6876,
-      "volume": 10319205
+      "code": "271050",
+      "name": "KODEX WTI원유선물인버스(H)",
+      "price": 1773.0,
+      "change_rate": 8.97,
+      "three_month_return": -23.6151,
+      "volume": 10764148
     }
   ]
 }
