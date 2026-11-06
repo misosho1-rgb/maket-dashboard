@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-05T22:28:40.993026+00:00",
+  "generated_at": "2026-11-06T02:43:36.281807+00:00",
   "items": [
     {
       "code": "0197X0",
       "name": "SOL SK하이닉스선물단일종목인버스2X",
-      "price": 9415.0,
-      "change_rate": 19.33,
-      "three_month_return": -15.3888,
-      "volume": 15164112
+      "price": 10625.0,
+      "change_rate": 12.85,
+      "three_month_return": 13.161,
+      "volume": 14815327
     },
     {
-      "code": "0193L0",
-      "name": "PLUS 삼성전자선물단일종목인버스2X",
-      "price": 12600.0,
-      "change_rate": 14.86,
-      "three_month_return": -11.1741,
-      "volume": 600807
+      "code": "252420",
+      "name": "RISE 200선물인버스2X",
+      "price": 129.0,
+      "change_rate": 10.26,
+      "three_month_return": 28.5714,
+      "volume": 2413426
     },
     {
-      "code": "253160",
-      "name": "PLUS 200선물인버스2X",
-      "price": 226.0,
-      "change_rate": 11.88,
-      "three_month_return": 4.6632,
-      "volume": 3062718
+      "code": "252710",
+      "name": "TIGER 200선물인버스2X",
+      "price": 132.0,
+      "change_rate": 10.0,
+      "three_month_return": 27.6595,
+      "volume": 219644606
     },
     {
-      "code": "438320",
-      "name": "TIGER 차이나항셍테크레버리지(합성 H)",
-      "price": 4115.0,
-      "change_rate": 11.52,
-      "three_month_return": -37.2983,
-      "volume": 220738
+      "code": "252670",
+      "name": "KODEX 200선물인버스2X",
+      "price": 122.0,
+      "change_rate": 9.91,
+      "three_month_return": 27.5862,
+      "volume": 10129649163
     }
   ]
 }
