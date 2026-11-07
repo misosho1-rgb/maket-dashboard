@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-06T22:30:23.010625+00:00",
+  "generated_at": "2026-11-07T02:27:01.646786+00:00",
   "items": [
     {
       "code": "252670",
       "name": "KODEX 200선물인버스2X",
       "price": 125.0,
       "change_rate": 12.61,
-      "three_month_return": 27.5862,
+      "three_month_return": 30.2083,
       "volume": 20138715461
     },
     {
@@ -14,7 +14,7 @@
       "name": "KODEX 인버스",
       "price": 1341.0,
       "change_rate": 6.51,
-      "three_month_return": 17.3345,
+      "three_month_return": 18.7776,
       "volume": 1488642014
     },
     {
@@ -22,7 +22,7 @@
       "name": "TIGER 200선물인버스2X",
       "price": 136.0,
       "change_rate": 13.33,
-      "three_month_return": 27.6595,
+      "three_month_return": 29.5238,
       "volume": 379136647
     },
     {
@@ -30,7 +30,7 @@
       "name": "KODEX 코스닥150레버리지",
       "price": 3680.0,
       "change_rate": -10.57,
-      "three_month_return": -37.0796,
+      "three_month_return": -44.3689,
       "volume": 176221857
     },
     {
@@ -38,7 +38,7 @@
       "name": "KODEX 2차전지산업레버리지",
       "price": 698.0,
       "change_rate": -9.94,
-      "three_month_return": -8.8236,
+      "three_month_return": -19.7702,
       "volume": 162040003
     },
     {
@@ -46,7 +46,7 @@
       "name": "KODEX SK하이닉스단일종목레버리지",
       "price": 4000.0,
       "change_rate": -20.16,
-      "three_month_return": -51.6176,
+      "three_month_return": -51.3678,
       "volume": 75797737
     },
     {
@@ -54,7 +54,7 @@
       "name": "KODEX 코스닥150",
       "price": 10510.0,
       "change_rate": -5.23,
-      "three_month_return": -18.1248,
+      "three_month_return": -22.6068,
       "volume": 75174049
     },
     {
@@ -62,7 +62,7 @@
       "name": "KODEX 코스닥150선물인버스",
       "price": 3110.0,
       "change_rate": 5.42,
-      "three_month_return": 16.1417,
+      "three_month_return": 23.1683,
       "volume": 51293377
     },
     {
@@ -70,7 +70,7 @@
       "name": "KODEX 레버리지",
       "price": 54460.0,
       "change_rate": -12.86,
-      "three_month_return": -39.1758,
+      "three_month_return": -40.9328,
       "volume": 41493493
     },
     {
@@ -78,7 +78,7 @@
       "name": "KODEX 200",
       "price": 79005.0,
       "change_rate": -6.62,
-      "three_month_return": -18.7637,
+      "three_month_return": -20.0035,
       "volume": 38612529
     }
   ]
