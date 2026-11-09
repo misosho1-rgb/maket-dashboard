@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T06:56:49.206335+00:00",
+  "generated_at": "2026-11-09T17:03:58.435199+00:00",
   "items": [
     {
       "code": "252670",
@@ -7,7 +7,7 @@
       "price": 128.0,
       "change_rate": 2.4,
       "three_month_return": 30.2083,
-      "volume": 16247599261
+      "volume": 16252859166
     },
     {
       "code": "114800",
@@ -15,7 +15,7 @@
       "price": 1352.0,
       "change_rate": 0.82,
       "three_month_return": 18.7776,
-      "volume": 1373338600
+      "volume": 1374110642
     },
     {
       "code": "252710",
@@ -23,7 +23,7 @@
       "price": 139.0,
       "change_rate": 2.21,
       "three_month_return": 29.5238,
-      "volume": 524732627
+      "volume": 524739627
     },
     {
       "code": "462330",
@@ -31,7 +31,7 @@
       "price": 613.0,
       "change_rate": -12.18,
       "three_month_return": -19.7702,
-      "volume": 175259537
+      "volume": 175281537
     },
     {
       "code": "233740",
@@ -39,7 +39,7 @@
       "price": 3525.0,
       "change_rate": -4.21,
       "three_month_return": -44.3689,
-      "volume": 142945308
+      "volume": 142963622
     },
     {
       "code": "229200",
@@ -47,7 +47,7 @@
       "price": 10280.0,
       "change_rate": -2.19,
       "three_month_return": -22.6068,
-      "volume": 68965083
+      "volume": 68967587
     },
     {
       "code": "251340",
@@ -55,7 +55,7 @@
       "price": 3180.0,
       "change_rate": 2.25,
       "three_month_return": 23.1683,
-      "volume": 64025305
+      "volume": 64045105
     },
     {
       "code": "0193T0",
@@ -63,7 +63,7 @@
       "price": 3980.0,
       "change_rate": -0.5,
       "three_month_return": -51.3678,
-      "volume": 31921700
+      "volume": 31926000
     },
     {
       "code": "069500",
@@ -71,7 +71,7 @@
       "price": 78490.0,
       "change_rate": -0.65,
       "three_month_return": -20.0035,
-      "volume": 28341824
+      "volume": 28342019
     },
     {
       "code": "122630",
@@ -79,7 +79,7 @@
       "price": 53665.0,
       "change_rate": -1.46,
       "three_month_return": -40.9328,
-      "volume": 25863675
+      "volume": 25863971
     }
   ]
 }

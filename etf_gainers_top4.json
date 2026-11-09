@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T06:56:49.206335+00:00",
+  "generated_at": "2026-11-09T17:03:58.435199+00:00",
   "items": [
     {
       "code": "465350",
@@ -15,7 +15,7 @@
       "price": 5485.0,
       "change_rate": 10.81,
       "three_month_return": -31.6771,
-      "volume": 235099
+      "volume": 235122
     },
     {
       "code": "0180V0",
@@ -31,7 +31,7 @@
       "price": 5840.0,
       "change_rate": 10.5,
       "three_month_return": -31.1849,
-      "volume": 2760087
+      "volume": 2760089
     }
   ]
 }
