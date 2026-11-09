@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-09T00:17:19.416923+00:00",
+  "generated_at": "2026-11-09T06:56:49.206335+00:00",
   "items": [
     {
-      "code": "0180V0",
-      "name": "ACE 미국우주테크액티브",
-      "price": 6445.0,
-      "change_rate": 10.64,
-      "three_month_return": -27.4144,
-      "volume": 26419
+      "code": "465350",
+      "name": "RISE 2차전지TOP10인버스(합성)",
+      "price": 22000.0,
+      "change_rate": 18.34,
+      "three_month_return": -2.1579,
+      "volume": 124894
     },
     {
       "code": "0181L0",
       "name": "SOL 미국우주항공TOP10",
-      "price": 5470.0,
-      "change_rate": 10.51,
+      "price": 5485.0,
+      "change_rate": 10.81,
       "three_month_return": -31.6771,
-      "volume": 54754
+      "volume": 235099
+    },
+    {
+      "code": "0180V0",
+      "name": "ACE 미국우주테크액티브",
+      "price": 6450.0,
+      "change_rate": 10.73,
+      "three_month_return": -27.4144,
+      "volume": 533352
     },
     {
       "code": "0183J0",
       "name": "TIGER 미국우주테크",
-      "price": 5835.0,
-      "change_rate": 10.41,
+      "price": 5840.0,
+      "change_rate": 10.5,
       "three_month_return": -31.1849,
-      "volume": 318053
-    },
-    {
-      "code": "0023A0",
-      "name": "SOL 미국양자컴퓨팅TOP10",
-      "price": 17860.0,
-      "change_rate": 10.11,
-      "three_month_return": -38.3739,
-      "volume": 68526
+      "volume": 2760087
     }
   ]
 }

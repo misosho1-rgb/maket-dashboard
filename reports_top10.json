@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-11-09T00:17:28.792243+00:00",
+  "generated_at": "2026-11-09T06:56:57.255737+00:00",
   "items": [
+    {
+      "stock": "POSCO홀딩스",
+      "title": "3분기 정점을 찍고",
+      "firm": "대신증권",
+      "date": "2026.11.09",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=97880&page=1"
+    },
+    {
+      "stock": "카카오",
+      "title": "성장과 주주환원 실행 확인, 곧 베일 벗을 AI 서비스에 주목",
+      "firm": "대신증권",
+      "date": "2026.11.09",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=97888&page=1"
+    },
     {
       "stock": "현대차",
       "title": "NDR 후기: 로보틱스에서 본업으로 초점 이동",
@@ -17,13 +31,6 @@
     },
     {
       "stock": "카카오",
-      "title": "성장과 주주환원 실행 확인, 곧 베일 벗을 AI 서비스에 주목",
-      "firm": "대신증권",
-      "date": "2026.11.06",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=97793&page=1"
-    },
-    {
-      "stock": "카카오",
       "title": "분할 이후, 달라질 자본배분과 기업가치",
       "firm": "한화투자증권",
       "date": "2026.11.06",
@@ -35,13 +42,6 @@
       "firm": "SK증권",
       "date": "2026.11.06",
       "link": "https://finance.naver.com/research/company_read.naver?nid=97782&page=1"
-    },
-    {
-      "stock": "카카오",
-      "title": "AI 에이전트 연동 전략 전환",
-      "firm": "유진투자증권",
-      "date": "2026.11.06",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=97762&page=1"
     },
     {
       "stock": "LG화학",
