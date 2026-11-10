@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-09T17:03:58.435199+00:00",
+  "generated_at": "2026-11-10T00:46:05.611937+00:00",
   "items": [
     {
-      "code": "465350",
-      "name": "RISE 2차전지TOP10인버스(합성)",
-      "price": 22000.0,
-      "change_rate": 18.34,
-      "three_month_return": -2.1579,
-      "volume": 124894
+      "code": "423920",
+      "name": "TIGER 미국필라델피아반도체레버리지(합성)",
+      "price": 51820.0,
+      "change_rate": 17.17,
+      "three_month_return": -52.661,
+      "volume": 115939
     },
     {
-      "code": "0181L0",
-      "name": "SOL 미국우주항공TOP10",
-      "price": 5485.0,
-      "change_rate": 10.81,
-      "three_month_return": -31.6771,
-      "volume": 235122
+      "code": "0198D0",
+      "name": "1Q SK하이닉스선물단일종목레버리지",
+      "price": 4100.0,
+      "change_rate": 16.64,
+      "three_month_return": -46.823,
+      "volume": 15641
     },
     {
-      "code": "0180V0",
-      "name": "ACE 미국우주테크액티브",
-      "price": 6450.0,
-      "change_rate": 10.73,
-      "three_month_return": -27.4144,
-      "volume": 533352
+      "code": "0195S0",
+      "name": "TIGER SK하이닉스단일종목레버리지",
+      "price": 3915.0,
+      "change_rate": 16.52,
+      "three_month_return": -46.5819,
+      "volume": 3512331
     },
     {
-      "code": "0183J0",
-      "name": "TIGER 미국우주테크",
-      "price": 5840.0,
-      "change_rate": 10.5,
-      "three_month_return": -31.1849,
-      "volume": 2760089
+      "code": "0192L0",
+      "name": "RISE SK하이닉스단일종목레버리지",
+      "price": 4075.0,
+      "change_rate": 16.43,
+      "three_month_return": -45.5677,
+      "volume": 90445
     }
   ]
 }
