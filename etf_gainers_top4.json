@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-10T00:46:05.611937+00:00",
+  "generated_at": "2026-11-10T07:52:46.887477+00:00",
   "items": [
-    {
-      "code": "423920",
-      "name": "TIGER 미국필라델피아반도체레버리지(합성)",
-      "price": 51820.0,
-      "change_rate": 17.17,
-      "three_month_return": -52.661,
-      "volume": 115939
-    },
     {
       "code": "0198D0",
       "name": "1Q SK하이닉스선물단일종목레버리지",
-      "price": 4100.0,
-      "change_rate": 16.64,
+      "price": 4040.0,
+      "change_rate": 14.94,
       "three_month_return": -46.823,
-      "volume": 15641
+      "volume": 24548
     },
     {
       "code": "0195S0",
       "name": "TIGER SK하이닉스단일종목레버리지",
-      "price": 3915.0,
-      "change_rate": 16.52,
+      "price": 3840.0,
+      "change_rate": 14.29,
       "three_month_return": -46.5819,
-      "volume": 3512331
+      "volume": 14944397
     },
     {
-      "code": "0192L0",
-      "name": "RISE SK하이닉스단일종목레버리지",
-      "price": 4075.0,
-      "change_rate": 16.43,
-      "three_month_return": -45.5677,
-      "volume": 90445
+      "code": "423920",
+      "name": "TIGER 미국필라델피아반도체레버리지(합성)",
+      "price": 50390.0,
+      "change_rate": 13.94,
+      "three_month_return": -52.661,
+      "volume": 309978
+    },
+    {
+      "code": "0197W0",
+      "name": "SOL SK하이닉스단일종목레버리지",
+      "price": 3790.0,
+      "change_rate": 13.81,
+      "three_month_return": -46.247,
+      "volume": 331383
     }
   ]
 }
