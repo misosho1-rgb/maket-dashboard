@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-10T21:34:42.997240+00:00",
+  "generated_at": "2026-11-11T01:35:33.176969+00:00",
   "items": [
     {
-      "code": "0198D0",
-      "name": "1Q SK하이닉스선물단일종목레버리지",
-      "price": 4040.0,
-      "change_rate": 14.94,
-      "three_month_return": -46.823,
-      "volume": 24548
+      "code": "494310",
+      "name": "KODEX 반도체레버리지",
+      "price": 40100.0,
+      "change_rate": 11.25,
+      "three_month_return": -40.6814,
+      "volume": 2752988
     },
     {
-      "code": "0195S0",
-      "name": "TIGER SK하이닉스단일종목레버리지",
-      "price": 3840.0,
-      "change_rate": 14.29,
-      "three_month_return": -46.5819,
-      "volume": 14944397
+      "code": "278240",
+      "name": "RISE 코스닥150선물레버리지",
+      "price": 4830.0,
+      "change_rate": 10.78,
+      "three_month_return": -49.8563,
+      "volume": 157003
     },
     {
-      "code": "423920",
-      "name": "TIGER 미국필라델피아반도체레버리지(합성)",
-      "price": 50390.0,
-      "change_rate": 13.94,
-      "three_month_return": -52.661,
-      "volume": 309978
+      "code": "233160",
+      "name": "TIGER 코스닥150 레버리지",
+      "price": 4735.0,
+      "change_rate": 10.5,
+      "three_month_return": -50.2034,
+      "volume": 2259098
     },
     {
-      "code": "0197W0",
-      "name": "SOL SK하이닉스단일종목레버리지",
-      "price": 3790.0,
-      "change_rate": 13.81,
-      "three_month_return": -46.247,
-      "volume": 331383
+      "code": "306530",
+      "name": "HANARO 코스닥150선물레버리지",
+      "price": 4350.0,
+      "change_rate": 10.41,
+      "three_month_return": -49.5842,
+      "volume": 10161
     }
   ]
 }

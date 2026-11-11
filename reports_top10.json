@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-11-10T21:34:49.686977+00:00",
+  "generated_at": "2026-11-11T01:35:42.491502+00:00",
   "items": [
+    {
+      "stock": "셀트리온",
+      "title": "Golden Decade, 셀트리온의 시간",
+      "firm": "미래에셋증권",
+      "date": "2026.11.11",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=97997&page=1"
+    },
     {
       "stock": "POSCO홀딩스",
       "title": "3분기 정점을 찍고",
@@ -63,13 +70,6 @@
       "firm": "iM증권",
       "date": "2026.11.06",
       "link": "https://finance.naver.com/research/company_read.naver?nid=97764&page=1"
-    },
-    {
-      "stock": "LG화학",
-      "title": "화학 단기 실적 우려 vs. 양극재 회복",
-      "firm": "미래에셋증권",
-      "date": "2026.11.06",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=97739&page=1"
     }
   ]
 }
