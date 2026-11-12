@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-11-11T23:13:09.342859+00:00",
+  "generated_at": "2026-11-12T03:57:36.638956+00:00",
   "items": [
+    {
+      "stock": "기아",
+      "title": "3Q26 Review: 그동안 좋았던 만큼, 실망도 크다",
+      "firm": "삼성증권",
+      "date": "2026.11.12",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=98075&page=1"
+    },
     {
       "stock": "셀트리온",
       "title": "Golden Decade, 셀트리온의 시간",
@@ -63,13 +70,6 @@
       "firm": "유진투자증권",
       "date": "2026.11.06",
       "link": "https://finance.naver.com/research/company_read.naver?nid=97767&page=1"
-    },
-    {
-      "stock": "LG화학",
-      "title": "4분기까지는 눈높이 하향 조정 필요",
-      "firm": "iM증권",
-      "date": "2026.11.06",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=97764&page=1"
     }
   ]
 }

@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-11T23:13:04.212828+00:00",
+  "generated_at": "2026-11-12T03:57:28.208667+00:00",
   "items": [
     {
-      "code": "069500",
-      "name": "KODEX 200",
-      "price": 84540.0,
-      "change_rate": 0.0,
-      "three_month_return": -16.4343,
-      "volume": 0
+      "code": "475050",
+      "name": "ACE KPOP포커스",
+      "price": 7010.0,
+      "change_rate": 8.18,
+      "three_month_return": -10.4973,
+      "volume": 2628174
     },
     {
-      "code": "360750",
-      "name": "TIGER 미국S&P500",
-      "price": 25020.0,
-      "change_rate": 0.0,
-      "three_month_return": -7.8138,
-      "volume": 0
+      "code": "395290",
+      "name": "HANARO Fn K-POP&미디어",
+      "price": 5005.0,
+      "change_rate": 7.06,
+      "three_month_return": -12.6169,
+      "volume": 255798
     },
     {
-      "code": "488770",
-      "name": "KODEX 머니마켓액티브",
-      "price": 106125.0,
-      "change_rate": 0.0,
-      "three_month_return": 0.8889,
-      "volume": 0
+      "code": "0194M0",
+      "name": "ACE 삼성전자단일종목레버리지",
+      "price": 6670.0,
+      "change_rate": 4.55,
+      "three_month_return": -33.0184,
+      "volume": 56017
     },
     {
-      "code": "133690",
-      "name": "TIGER 미국나스닥100",
-      "price": 165925.0,
-      "change_rate": 0.0,
-      "three_month_return": -11.6405,
-      "volume": 0
+      "code": "449690",
+      "name": "TIGER 한중반도체(합성)",
+      "price": 38545.0,
+      "change_rate": 4.3,
+      "three_month_return": -22.8658,
+      "volume": 646
     }
   ]
 }
