@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-12T03:57:28.208667+00:00",
+  "generated_at": "2026-11-12T12:07:31.749562+00:00",
   "items": [
     {
       "code": "475050",
       "name": "ACE KPOP포커스",
-      "price": 7010.0,
-      "change_rate": 8.18,
+      "price": 7050.0,
+      "change_rate": 8.8,
       "three_month_return": -10.4973,
-      "volume": 2628174
+      "volume": 2958945
     },
     {
       "code": "395290",
       "name": "HANARO Fn K-POP&미디어",
-      "price": 5005.0,
-      "change_rate": 7.06,
+      "price": 5015.0,
+      "change_rate": 7.27,
       "three_month_return": -12.6169,
-      "volume": 255798
+      "volume": 293771
     },
     {
-      "code": "0194M0",
-      "name": "ACE 삼성전자단일종목레버리지",
-      "price": 6670.0,
-      "change_rate": 4.55,
-      "three_month_return": -33.0184,
-      "volume": 56017
+      "code": "228810",
+      "name": "TIGER 미디어컨텐츠",
+      "price": 3065.0,
+      "change_rate": 4.25,
+      "three_month_return": -13.5295,
+      "volume": 707770
     },
     {
-      "code": "449690",
-      "name": "TIGER 한중반도체(합성)",
-      "price": 38545.0,
-      "change_rate": 4.3,
-      "three_month_return": -22.8658,
-      "volume": 646
+      "code": "0198B0",
+      "name": "1Q 삼성전자선물단일종목레버리지",
+      "price": 6825.0,
+      "change_rate": 3.72,
+      "three_month_return": -33.3334,
+      "volume": 18476
     }
   ]
 }
