@@ -1,6 +1,41 @@
 {
-  "generated_at": "2026-11-12T20:12:27.646579+00:00",
+  "generated_at": "2026-11-13T01:16:59.886376+00:00",
   "items": [
+    {
+      "stock": "NAVER",
+      "title": "AI 수요를 믿는다면 흔들릴 필요 없다",
+      "firm": "하나증권",
+      "date": "2026.11.13",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=98176&page=1"
+    },
+    {
+      "stock": "NAVER",
+      "title": "성장 잠재력은 확인, 수익성은 숙제",
+      "firm": "SK증권",
+      "date": "2026.11.13",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=98170&page=1"
+    },
+    {
+      "stock": "NAVER",
+      "title": "무거워진 AI팩토리의 어깨",
+      "firm": "유진투자증권",
+      "date": "2026.11.13",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=98156&page=1"
+    },
+    {
+      "stock": "NAVER",
+      "title": "겨울은 투자, 봄부터는 2조 계약의 온기가 돈다",
+      "firm": "IBK투자증권",
+      "date": "2026.11.13",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=98129&page=1"
+    },
+    {
+      "stock": "NAVER",
+      "title": "우려되는 본업 성장성 악화",
+      "firm": "미래에셋증권",
+      "date": "2026.11.13",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=98121&page=1"
+    },
     {
       "stock": "기아",
       "title": "3Q26 Review: 그동안 좋았던 만큼, 실망도 크다",
@@ -35,41 +70,6 @@
       "firm": "유진투자증권",
       "date": "2026.11.06",
       "link": "https://finance.naver.com/research/company_read.naver?nid=97805&page=1"
-    },
-    {
-      "stock": "카카오",
-      "title": "목표 달성을 위한 선결 과제",
-      "firm": "교보증권",
-      "date": "2026.11.06",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=97801&page=1"
-    },
-    {
-      "stock": "카카오",
-      "title": "분할 이후, 달라질 자본배분과 기업가치",
-      "firm": "한화투자증권",
-      "date": "2026.11.06",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=97791&page=1"
-    },
-    {
-      "stock": "카카오",
-      "title": "주가는 AI 성과를 기다린다",
-      "firm": "SK증권",
-      "date": "2026.11.06",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=97782&page=1"
-    },
-    {
-      "stock": "LG화학",
-      "title": "시선은 본업과 주주환원으로",
-      "firm": "신한투자증권",
-      "date": "2026.11.06",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=97768&page=1"
-    },
-    {
-      "stock": "LG화학",
-      "title": "Non-Petchem 개선 중",
-      "firm": "유진투자증권",
-      "date": "2026.11.06",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=97767&page=1"
     }
   ]
 }
