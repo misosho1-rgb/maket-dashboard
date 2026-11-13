@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-13T01:16:50.112622+00:00",
+  "generated_at": "2026-11-13T08:17:41.386439+00:00",
   "items": [
     {
-      "code": "306530",
-      "name": "HANARO 코스닥150선물레버리지",
-      "price": 4745.0,
-      "change_rate": 9.46,
-      "three_month_return": -43.9561,
-      "volume": 19773
+      "code": "0239Z0",
+      "name": "PLUS AI반도체소부장액티브",
+      "price": 9455.0,
+      "change_rate": 6.48,
+      "three_month_return": 0.0,
+      "volume": 943474
     },
     {
-      "code": "291630",
-      "name": "KIWOOM 코스닥150선물레버리지",
-      "price": 2380.0,
-      "change_rate": 9.43,
-      "three_month_return": -43.9433,
-      "volume": 116366
+      "code": "0197X0",
+      "name": "SOL SK하이닉스선물단일종목인버스2X",
+      "price": 9515.0,
+      "change_rate": 5.14,
+      "three_month_return": -7.7472,
+      "volume": 17619964
     },
     {
-      "code": "278240",
-      "name": "RISE 코스닥150선물레버리지",
-      "price": 5285.0,
-      "change_rate": 9.08,
-      "three_month_return": -44.0208,
-      "volume": 88109
+      "code": "484880",
+      "name": "SOL 금융지주플러스고배당",
+      "price": 19915.0,
+      "change_rate": 4.46,
+      "three_month_return": -12.9113,
+      "volume": 187489
     },
     {
-      "code": "233160",
-      "name": "TIGER 코스닥150 레버리지",
-      "price": 5175.0,
-      "change_rate": 8.95,
-      "three_month_return": -44.2489,
-      "volume": 1503916
+      "code": "256440",
+      "name": "ACE MSCI인도네시아(합성)",
+      "price": 4285.0,
+      "change_rate": 4.26,
+      "three_month_return": -22.0854,
+      "volume": 36315
     }
   ]
 }
