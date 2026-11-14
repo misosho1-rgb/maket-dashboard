@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T22:17:36.929281+00:00",
+  "generated_at": "2026-11-14T02:32:28.762434+00:00",
   "items": [
     {
       "code": "0239Z0",
@@ -14,7 +14,7 @@
       "name": "SOL SK하이닉스선물단일종목인버스2X",
       "price": 9515.0,
       "change_rate": 5.14,
-      "three_month_return": -7.7472,
+      "three_month_return": 11.4168,
       "volume": 17619964
     },
     {
@@ -22,7 +22,7 @@
       "name": "SOL 금융지주플러스고배당",
       "price": 19915.0,
       "change_rate": 4.46,
-      "three_month_return": -12.9113,
+      "three_month_return": -9.5188,
       "volume": 187489
     },
     {
@@ -30,7 +30,7 @@
       "name": "ACE MSCI인도네시아(합성)",
       "price": 4285.0,
       "change_rate": 4.26,
-      "three_month_return": -22.0854,
+      "three_month_return": -19.3792,
       "volume": 36315
     }
   ]
