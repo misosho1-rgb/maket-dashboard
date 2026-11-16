@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-15T20:01:55.052839+00:00",
+  "generated_at": "2026-11-16T00:04:32.162564+00:00",
   "items": [
     {
-      "code": "0239Z0",
-      "name": "PLUS AI반도체소부장액티브",
-      "price": 9455.0,
-      "change_rate": 6.48,
-      "three_month_return": 0.0,
-      "volume": 943474
+      "code": "444490",
+      "name": "WON 미국S&P500",
+      "price": 20420.0,
+      "change_rate": 6.6,
+      "three_month_return": -7.7513,
+      "volume": 8
     },
     {
-      "code": "0197X0",
-      "name": "SOL SK하이닉스선물단일종목인버스2X",
-      "price": 9515.0,
-      "change_rate": 5.14,
-      "three_month_return": 11.4168,
-      "volume": 17619964
+      "code": "412570",
+      "name": "TIGER 2차전지TOP10레버리지",
+      "price": 896.0,
+      "change_rate": 5.41,
+      "three_month_return": -27.9662,
+      "volume": 1097527
     },
     {
-      "code": "484880",
-      "name": "SOL 금융지주플러스고배당",
-      "price": 19915.0,
-      "change_rate": 4.46,
-      "three_month_return": -9.5188,
-      "volume": 187489
+      "code": "0100K0",
+      "name": "KODEX 방산TOP10레버리지",
+      "price": 2445.0,
+      "change_rate": 5.39,
+      "three_month_return": -71.1443,
+      "volume": 111902
     },
     {
-      "code": "256440",
-      "name": "ACE MSCI인도네시아(합성)",
-      "price": 4285.0,
-      "change_rate": 4.26,
-      "three_month_return": -19.3792,
-      "volume": 36315
+      "code": "462330",
+      "name": "KODEX 2차전지산업레버리지",
+      "price": 755.0,
+      "change_rate": 5.3,
+      "three_month_return": -30.0488,
+      "volume": 10979460
     }
   ]
 }
