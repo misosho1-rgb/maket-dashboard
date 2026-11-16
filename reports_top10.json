@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-11-16T00:04:41.221927+00:00",
+  "generated_at": "2026-11-16T06:55:13.259962+00:00",
   "items": [
+    {
+      "stock": "NAVER",
+      "title": "AI에 의한 위협, AI를 통한 기회",
+      "firm": "신한투자증권",
+      "date": "2026.11.16",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=98219&page=1"
+    },
     {
       "stock": "NAVER",
       "title": "AI 수요를 믿는다면 흔들릴 필요 없다",
@@ -28,13 +35,6 @@
       "firm": "IBK투자증권",
       "date": "2026.11.13",
       "link": "https://finance.naver.com/research/company_read.naver?nid=98129&page=1"
-    },
-    {
-      "stock": "NAVER",
-      "title": "우려되는 본업 성장성 악화",
-      "firm": "미래에셋증권",
-      "date": "2026.11.13",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=98121&page=1"
     },
     {
       "stock": "기아",

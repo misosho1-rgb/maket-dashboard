@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-16T00:04:32.162564+00:00",
+  "generated_at": "2026-11-16T06:55:06.957350+00:00",
   "items": [
     {
-      "code": "444490",
-      "name": "WON 미국S&P500",
-      "price": 20420.0,
-      "change_rate": 6.6,
-      "three_month_return": -7.7513,
-      "volume": 8
+      "code": "0197X0",
+      "name": "SOL SK하이닉스선물단일종목인버스2X",
+      "price": 11110.0,
+      "change_rate": 16.76,
+      "three_month_return": 11.4168,
+      "volume": 16447152
     },
     {
-      "code": "412570",
-      "name": "TIGER 2차전지TOP10레버리지",
-      "price": 896.0,
-      "change_rate": 5.41,
-      "three_month_return": -27.9662,
-      "volume": 1097527
+      "code": "253230",
+      "name": "KIWOOM 200선물인버스2X",
+      "price": 124.0,
+      "change_rate": 10.71,
+      "three_month_return": 38.2716,
+      "volume": 2374660
     },
     {
-      "code": "0100K0",
-      "name": "KODEX 방산TOP10레버리지",
-      "price": 2445.0,
-      "change_rate": 5.39,
-      "three_month_return": -71.1443,
-      "volume": 111902
+      "code": "252420",
+      "name": "RISE 200선물인버스2X",
+      "price": 130.0,
+      "change_rate": 10.17,
+      "three_month_return": 38.8235,
+      "volume": 2357431
     },
     {
-      "code": "462330",
-      "name": "KODEX 2차전지산업레버리지",
-      "price": 755.0,
-      "change_rate": 5.3,
-      "three_month_return": -30.0488,
-      "volume": 10979460
+      "code": "252710",
+      "name": "TIGER 200선물인버스2X",
+      "price": 133.0,
+      "change_rate": 9.02,
+      "three_month_return": 38.6363,
+      "volume": 125389431
     }
   ]
 }
