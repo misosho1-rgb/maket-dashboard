@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-17T00:34:12.029114+00:00",
+  "generated_at": "2026-11-17T08:39:57.420217+00:00",
   "items": [
-    {
-      "code": "217770",
-      "name": "TIGER 원유선물인버스(H)",
-      "price": 1143.0,
-      "change_rate": 4.19,
-      "three_month_return": -16.894,
-      "volume": 176561
-    },
     {
       "code": "0193L0",
       "name": "PLUS 삼성전자선물단일종목인버스2X",
-      "price": 13315.0,
-      "change_rate": 4.19,
+      "price": 13545.0,
+      "change_rate": 5.99,
       "three_month_return": 39.5196,
-      "volume": 184851
+      "volume": 442413
     },
     {
-      "code": "271050",
-      "name": "KODEX WTI원유선물인버스(H)",
-      "price": 1815.0,
-      "change_rate": 4.07,
-      "three_month_return": -15.9519,
-      "volume": 1114580
+      "code": "252670",
+      "name": "KODEX 200선물인버스2X",
+      "price": 128.0,
+      "change_rate": 4.92,
+      "three_month_return": 60.5263,
+      "volume": 10659969040
     },
     {
       "code": "253160",
       "name": "PLUS 200선물인버스2X",
-      "price": 254.0,
-      "change_rate": 3.67,
+      "price": 257.0,
+      "change_rate": 4.9,
       "three_month_return": 54.088,
-      "volume": 754406
+      "volume": 2526657
+    },
+    {
+      "code": "217770",
+      "name": "TIGER 원유선물인버스(H)",
+      "price": 1145.0,
+      "change_rate": 4.38,
+      "three_month_return": -16.894,
+      "volume": 972213
     }
   ]
 }
