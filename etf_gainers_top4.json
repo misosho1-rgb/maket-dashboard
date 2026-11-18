@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-18T00:34:41.879383+00:00",
+  "generated_at": "2026-11-18T08:03:14.382282+00:00",
   "items": [
+    {
+      "code": "0148J0",
+      "name": "TIGER 코리아휴머노이드로봇산업",
+      "price": 7610.0,
+      "change_rate": 9.97,
+      "three_month_return": -33.3975,
+      "volume": 7792218
+    },
+    {
+      "code": "0177X0",
+      "name": "ACE K휴머노이드로봇산업TOP2+",
+      "price": 7795.0,
+      "change_rate": 9.94,
+      "three_month_return": -35.2216,
+      "volume": 340807
+    },
     {
       "code": "0198D0",
       "name": "1Q SK하이닉스선물단일종목레버리지",
-      "price": 3605.0,
-      "change_rate": 11.96,
+      "price": 3540.0,
+      "change_rate": 9.94,
       "three_month_return": -62.8176,
-      "volume": 10388
+      "volume": 41365
     },
     {
-      "code": "0197W0",
-      "name": "SOL SK하이닉스단일종목레버리지",
-      "price": 3400.0,
-      "change_rate": 11.11,
-      "three_month_return": -62.683,
-      "volume": 97743
-    },
-    {
-      "code": "0195S0",
-      "name": "TIGER SK하이닉스단일종목레버리지",
-      "price": 3460.0,
-      "change_rate": 10.9,
-      "three_month_return": -62.5,
-      "volume": 5728226
-    },
-    {
-      "code": "0192L0",
-      "name": "RISE SK하이닉스단일종목레버리지",
-      "price": 3590.0,
-      "change_rate": 10.8,
-      "three_month_return": -61.815,
-      "volume": 10182
+      "code": "0155N0",
+      "name": "HANARO K휴머노이드테마TOP10",
+      "price": 6295.0,
+      "change_rate": 9.1,
+      "three_month_return": -33.4871,
+      "volume": 189037
     }
   ]
 }
