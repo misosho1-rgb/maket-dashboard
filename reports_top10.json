@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-11-17T17:58:46.332177+00:00",
+  "generated_at": "2026-11-18T00:34:50.277858+00:00",
   "items": [
+    {
+      "stock": "셀트리온",
+      "title": "혼란한 시장 속에 듬직한 회사",
+      "firm": "하나증권",
+      "date": "2026.11.18",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=98340&page=1"
+    },
     {
       "stock": "NAVER",
       "title": "AI에 의한 위협, AI를 통한 기회",
@@ -63,13 +70,6 @@
       "firm": "대신증권",
       "date": "2026.11.09",
       "link": "https://finance.naver.com/research/company_read.naver?nid=97888&page=1"
-    },
-    {
-      "stock": "현대차",
-      "title": "NDR 후기: 로보틱스에서 본업으로 초점 이동",
-      "firm": "유진투자증권",
-      "date": "2026.11.06",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=97805&page=1"
     }
   ]
 }
