@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-18T23:27:37.504816+00:00",
+  "generated_at": "2026-11-19T04:21:10.746694+00:00",
   "items": [
     {
-      "code": "360750",
-      "name": "TIGER 미국S&P500",
-      "price": 24305.0,
-      "change_rate": 0.0,
-      "three_month_return": -10.206,
-      "volume": 0
+      "code": "228810",
+      "name": "TIGER 미디어컨텐츠",
+      "price": 3580.0,
+      "change_rate": 13.47,
+      "three_month_return": 2.269,
+      "volume": 1467147
     },
     {
-      "code": "069500",
-      "name": "KODEX 200",
-      "price": 79400.0,
-      "change_rate": 0.0,
-      "three_month_return": -29.2296,
-      "volume": 0
+      "code": "395150",
+      "name": "KODEX 웹툰&드라마",
+      "price": 1919.0,
+      "change_rate": 13.15,
+      "three_month_return": -7.8762,
+      "volume": 339997
     },
     {
-      "code": "488770",
-      "name": "KODEX 머니마켓액티브",
-      "price": 106205.0,
-      "change_rate": 0.0,
-      "three_month_return": 0.8883,
-      "volume": 0
+      "code": "395290",
+      "name": "HANARO Fn K-POP&미디어",
+      "price": 5865.0,
+      "change_rate": 10.04,
+      "three_month_return": 10.1239,
+      "volume": 500234
     },
     {
-      "code": "133690",
-      "name": "TIGER 미국나스닥100",
-      "price": 160075.0,
-      "change_rate": 0.0,
-      "three_month_return": -14.5773,
-      "volume": 0
+      "code": "418670",
+      "name": "TIGER 글로벌AI사이버보안",
+      "price": 19200.0,
+      "change_rate": 9.0,
+      "three_month_return": -1.8937,
+      "volume": 179524
     }
   ]
 }
