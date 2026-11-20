@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-19T21:54:58.337905+00:00",
+  "generated_at": "2026-11-20T02:44:37.265918+00:00",
   "items": [
     {
-      "code": "395150",
-      "name": "KODEX 웹툰&드라마",
-      "price": 1939.0,
-      "change_rate": 14.33,
-      "three_month_return": -7.8762,
-      "volume": 438942
+      "code": "0197X0",
+      "name": "SOL SK하이닉스선물단일종목인버스2X",
+      "price": 11150.0,
+      "change_rate": 13.49,
+      "three_month_return": 4.2993,
+      "volume": 7198657
     },
     {
-      "code": "228810",
-      "name": "TIGER 미디어컨텐츠",
-      "price": 3580.0,
-      "change_rate": 13.47,
-      "three_month_return": 2.269,
-      "volume": 2189857
+      "code": "0193L0",
+      "name": "PLUS 삼성전자선물단일종목인버스2X",
+      "price": 14235.0,
+      "change_rate": 12.13,
+      "three_month_return": 16.3611,
+      "volume": 226369
     },
     {
-      "code": "395290",
-      "name": "HANARO Fn K-POP&미디어",
-      "price": 5900.0,
-      "change_rate": 10.69,
-      "three_month_return": 10.1239,
-      "volume": 681447
+      "code": "252420",
+      "name": "RISE 200선물인버스2X",
+      "price": 139.0,
+      "change_rate": 10.32,
+      "three_month_return": 35.4838,
+      "volume": 1817946
     },
     {
-      "code": "418670",
-      "name": "TIGER 글로벌AI사이버보안",
-      "price": 19495.0,
-      "change_rate": 10.67,
-      "three_month_return": -1.8937,
-      "volume": 306770
+      "code": "252670",
+      "name": "KODEX 200선물인버스2X",
+      "price": 131.0,
+      "change_rate": 10.08,
+      "three_month_return": 35.2272,
+      "volume": 5636414095
     }
   ]
 }

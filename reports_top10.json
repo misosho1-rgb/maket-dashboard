@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-11-19T21:55:06.697947+00:00",
+  "generated_at": "2026-11-20T02:44:46.359020+00:00",
   "items": [
+    {
+      "stock": "LG에너지솔루션",
+      "title": "ESS 외형 성장",
+      "firm": "교보증권",
+      "date": "2026.11.20",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=98388&page=1"
+    },
+    {
+      "stock": "삼성SDI",
+      "title": "미국 생산 본격화",
+      "firm": "교보증권",
+      "date": "2026.11.20",
+      "link": "https://finance.naver.com/research/company_read.naver?nid=98387&page=1"
+    },
     {
       "stock": "셀트리온",
       "title": "혼란한 시장 속에 듬직한 회사",
@@ -56,20 +70,6 @@
       "firm": "미래에셋증권",
       "date": "2026.11.11",
       "link": "https://finance.naver.com/research/company_read.naver?nid=97997&page=1"
-    },
-    {
-      "stock": "POSCO홀딩스",
-      "title": "3분기 정점을 찍고",
-      "firm": "대신증권",
-      "date": "2026.11.09",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=97880&page=1"
-    },
-    {
-      "stock": "카카오",
-      "title": "성장과 주주환원 실행 확인, 곧 베일 벗을 AI 서비스에 주목",
-      "firm": "대신증권",
-      "date": "2026.11.09",
-      "link": "https://finance.naver.com/research/company_read.naver?nid=97888&page=1"
     }
   ]
 }
