@@ -1,14 +1,6 @@
 {
-  "generated_at": "2026-11-23T11:30:21.598221+00:00",
+  "generated_at": "2026-11-23T23:02:04.181992+00:00",
   "items": [
-    {
-      "code": "0048K0",
-      "name": "KODEX 차이나휴머노이드로봇",
-      "price": 7085.0,
-      "change_rate": 7.84,
-      "three_month_return": -22.2747,
-      "volume": 234186
-    },
     {
       "code": "253230",
       "name": "KIWOOM 200선물인버스2X",
@@ -32,6 +24,14 @@
       "change_rate": 6.73,
       "three_month_return": -10.6425,
       "volume": 2900
+    },
+    {
+      "code": "252670",
+      "name": "KODEX 200선물인버스2X",
+      "price": 140.0,
+      "change_rate": 6.06,
+      "three_month_return": 73.6842,
+      "volume": 11976940624
     }
   ]
 }
