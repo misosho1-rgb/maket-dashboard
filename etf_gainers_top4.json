@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-23T23:02:04.181992+00:00",
+  "generated_at": "2026-11-24T06:59:32.272179+00:00",
   "items": [
     {
-      "code": "253230",
-      "name": "KIWOOM 200선물인버스2X",
-      "price": 142.0,
-      "change_rate": 7.58,
-      "three_month_return": 69.2307,
-      "volume": 4177531
+      "code": "0155N0",
+      "name": "HANARO K휴머노이드테마TOP10",
+      "price": 7085.0,
+      "change_rate": 17.59,
+      "three_month_return": -21.956,
+      "volume": 322819
     },
     {
-      "code": "253160",
-      "name": "PLUS 200선물인버스2X",
-      "price": 284.0,
-      "change_rate": 6.77,
-      "three_month_return": 69.4267,
-      "volume": 2047880
+      "code": "462330",
+      "name": "KODEX 2차전지산업레버리지",
+      "price": 629.0,
+      "change_rate": 17.57,
+      "three_month_return": -41.5301,
+      "volume": 121329076
     },
     {
-      "code": "291130",
-      "name": "ACE MSCI멕시코(합성)",
-      "price": 17295.0,
-      "change_rate": 6.73,
-      "three_month_return": -10.6425,
-      "volume": 2900
+      "code": "412570",
+      "name": "TIGER 2차전지TOP10레버리지",
+      "price": 750.0,
+      "change_rate": 17.37,
+      "three_month_return": -40.9427,
+      "volume": 11514269
     },
     {
-      "code": "252670",
-      "name": "KODEX 200선물인버스2X",
-      "price": 140.0,
-      "change_rate": 6.06,
-      "three_month_return": 73.6842,
-      "volume": 11976940624
+      "code": "0148J0",
+      "name": "TIGER 코리아휴머노이드로봇산업",
+      "price": 8535.0,
+      "change_rate": 16.12,
+      "three_month_return": -19.5843,
+      "volume": 13569179
     }
   ]
 }
