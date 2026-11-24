@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T06:59:32.272179+00:00",
+  "generated_at": "2026-11-24T18:41:07.939333+00:00",
   "items": [
     {
       "code": "252670",
@@ -7,7 +7,7 @@
       "price": 121.0,
       "change_rate": -13.57,
       "three_month_return": 89.1891,
-      "volume": 10287579538
+      "volume": 10291538740
     },
     {
       "code": "114800",
@@ -15,7 +15,7 @@
       "price": 1330.0,
       "change_rate": -6.8,
       "three_month_return": 42.2731,
-      "volume": 970677328
+      "volume": 970717865
     },
     {
       "code": "252710",
@@ -23,7 +23,7 @@
       "price": 133.0,
       "change_rate": -12.5,
       "three_month_return": 90.0,
-      "volume": 189650895
+      "volume": 189714243
     },
     {
       "code": "233740",
@@ -31,7 +31,7 @@
       "price": 3900.0,
       "change_rate": 11.11,
       "three_month_return": -47.9615,
-      "volume": 153021815
+      "volume": 153042412
     },
     {
       "code": "462330",
@@ -39,7 +39,7 @@
       "price": 629.0,
       "change_rate": 17.57,
       "three_month_return": -41.5301,
-      "volume": 121329076
+      "volume": 121329107
     },
     {
       "code": "251340",
@@ -47,7 +47,7 @@
       "price": 2915.0,
       "change_rate": -5.66,
       "three_month_return": 25.1012,
-      "volume": 55662445
+      "volume": 55662496
     },
     {
       "code": "229200",
@@ -55,7 +55,7 @@
       "price": 10955.0,
       "change_rate": 5.69,
       "three_month_return": -24.9457,
-      "volume": 42849478
+      "volume": 42849802
     },
     {
       "code": "0193T0",
@@ -71,7 +71,7 @@
       "price": 24140.0,
       "change_rate": 2.35,
       "three_month_return": -10.0959,
-      "volume": 30312083
+      "volume": 30312132
     },
     {
       "code": "379800",
@@ -79,7 +79,7 @@
       "price": 21880.0,
       "change_rate": 2.41,
       "three_month_return": -10.2014,
-      "volume": 28366273
+      "volume": 28366275
     }
   ]
 }
