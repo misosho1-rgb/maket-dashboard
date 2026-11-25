@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-24T18:41:07.939333+00:00",
+  "generated_at": "2026-11-25T02:51:05.725179+00:00",
   "items": [
     {
-      "code": "0155N0",
-      "name": "HANARO K휴머노이드테마TOP10",
-      "price": 7085.0,
-      "change_rate": 17.59,
-      "three_month_return": -21.956,
-      "volume": 322819
+      "code": "0193L0",
+      "name": "PLUS 삼성전자선물단일종목인버스2X",
+      "price": 15670.0,
+      "change_rate": 18.71,
+      "three_month_return": 36.6459,
+      "volume": 274639
     },
     {
-      "code": "462330",
-      "name": "KODEX 2차전지산업레버리지",
-      "price": 629.0,
-      "change_rate": 17.57,
-      "three_month_return": -41.5301,
-      "volume": 121329107
+      "code": "0197X0",
+      "name": "SOL SK하이닉스선물단일종목인버스2X",
+      "price": 11880.0,
+      "change_rate": 18.5,
+      "three_month_return": 39.5267,
+      "volume": 8598395
     },
     {
-      "code": "412570",
-      "name": "TIGER 2차전지TOP10레버리지",
-      "price": 750.0,
-      "change_rate": 17.37,
-      "three_month_return": -40.9427,
-      "volume": 11514269
+      "code": "253160",
+      "name": "PLUS 200선물인버스2X",
+      "price": 279.0,
+      "change_rate": 14.34,
+      "three_month_return": 48.7804,
+      "volume": 929879
     },
     {
-      "code": "0148J0",
-      "name": "TIGER 코리아휴머노이드로봇산업",
-      "price": 8535.0,
-      "change_rate": 16.12,
-      "three_month_return": -19.5843,
-      "volume": 13569179
+      "code": "252670",
+      "name": "KODEX 200선물인버스2X",
+      "price": 138.0,
+      "change_rate": 14.05,
+      "three_month_return": 51.25,
+      "volume": 4998394982
     }
   ]
 }
