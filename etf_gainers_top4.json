@@ -1,21 +1,29 @@
 {
-  "generated_at": "2026-11-25T02:51:05.725179+00:00",
+  "generated_at": "2026-11-25T11:52:11.437885+00:00",
   "items": [
-    {
-      "code": "0193L0",
-      "name": "PLUS 삼성전자선물단일종목인버스2X",
-      "price": 15670.0,
-      "change_rate": 18.71,
-      "three_month_return": 36.6459,
-      "volume": 274639
-    },
     {
       "code": "0197X0",
       "name": "SOL SK하이닉스선물단일종목인버스2X",
-      "price": 11880.0,
-      "change_rate": 18.5,
+      "price": 12275.0,
+      "change_rate": 22.44,
       "three_month_return": 39.5267,
-      "volume": 8598395
+      "volume": 14450071
+    },
+    {
+      "code": "0193L0",
+      "name": "PLUS 삼성전자선물단일종목인버스2X",
+      "price": 15805.0,
+      "change_rate": 19.73,
+      "three_month_return": 36.6459,
+      "volume": 477379
+    },
+    {
+      "code": "253230",
+      "name": "KIWOOM 200선물인버스2X",
+      "price": 140.0,
+      "change_rate": 14.75,
+      "three_month_return": 52.5,
+      "volume": 2129683
     },
     {
       "code": "253160",
@@ -23,15 +31,7 @@
       "price": 279.0,
       "change_rate": 14.34,
       "three_month_return": 48.7804,
-      "volume": 929879
-    },
-    {
-      "code": "252670",
-      "name": "KODEX 200선물인버스2X",
-      "price": 138.0,
-      "change_rate": 14.05,
-      "three_month_return": 51.25,
-      "volume": 4998394982
+      "volume": 1591620
     }
   ]
 }
