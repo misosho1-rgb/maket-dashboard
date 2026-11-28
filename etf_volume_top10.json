@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-27T22:48:31.122329+00:00",
+  "generated_at": "2026-11-28T04:24:08.674365+00:00",
   "items": [
     {
       "code": "252670",
       "name": "KODEX 200선물인버스2X",
       "price": 125.0,
       "change_rate": -9.42,
-      "three_month_return": 79.2207,
+      "three_month_return": 66.6666,
       "volume": 8098097964
     },
     {
@@ -14,7 +14,7 @@
       "name": "KODEX 인버스",
       "price": 1356.0,
       "change_rate": -4.44,
-      "three_month_return": 38.5742,
+      "three_month_return": 34.3904,
       "volume": 900154898
     },
     {
@@ -22,7 +22,7 @@
       "name": "KODEX 코스닥150레버리지",
       "price": 4565.0,
       "change_rate": 20.13,
-      "three_month_return": -46.5166,
+      "three_month_return": -38.6425,
       "volume": 197347201
     },
     {
@@ -30,7 +30,7 @@
       "name": "TIGER 200선물인버스2X",
       "price": 136.0,
       "change_rate": -8.72,
-      "three_month_return": 77.3809,
+      "three_month_return": 65.8536,
       "volume": 178359071
     },
     {
@@ -38,7 +38,7 @@
       "name": "KODEX 2차전지산업레버리지",
       "price": 656.0,
       "change_rate": 14.69,
-      "three_month_return": -42.3968,
+      "three_month_return": -40.4719,
       "volume": 124568777
     },
     {
@@ -46,7 +46,7 @@
       "name": "KODEX 코스닥150선물인버스",
       "price": 2645.0,
       "change_rate": -10.34,
-      "three_month_return": 22.9166,
+      "three_month_return": 12.5531,
       "volume": 108378600
     },
     {
@@ -54,7 +54,7 @@
       "name": "KODEX 코스닥150",
       "price": 11925.0,
       "change_rate": 9.91,
-      "three_month_return": -23.5916,
+      "three_month_return": -17.7587,
       "volume": 108366510
     },
     {
@@ -62,7 +62,7 @@
       "name": "KODEX SK하이닉스단일종목레버리지",
       "price": 3715.0,
       "change_rate": 14.48,
-      "three_month_return": -67.8395,
+      "three_month_return": -64.7534,
       "volume": 39481547
     },
     {
@@ -70,7 +70,7 @@
       "name": "KODEX 레버리지",
       "price": 49935.0,
       "change_rate": 8.83,
-      "three_month_return": -57.3143,
+      "three_month_return": -54.765,
       "volume": 33715504
     },
     {
@@ -78,7 +78,7 @@
       "name": "TIGER 미국S&P500",
       "price": 24265.0,
       "change_rate": 1.06,
-      "three_month_return": -8.6149,
+      "three_month_return": -7.7494,
       "volume": 23665746
     }
   ]

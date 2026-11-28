@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-27T22:48:31.122329+00:00",
+  "generated_at": "2026-11-28T04:24:08.674365+00:00",
   "items": [
     {
       "code": "233740",
       "name": "KODEX 코스닥150레버리지",
       "price": 4565.0,
       "change_rate": 20.13,
-      "three_month_return": -46.5166,
+      "three_month_return": -38.6425,
       "volume": 197347201
     },
     {
@@ -14,7 +14,7 @@
       "name": "TIGER 코스닥150 레버리지",
       "price": 5040.0,
       "change_rate": 20.0,
-      "three_month_return": -46.8018,
+      "three_month_return": -38.6489,
       "volume": 5411226
     },
     {
@@ -22,7 +22,7 @@
       "name": "HANARO 코스닥150선물레버리지",
       "price": 4620.0,
       "change_rate": 19.84,
-      "three_month_return": -46.0085,
+      "three_month_return": -37.4831,
       "volume": 82764
     },
     {
@@ -30,7 +30,7 @@
       "name": "KIWOOM 코스닥150선물레버리지",
       "price": 2310.0,
       "change_rate": 19.26,
-      "three_month_return": -45.8939,
+      "three_month_return": -38.2353,
       "volume": 185883
     }
   ]
